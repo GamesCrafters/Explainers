@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Square Dance</name>
+  <code>squaredance</code>
+  <history></history>
+  <board>3x3</board>
+  <pieces>Black or white pieces in an up or down orientation.</pieces>
+  <tomove>Place your pieces on an open spot.</tomove>
+  <towin>Form a square with four pieces sharing the same attributes.</towin>
+  <rules>Players alternate turns placing a piece on the board either up or down until one person forms a square sharing either the player's color or the configuration of up or down.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Jack Hsu</gamescrafter>
+    <gamescrafter>Joey Coreless</gamescrafter>
+  </gamescrafters>
+</game>

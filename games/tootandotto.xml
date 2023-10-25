@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Toot And Otto</name>
+  <code>tootandotto</code>
+  <history>Toot and Otto is a game similar to Connect 4 made by ThinkFun.</history>
+  <board>The standard Toot and Otto board is 6x4, and the version in the games database can grow up to a 7x7 board.&#13;
+Starting position: Nothing on the board. Each player chooses a name (either "Toot" or "Otto").</board>
+  <pieces>There are two pieces in Toot and Otto - the T and the O. Each player has a limited number of each letter.</pieces>
+  <tomove>Each player takes turns making one valid move.&#13;
+Valid Moves:&#13;
+On your turn, place a piece down one of the columns. A piece cannot be played on a column that is full (all its rows are filled).</tomove>
+  <towin>Be the first player to get your name, either "TOOT" or "OTTO" depending on which player you are, spelled on the board vertically, horizontally, or diagonally.</towin>
+  <rules>Toot goes first and players alternate making legal moves.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Force the opponent to spell his or her name. A player loses if his or her name is spelled.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="tootandotto_01.jpg" alt="toot and otto"]</picture>
+  </pictures>
+  <references>
+    <reference>ThinkFun.  ThinkFun.  7 Feb 2007. &lt;http://www.thinkfun.com&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Kyler Murlas</gamescrafter>
+    <gamescrafter>Zach Wasserman</gamescrafter>
+  </gamescrafters>
+</game>

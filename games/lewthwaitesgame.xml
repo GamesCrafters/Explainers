@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Lewthwaite's Game</name>
+  <code>lewthwaitesgame</code>
+  <history></history>
+  <board>5x5 board</board>
+  <pieces>Black and White pieces. All 24 pieces are placed on the board alternating black and white. All spaces are filled except the middle.</pieces>
+  <tomove>Players move either vertically or horizontally into an open spot.</tomove>
+  <towin>Stalemate the opponent.</towin>
+  <rules>Players alternate turns either moving vertically or horizontally into an open spot. The first person to stalemate the other player (they cannot move) wins the game.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Yuliya Sarkisyan</gamescrafter>
+  </gamescrafters>
+</game>

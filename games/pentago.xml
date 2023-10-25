@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Pentago</name>
+  <code>pentago</code>
+  <history>Pentago was invented in 2004 in Sweden by the company Mindtwister. It has won various awards including the Game of the Year 2005 in Sweden and the Mensa Select Award in 2006.</history>
+  <board>The standard Pentago board contains four 3x3 grids arranged into a larger 6x6 grid. A variation of this is four 2x2 grids arranged into a larger 4x4 grid. A game block is one of the 3x3 or 2x2 grids on the larger grid.&#13;
+Starting position: Nothing on the board. Each player chooses a color - either red or black.</board>
+  <pieces>There are two different pieces in Pentago - red or black. There are 18 of each piece (making a total of 36 pieces) for the 6x6 grid game.</pieces>
+  <tomove>Place a piece on the game board and twist the game blocks. A player can twist any of the game blocks, regardless of which block the player placed his or her marble on. During the beginning of the game, with neutral game blocks (one with no pieces on it or a piece in the center) on the board, a player does not need to twist a block because it will have no effect on the position of the game.</tomove>
+  <towin>Be the first player to have five (or a specified number before beginning the game) pieces in a row horizontally, vertically, or diagonally. This can span multiple game blocks.</towin>
+  <rules>The players alternate making legal moves. A tie occurs when both players have played all of their marbles and nobody has a winning position.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Force the opponent to get five pieces in a row.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>Pentago.  Pentago.  27 Feb 2007. &lt;http://www.pentago.com/home.html&gt;.</reference>
+    <reference>Board Game Geek. Pentago. 27 Feb 2007. &lt;http://www.boardgamegeek.com/game/19841&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Jun Kang Chin</gamescrafter>
+    <gamescrafter>David Wu</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Nu Tic-Tac-Toe</name>
+  <code>nutictactoe</code>
+<picture>[img src = "nu tic tac toe.png" alt="nu tic tac toe" width="200"]</picture>
+  <history>Nu Tic-Tac-Toe is a 2 player game invented by Harry D. Ruderman, a mathematician from New York City. It can be learned in less than one minute, and is made for people of all ages. The game is strategically common to checkers and chess: timing, blocking, position, and anticipation.</history>
+  <board>The board starts with four crosses and circles arranged in an alternating X and O pattern on the top and bottom of the board.</board>
+  <pieces>Nu Tic-Tac-Toe consists of four X's and four O's. The pieces may vary depending on the size of the board.</pieces>
+  <tomove>A move consists of pushing your own piece into an adjacent vacant square up or down, to the right or to the left, but NOT diagonally. In addition, there are no jumping or taking in this game.</tomove>
+  <towin>The goal of the game is to get any three of a player's pieces to form a horizontal, diagonal, or vertical line.</towin>
+  <rules>Players alternate moving their pieces.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>Ruderman, Harry D. "Nu Tic-Tac-Toe." Games &amp; Puzzles for Elementary and Middle School Mathematics. Ed. Seaton E. Smith, JR. and Carl A. Backman. The National Council of Teachers of Mathematics, INC., 1975.</reference>
+  </references>
+  <links>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Guy Boo</gamescrafter>
+    <gamescrafter>Ming (Evan) Huang</gamescrafter>
+  </gamescrafters>
+</game>

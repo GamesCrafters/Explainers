@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Lines Of Action</name>
+  <code>linesofaction</code>
+  <history>Lines of Action is a two player abstract strategy board game invented by Claude Soucie.</history>
+  <board>Lines of Action is played on a standard chessboard or checkerboard with the rows numbered 1-8 and columns named A-H. Initially, 6 pieces are placed on 4 sides of the board. One player's pieces are placed on the top and bottom side of the board, while the other player's pieces are placed on the right and left side of the board.</board>
+  <pieces>There are 24 pieces in total, 12 whites and 12 blacks, but colors may vary.</pieces>
+  <tomove>During a move, a player may move their piece horizontally, vertically, or diagonally. A piece can be moved exactly as many spaces as there are pieces (both friendly and enemy) on the line in which it is moving. A piece may jump over friendly pieces, but not over an enemy's piece.</tomove>
+  <towin>The goal of the game is to bring all of your checker pieces together into a connected group so that they are connected vertically, horizontally, or diagonally.</towin>
+  <rules>The player with the black pieces starts first. Players alternate turns to move.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Scrambled Eggs</name>
+      <description>The rules and objective for this variant is exactly the same as Lines of Action, however the starting positions of each piece is different. Pieces are alternately placed (i.e. pieces of the same colors cannot be placed side by side) on the board in the same starting setup as Lines of Action.</description>
+    </variant>
+    <variant>
+      <name>Parachute</name>
+      <description>Parachute starts with half the pieces of Scrambled Eggs. The first six moves consists of making a regular move and placing one of the opponent's pieces anywhere on the board. After the first six moves, the game continues normally.</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>LOA</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src = "linesofaction_02.gif" alt="lines of action" width="200"]</picture>
+    <picture>[img src = "Lines of Action game.png" alt="lines of action" width="200"]</picture>
+  </pictures>
+  <references/>
+  <links>
+    <link>
+      <url>http://boardspace.net/loa/english/index.html</url>
+      <description>Lines Of Action</description>
+    </link>
+    <link>
+      <url>http://www.iggamecenter.com/info/en/loa.html</url>
+      <description>IgGameCenter :: Lines Of Action</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Albert Shau</gamescrafter>
+  </gamescrafters>
+</game>

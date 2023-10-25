@@ -1,0 +1,587 @@
+/*
+
+Color Scheme
+============
+
+Berkeley Blue: #003262
+Founder’s Rock: #3B7EA1
+California Gold: #FDB515
+Medalist: #C4820E
+Grey: #EEEEEE
+
+*/
+
+html {
+    background-color: #003262;
+    font-family: "Public Sans", "Helvetica Neue", Helvetica, sans-serif;
+    /*font-family: "Century Gothic", Futura, sans-serif;*/
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #222222;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-areas:
+            "logo nav nav"
+            "sidebar sidebar content"
+            "footer footer footer";
+    grid-template-columns: 250px 2em auto;
+    grid-template-rows: 200px auto auto;
+}
+
+body.sidebar-reprise {
+    grid-template-areas:
+            "logo nav nav"
+            "sidebar sidebar content"
+            "sidebar-reprise sidebar-reprise content"
+            "footer footer footer";
+    grid-template-rows: 200px max-content auto auto;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+    margin: 1rem 0;
+    padding: 0;
+    color: #003262;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.25em;
+    margin: 1rem 0;
+    color: #003262;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+blockquote {
+    margin: 1.5rem 1rem;
+}
+
+hr {
+    margin: 2rem 0;
+    border: none;
+    background-color: #EEEEEE;
+    height: 2px;
+}
+
+a {
+    color: inherit;
+}
+
+a[href*="//"]:not([href*="//gamescrafters.berkeley.edu"])::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 1.5em;
+    margin-left: 0.25em;
+    background-image: url("icon-external.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+.page-logo {
+    grid-area: logo;
+    border-bottom: 4px solid #FDB515;
+    background-image: url("../../site-legacy-archive-sp20/resources/gc-yellow-logo.png");
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-position: center;
+    position: relative;
+}
+
+.imagemap {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-indent: -10000px;
+}
+
+.imagemap.letter:hover {
+    margin-top: -10px;
+    height: 39px;
+    border-bottom: 2px solid #FDB515;
+}
+
+#imagemap-home {
+    margin-top: -75px;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+}
+
+#imagemap-g {
+    margin-left: -70px;
+    width: 33px;
+}
+
+#imagemap-a {
+    margin-left: -34px;
+    width: 18px;
+}
+
+#imagemap-m {
+    margin-left: -14px;
+    width: 36px;
+}
+
+#imagemap-e {
+    margin-left: 23px;
+    width: 22px;
+}
+
+#imagemap-s {
+    margin-left: 47px;
+    width: 22px;
+}
+
+.page-nav {
+    grid-area: nav;
+    align-self: flex-end;
+    color: #FFF;
+    border-bottom: 4px solid #FDB515;
+    padding: 0 2em 2em 2em;
+}
+
+.page-nav h1 {
+    font-size: 2.25em;
+    margin: 0.5rem 0;
+    color: #FDB515;
+}
+
+.page-nav ul {
+    list-style: none;
+    margin: 0 -1.25rem 0 0;
+    padding: 0;
+    display: flex;
+}
+
+.page-nav li {
+    margin: 0 1.25rem 0 0;
+    padding: 0;
+    font-size: 1.25em;
+}
+
+.page-nav a {
+    text-decoration: none;
+}
+
+.page-nav a:hover {
+    color: #FDB515;
+}
+
+.page-sidebar {
+    position: relative;
+    grid-area: sidebar;
+    background-color: #FDB515;
+    padding: 1em 3em 1em 1em;
+}
+
+.page-sidebar-wrapper {
+    margin: 1em;
+    position: sticky;
+    top: 2em;
+}
+
+.page-sidebar ul {
+    list-style: none;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.page-sidebar li {
+    margin: 0.25rem 0;
+    padding: 0;
+}
+
+.page-sidebar hr {
+    background-color: #003262;
+    margin-left: -2em;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.page-sidebar a {
+    text-decoration: none;
+    border-bottom: 1px solid #222222;
+}
+
+.page-sidebar a:hover {
+    border-bottom-style: dashed;
+}
+
+.page-sidebar-reprise {
+    grid-area: sidebar-reprise;
+}
+
+.page-sidebar-reprise::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 2em;
+    bottom: 0;
+    left: 0;
+    margin-right: 4px;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background-color: #E9A102;
+}
+
+.page-sidebar-reprise .page-sidebar-wrapper {
+    position: relative;
+    top: 0;
+}
+
+.page-content {
+    grid-area: content;
+    z-index: 1;
+    background-color: white;
+    min-height: 20em;
+    border: 1em solid white;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    margin: 0 0 0 -2em;
+    padding: 0;
+}
+
+.page-content-wrapper {
+    margin: 1em;
+    max-width: 960px;
+}
+
+.page-content a {
+    color: #003262;
+    text-decoration: none;
+    border-bottom: 1px solid #003262;
+    line-break: anywhere;
+}
+
+.page-content a:hover {
+    border-bottom-style: dashed;
+}
+
+.page-content figure {
+    margin: 1.5em 0;
+}
+
+.page-content figure img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+.page-content figure.size-mid img {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.page-content figure.size-original img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.page-content figcaption {
+    margin: 0.5em 0;
+    text-align: center;
+}
+
+.page-content ul {
+    margin: 1em 0;
+    padding: 0 0 0 2em;
+}
+
+.page-content li {
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+.page-content h3[id]:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.page-content h3[id]:hover::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 1.5em;
+    margin-left: 0.25em;
+    background-image: url("icon-anchor.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: bottom;
+}
+
+.page-footer {
+    grid-area: footer;
+    border-top: 4px solid #FDB515;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.page-footer-wrapper {
+    margin: 1em;
+}
+
+.page-footer a {
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+.page-footer a:hover {
+    border-bottom-style: dashed;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 767px) {
+
+    body {
+        grid-template-areas: "logo" "nav" "sidebar" "content" "footer";
+        grid-template-columns: 100%;
+        grid-template-rows: 6em auto auto auto auto;
+    }
+
+    body.sidebar-reprise {
+        grid-template-areas: "logo" "nav" "sidebar" "content" "sidebar-reprise" "footer";
+        grid-template-rows: 6em auto auto auto auto auto;
+    }
+
+    .page-logo {
+        background-size: auto 4em;
+        border-bottom: none;
+    }
+
+    #imagemap-home {
+        margin-top: -32px;
+        margin-left: -32px;
+        width: 64px;
+        height: 64px;
+    }
+
+    .imagemap.letter {
+        display: none;
+    }
+
+    .page-nav {
+        text-align: center;
+    }
+
+    .page-nav h1 {
+        font-size: 1.75em;
+    }
+
+    .page-nav ul {
+        justify-content: center;
+    }
+
+    .page-nav li {
+        font-size: 1em;
+        margin-right: 0.75rem;
+    }
+
+    .page-sidebar {
+        padding-right: 1em;
+    }
+
+    body.sidebar-reprise .page-sidebar:not(.page-sidebar-reprise) {
+        padding-bottom: 1em;
+    }
+
+    .page-sidebar-reprise {
+        background-color: #E9A102;
+    }
+
+    .page-sidebar-reprise::before {
+        display: none;
+    }
+
+    .page-content {
+        margin-left: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+}
+
+/* Member */
+
+.members-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.members-list .member {
+    display: flex;
+    margin: 0;
+    padding: 1em 0;
+}
+
+.members-list .member + .member {
+    border-top: 1px solid #EEEEEE;
+}
+
+.member .member-photo {
+    display: block;
+    flex: none;
+    width: 100px;
+    height: 150px;
+}
+
+.member .member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+}
+
+.member .member-info {
+    margin: 0 1.5em;
+    flex: 1 1 auto;
+}
+
+.member .member-info ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.member .member-info li {
+    margin: 0;
+    padding: 0;
+}
+
+.member .member-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member .member-number {
+    color: #888888;
+}
+
+/* Game */
+
+.game {
+    overflow: hidden;
+    background-color: #EEEEEE;
+    border-radius: 0.5em;
+    margin: -1em -1em 0;
+}
+
+.game-wrapper {
+    margin: 1em;
+}
+
+.game-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.game-icon {
+    display: block;
+    float: right;
+    max-width: 50%;
+    max-height: 128px;
+}
+
+ul.game-pictures {
+    padding: 0;
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: end;
+}
+
+.game-pictures li {
+    display: block;
+    margin: 0;
+}
+
+.game-pictures figure {
+    margin: 0;
+}
+
+.game-pictures img {
+    box-sizing: border-box;
+    border: 1px solid #EEEEEE;
+}
+
+/* Highlight Box */
+
+.highlight-box {
+    overflow: hidden;
+    border: 2px solid #3B7EA1;
+    background-color: rgba(59, 126, 161, 0.25);
+    border-radius: 0.5em;
+    margin: -1em -1em 0;
+}
+
+.highlight-box + .highlight-box {
+    margin-top: -2px;
+}
+
+.highlight-box-wrapper {
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+.highlight-box-wrapper + .highlight-box-wrapper {
+    border-top: 2px solid #3B7EA1;
+}
+
+/* Page: Members List */
+
+#page-content-members-list h3 {
+    position: sticky;
+    top: 0;
+    padding: 0.5rem 0;
+    background-color: #FFF;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+#page-content-members-list h3:first-child {
+    margin-top: -0.5rem;
+}
+
+/* Page: Members Groups */
+
+#page-content-members-groups h3 {
+    text-align: center;
+}
+
+#page-content-members-groups p {
+    text-align: center;
+    max-width: 768px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#page-content-games h3 {
+    position: sticky;
+    top: 0;
+    padding: 0.5rem 0;
+    background-color: #FFF;
+    border-bottom: 2px solid #EEEEEE;
+}
+
+#page-content-games h3:first-child {
+    margin-top: -0.5rem;
+}

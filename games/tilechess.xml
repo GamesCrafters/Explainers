@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Tile Chess</name>
+  <code>tilechess</code>
+  <history>Tile Chess is a chess variant that was made by Jason Wittman during the late 80's as part of a project for his art class. This game is a cross between chess and dominoes.</history>
+  <board>The standard Tile Chess board is infinitely big.&#13;
+Starting position: Nothing on the board. Each player chooses a color and begins placing pieces down, one at a time, taking turns to do so. The pieces must be connected to each other (either adjacent to a piece of your color or an opponent's).</board>
+  <pieces>There are 16 tiles for each color (player) and consists of all chess pieces (king, rook, queen, pawn, bishop, and knight).</pieces>
+  <tomove>Each player takes turns making one valid move.&#13;
+Valid Moves:&#13;
+All pieces move in the same was as regular chess, with a few exceptions. You may jump over your own pieces with pieces other than the knight. Pawns can move, as well as capture, forwards and backwards. In addition, you cannot capture a piece and make an island (a piece that is not connect to the main link of pieces).</tomove>
+  <towin>Checkmate the opponent's king. If playing with more than 2 players, then when one player is checkmated by you, you gain control of his or her tiles.</towin>
+  <rules></rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Try to get your own king checkmated.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="tilechess_01.jpg" alt="tile chess"]</picture>
+  </pictures>
+  <references>
+    <reference>Tile Chess.  Tile Chess: Think Outside The Board.  5 Feb 2007. &lt;http://www.sjgames.com/tilechess/&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Brian Zimmer</gamescrafter>
+    <gamescrafter>Alan Roytman</gamescrafter>
+  </gamescrafters>
+</game>

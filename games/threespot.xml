@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Three Spot</name>
+  <code>threespot</code>
+  <history>Similar to the L Game, Three Spot is called by its creator Edward de Bono the  "Social Justice Game." De Bono created L Game with the intention of creating a simple game that still required great skill.</history>
+  <board>The board is made up of 9 squares arranged in 3x3 grid. 3 of the squares in the same row on the edge of the board have spots in them.&#13;
+Starting Position: The board is set up in a way that each of the 3 pieces will cover one spot with the neutral piece located in between the two others.</board>
+  <pieces>There are 3 pieces. Each piece is a rectangle that covers 2 of the squares on the board. One piece is white and is the neutral piece. The other two pieces are different colors and split by the players.</pieces>
+  <tomove>During a player's turn, move the colored piece that belongs to you. The piece must stay on the board and must cover at least one new square. Afterwards, the same player must move the neutral piece to a new position as well.</tomove>
+  <towin>Score 12 points when your opponent has scored at least 6. If player A scores 12 points but player B has not yet reached 6, then B is the winner.</towin>
+  <rules>Set up the board so that 3 pieces cover the three spots on the board.[img src="3spota.jpg" alt="3 spot" width="200"]Each player picks a colored piece, which is his for the remainder of the game. Players alternate turns moving their piece so that at least one new square on the board is covered at the end of each turn.[img src="3spotb.jpg" alt="3 spot" width="200"]During the players turn, they must move the neutral white piece to a new spot.[img src="3spotc.jpg" alt="3 spot" width="200"]Each player picks a colored piece, which is his for the remainder of the game. Players alternate turns moving their piece so that at least one new square on the board is covered at the end of each turn. The player gives him or herself a point for each spot covered by his or her colored piece. Any spots covered by the neutral piece do not count for either player. This continues until one of the players has reached 12 points.</rules>
+  <strategies>
+    <strategy>
+      <name>General</name>
+      <description>Interesting strategies can arise in this game because of the nature of the win condition. At certain points you may want to score as many points as you can, but at others you may want to force the opponent to score points while you seek to avoid scoring.</description>
+    </strategy>
+  </strategies>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Force your opponent to score 12 points when you have at least 6. Also score 12 points while keeping your opponent under 6 points.</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Social Justice Game</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src="threespot_01.jpg" alt="3 spot" width="200"]</picture>
+    <picture>[img src="threespot_02.jpg" alt="3 spot" width="200"]</picture>
+    <picture>[img src="threespot_03.jpg" alt="3 spot" width="200"]</picture>
+    <picture>[img src="threespot_04.jpg" alt="3 spot" width="200"]</picture>
+  </pictures>
+  <references>
+    <reference>Edward De Bono. "The 3 Spot Game." Edward De Bono's Web.  &lt; http://www.edwdebono.com/debono/3spot.htm &gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Kevin Ha</gamescrafter>
+    <gamescrafter>Alex Perelman</gamescrafter>
+  </gamescrafters>
+</game>

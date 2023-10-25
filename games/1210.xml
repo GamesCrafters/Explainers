@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>1, 2,...10</name>
+  <code>1210</code>
+  <history>1,2,...10 is a simple puzzle game that involves moving a counter one or two spaces. 1,2,...10 has several variants, including the 1,2,...4 and Henry Ernest Dudeney's 37 Puzzle Game.</history>
+  <board>Any simple board that has ten slots to place counters. This game is also known as a pencil and paper game, so the board can easily be drawn on a paper.</board>
+  <pieces>This game can be played with one counter or a supply of counters if players want to keep track of each other's moves. Players can also use a pencil to write down the total count.</pieces>
+  <tomove>A player may either move one or two spaces on their turn.</tomove>
+  <towin>To be the first player to reach 10 or to force.</towin>
+  <rules>The rules here assume that each player is sharing one piece and raising the total sum using the same counter. If players want to keep track of their individual moves, they may use several counters as they increase the total count. The first position on the board is numbered one.[img src="1210a.jpg" alt="1,2,...10 board" width="200"]Players take turns placing their pieces, increasing the total by one or two. For example, if the first person places his piece on the 2nd spot, the total is at 2. The next player then raises the total by taking the piece and moving it by either one or two spots. If the player places his piece at the 4th spot on the board, then the total is at 4 (he moved two spaces).[img src="1210b.jpg" alt="1,2,...10 board with pieces" width="200"]The play continues until one player reaches a total count of 10.</rules>
+  <strategies>
+    <strategy>
+      <name>Odd Advantage</name>
+      <description>An easy strategy to follow is to make sure that there is an odd number of moves left. The first player will have the advantage in this game if he plays perfectly.</description>
+    </strategy>
+  </strategies>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>To force your opponent into raising the total above ten.</description>
+    </variant>
+    <variant>
+      <name>37 Puzzle Game</name>
+      <description>Put five dominoes numbered 1-5 or (0,1),(2,0),(3,0),(4,0),and(5,0) on the table. Players take turns placing a coin on a dominoe, adding the numbers as they alternate turns. So, if the first player puts his coin on a 1,the total score is 1. Then, when the next player picks up the coin and places it on any other piece then the previous dominoe. If he places the piece on a 5, then the total is raised to 6. The person who scores exactly 37, or forces his opponent to score more than a total sum of 37 wins the game.</description>
+    </variant>
+    <variant>
+      <name>1,2,...n</name>
+      <description>Similar to 1,2,...10, however, the total goal is selected by the two players.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>E.R.Berlekamp, J.H.Conway,and R.K.Guy. Winning Ways for Your Mathematical Plays.London: Academic Press, 1982.</reference>
+    <reference>Dudeney, Henry Ernest. Amusements in Mathematics. Project Gutenberg. Accessed on: 8 May 2006. 17 September 2005. &lt; http://www.gutenberg.org/etext/16713&gt;.</reference>
+  </references>
+  <links>
+    <link>
+      <description>YouTube video of a physical game "Dr. Nim" that plays misere 1,2,3,...,15</description>
+      <url>http://www.youtube.com/watch?v=oxBghtQ8McA</url>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Dan Garcia</gamescrafter>
+  </gamescrafters>
+</game>

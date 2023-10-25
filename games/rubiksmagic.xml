@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Rubik's Magic</name>
+  <code>rubiksmagic</code>
+  <history>Rubik's Magic was created by Erno Rubik.</history>
+  <board>4 x 4 board with 16 spaces to place pieces.</board>
+  <pieces>There are 16 double sided pieces with either an X or O imprinted on both sides. Other versions of the game have a gold sun on one side and a silver moon on the other.</pieces>
+  <tomove>The game consists of two moves: Each player first flips any one of their opponent's pieces on the board and moves it to an open adjacent square. The piece that is flipped may only be moved either vertically or horizontally, and not diagonally. The player MUST flip their opponent's piece even if it means the flip will result in a winning move for their opponent. After flipping and moving their opponent's piece, the player then places one of his pieces on the board.</tomove>
+  <towin>Complete a vertical, horizontal, or diagonal line with three of your pieces. The pieces must be of the same background color and cannot be broken by your opponent on his turn.</towin>
+  <rules>The playing pieces consist of Xs and Os that are colored black or white. On the first move, the first player places his X on the board, with either the white or black side up. Play then continues with two types of moves. The second player moves one of the opponent’s pieces to an adjacent open spot by "flipping" the piece. This will change the position of the piece as well as the color. When flipping to an open adjacent spot, the piece must be moved either horizontally or vertically, but not diagonally. Also, the piece must be flipped even if it results in a winning line for the opponent. The player then places his piece in any vacant square, whichever color facing up. The play then goes to the first player who has the same options of moves as the second player. The players continue until one person has 3 pieces in a row of the same color (black or white). Note: the game can be modified so that you need a different amount in a row to win.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>To force your opponent to getting a locked three in a row either vertically, horizontally or diagonally.</description>
+    </variant>
+    <variant>
+      <name>Two In A Row</name>
+      <description>Same rules as above except the players attempt to get two in a row.</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Rubik's Tac Toe</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src="rubiksmagic_01.jpg" alt="rubik's magic" width="200"]</picture>
+    <picture>[img src="rubiksmagic_02.jpg" alt="rubik's magic" width="200"]</picture>
+    <picture>[img src="rubiksmagic_03.jpg" alt="rubik's magic" width="200"]</picture>
+    <picture>[img src="rubiksmagic_04.jpg" alt="rubik's magic" width="200"]</picture>
+    <picture>[img src="rubiksmagic_05.jpg" alt="rubik's magic" width="200"]</picture>
+    <picture>[img src="rubiksmagic_06.jpg" alt="rubik's magic" width="200"]</picture>
+  </pictures>
+  <references>
+    <reference>Rubik's Tac Toe. Rubik's Official Online Site. 19 April 2006. &lt;https://secure.rubiks.com/lvl3/index_lvl3.cfm?lan=eng&amp;lvl1=produc&amp;lvl2=bstrst&amp;lvl3=bstrst&amp;lvl4=tactoe#&gt;.</reference>
+  </references>
+  <links>
+    <link>
+      <url>http://www.rubiks.com/lvl3/index_lvl3.cfm?lan=eng&amp;lvl1=commun&amp;lvl2=cbegam&amp;lvl3=rubgme&amp;lvl4=eclips</url>
+      <description>Play The Online Version</description>
+    </link>
+    <link>
+      <url>https://secure.rubiks.com/lvl3/index_lvl3.cfm?lan=eng&amp;lvl1=produc&amp;lvl2=bstrst&amp;lvl3=bstrst&amp;lvl4=tactoe#</url>
+      <description>Erno Rubik's Official Site On Rubix Magic</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Jeffrey Chiang</gamescrafter>
+    <gamescrafter>Bryon Ross</gamescrafter>
+  </gamescrafters>
+</game>

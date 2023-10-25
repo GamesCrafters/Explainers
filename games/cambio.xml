@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Cambio</name>
+  <code>cambio</code>
+  <history>Cambio is a traditional game played with either cards or wooden pieces. Cambio originated during the 17th centry in Italy, where it was first known as Cuccu and played with a deck of 38 cards. In the 18th century, the game migrated north through Europe.</history>
+  <board>Cambio's board consists of a 5x5 grid of cubes, and varies depending on the player. Before the game begins on a 5x5 board, 4 neutral symbols are placed on each corner of the board, and the players alternatively place one of their pieces on the board until the 5 of the first player's symbols and 4 of the second player's symbols are on the board. The remaining spaces are occupied with neutral symbols.</board>
+  <pieces>The game contains three groups of cubes with different symbols. One group of symbols is for the first player. One group of symbols is for the second player. The last group of symbols are the neutral symbols.</pieces>
+  <tomove></tomove>
+  <towin>The goal of the game is to make a horizontal, vertical, or diagonal line composed of all 5 (varies depending on the board size) of your own symbols.</towin>
+  <rules>Before setting up the board, each player selects a symbol as their own. After the board is set, each player takes turns placing a spare cube with their symbol at the beginning of any row or column. When a player's piece is placed, the end cube is freed by lifting it from the board, and the remaining pieces are pushed along that line.</rules>
+  <strategies>
+    <strategy>
+      <name>Gaining Control</name>
+      <description>Gain control of the corners to stop your opponent from forming diagonal lines. Gaining control of each end of a line stops your opponent from moving that line.</description>
+    </strategy>
+  </strategies>
+  <variants/>
+  <alternates>
+    <alternate>Gnav</alternate>
+    <alternate>Cuccu</alternate>
+    <alternate>Hexenspiel</alternate>
+    <alternate>Gnaio</alternate>
+    <alternate>Vogelspiel</alternate>
+    <alternate>Kille</alternate>
+    <alternate>Campio</alternate>
+    <alternate>Camphio</alternate>
+    <alternate>Camfio</alternate>
+    <alternate>Kamfio</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src = "cambio_01.jpg" alt="cambio" width="200"]</picture>
+  </pictures>
+  <references/>
+  <links>
+    <link>
+      <url>http://www.otb-games.com/cambio/rules.html</url>
+      <description>Out Of The Box Publishing: CAMBIO: Official Rules</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Albert Chae</gamescrafter>
+    <gamescrafter>Simon Tao</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,14 @@
+members/
+.htaccess
+Chess/
+admin/
+analysis/
+calday2020/
+calday2022/
+cd.tar
+cgi-bin/
+extra/
+robots.txt
+site-legacy-archive-sp20/
+software/
+todo.txt

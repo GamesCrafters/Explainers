@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Odd Or Even</name>
+  <code>oddoreven</code>
+  <history></history>
+  <board>The board is either a surface on which to place the pieces or a piece of paper to keep track of everything.&#13;
+Starting Position: 15 matches on the board.</board>
+  <pieces>The pieces usually are 15 matches, however, any sort of counter or even numbers written on paper will work.</pieces>
+  <tomove>Remove 1, 2, or 3 matches from the board and place them in front of you.</tomove>
+  <towin>Have an even number of matches in front of you when no more matches are on the board.</towin>
+  <rules>Begin with 15 matches on the board. The player who goes first takes 1, 2, or 3 matches off the board. The second player does the same and play alternates until there are no matches left on the board. Whoever has the even number of matches wins.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Whoever has the odd number of matches at the end wins.</description>
+    </variant>
+    <variant>
+      <name>Number Of Pieces</name>
+      <description>Any odd number of starting pieces will work.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Peter Yu</gamescrafter>
+  </gamescrafters>
+</game>

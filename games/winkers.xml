@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Winkers</name>
+  <code>winkers</code>
+  <history></history>
+  <board>Honeycomb shaped board that starts with 3 spaces on top, five in the middle and 3 on the bottom of the board.</board>
+  <pieces>Each player has 10 stones of his color plus 10 neutral pieces.</pieces>
+  <tomove>Place either a checker onto an empty position or a winker on top of a checker as long as you have a piece of that type. You may also pass</tomove>
+  <towin>To get three in a row either vertically, horizontally or diagonally.</towin>
+  <rules>Players alternate turns placing a piece on the board. On the player's turn they may either place a neutral piece on an empty spot or they may put a stone of their color on top of a neutral piece. The player is also able to pass if they are not able to legally place a piece. The first person to get three in a row of their color wins. If, however, they use up all their stones without managing a win, the player loses.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links>
+    <link>
+      <url>http://www.boardgamegeek.com/game/22057</url>
+      <description>BoardGameGeek</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Newton Le</gamescrafter>
+    <gamescrafter>Edward Li</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,95 @@
+<?php require "common.inc" ?>
+<!doctype html>
+<html>
+<head>
+    <?php renderHead("Extras") ?>
+</head>
+<body>
+    <?php renderLogoAndNav() ?>
+    <div class="page-sidebar">
+        <div class="page-sidebar-wrapper">
+            <h2>Extra</h2>
+            <ul>
+                <li><a href="#sec-gc-links">GamesCrafters Links</a></li>
+                <li><a href="#sec-publicity">Publicity</a></li>
+                <li><a href="#sec-root-of-gc">The Root of GamesCrafters</a></li>
+                <li><a href="#sec-tcl-tk">Tcl/Tk Resources</a></li>
+                <li><a href="#sec-how-to">How to?</a></li>
+                <li><a href="#sec-fun-stuff">Fun Stuff</a></li>
+                <li><a href="#sec-other-research">Other Game Theory Research</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="page-content-wrapper">
+            <p>The GamesCrafters project doesn't end at the software. Below we've got a collection of links to other interesting aspects of GamesCrafters, including recent publicity of our work, information on implementing your own game in C and Tcl/Tk, background information on game theory, and some fun links that we've made ourselves or found around the web. We've also included information on the origins of GamesCrafters in the form of Dan Garcia's Masters Thesis and an introduction to the Gamesman system. Browse around the links below to explore the full gamut of extra ideas that game theory has to offer.</p>
+            <h3 id="sec-gc-links">GamesCrafters Links</h3>
+            <ul>
+                <li><a href="http://gamescrafters.berkeley.edu/wiki/">GamesCrafters Wiki</a></li>
+            </ul>
+            <h3 id="sec-publicity">Publicity</h3>
+            <ul>
+                <li><a href="http://www.cs.berkeley.edu/~ddgarcia/papers/GamesCrafters2008AAAI.pdf">200 Students Can't Be Wrong! GamesCrafters, a Computational Game Theory Undergraduate Research and Development Group</a></li>
+                <li><a href="http://www.cs.berkeley.edu/~ddgarcia/teaching/talks/2007-11-13-Melbourne-GamesCrafters/">2007-11-13 Talk at the University of Melbourne, AUSTRALIA</a></li>
+                <li><a href="http://www.coe.berkeley.edu/engnews/spring03/4S/games.html">Berkeley's Engineering News</a>, 2003-12</li>
+                <li><a href="/extra/calday2004/calDay2004.html">Cal Day 2004</a></li>
+                <li>Front cover of the <a href="https://buffy.eecs.berkeley.edu/PHP/resabs/resabs.php?f_year=2006&amp;f_submit=one&amp;f_absid=101357">2006 EECS/ERL Research Summary</a>!</li>
+                <li><a href="http://www.cs.berkeley.edu/~ddgarcia/cg.html">Dan Garcia's Video Gallery</a></li>
+                <li><a href="/extra/2007Poster/2007GamesCraftersPoster.ai">2007 Cal Day Poster</a> (Adobe Illustrator Format)</li>
+                <li><a href="/extra/2007Poster/2007GamesCraftersPoster.pdf">2007 Cal Day Poster</a></li>
+                <li><a href="/extra/2008Poster/2008GamesCraftersPoster.pdf">2008 Cal Day Poster</a></li>
+                <li><a href="http://www.eecs.berkeley.edu/~ddgarcia/photos/2009-04-18-CalDay/">Cal Day 2009</a></li>
+            </ul>
+            <h3 id="sec-root-of-gc">The Root of GamesCrafters</h3>
+            <ul>
+                <li><a href="http://www.cs.berkeley.edu/~ddgarcia/software/gamesman/GAMESMAN.pdf">Dan Garcia's Master Thesis</a> (2MB PDF)</li>
+                <li><a href="http://www.cs.berkeley.edu/~ddgarcia/software/gamesman/GamesmanGoNC.pdf">5 Page Introduction to the System</a> (PDF)</li>
+                <li><a href="http://www.cs.berkeley.edu/~ddgarcia/research/gametheory/current/">Dan Garcia's Gamesman Research</a> (deprecated)</li>
+            </ul>
+            <h3 id="sec-tcl-tk">Tcl/Tk Resources</h3>
+            <ul>
+                <li><a href="/extra/resources/TclTk_demos.txt">Demos of Tcl/Tk (Plaintext)</a></li>
+                <li><a href="/extra/resources/GUI-Presentation.ppt">Alex Kozlowski's PowerPoint Description of the Gamesman <abbr>GUI</abbr> (PowerPoint)</a></li>
+                <li><a href="/extra/resources/Tcl-Tutorial.ppt">Sunil Ramesh's Tcl Tutorial</a> (PowerPoint)</li>
+                <li><a href="/extra/resources/wtour2.0.tar.gz">wtour - A Tcl/Tk learning resource</a> (gzip)</li>
+                <li><a href="http://philip.greenspun.com/tcl/index.adp">Tcl for Web Nerds</a> by Hal Abelson, Philip Greenspun, and Lydia Sandon</li>
+                <li><a href="http://www.tcl.tk/">Tcl Developer Xchange</a></li>
+            </ul>
+            <h3 id="sec-how-to">How to?</h3>
+            <ul>
+                <li>How to make a <a href="/software/HowToWriteAGamesCraftersGameinC.ppt">new GamesCrafters game in C</a> (PowerPoint)</li>
+                <li>A Brief <a href="/software/ABriefIntroductionToGameTheory.ppt">&quot;Introduction to Game Theory&quot;</a> Lecture (PowerPoint)</li>
+            </ul>
+            <h3 id="sec-fun-stuff">Fun Stuff</h3>
+            <ul>
+                <li><a href="http://www.sunysb.edu/philosophy/fractal/2Tic.html">Tic-Tac-Toe Fractals</a></li>
+                <li>A Tic-Tac-Toe <a href="/software/TTTLegend.pdf">answer key</a> (Acrobat)</li>
+                <li>A Tic-Tac-Toe <a href="/extra/downloads/TicTacToe.mov">movie</a> (QuickTime)</li>
+                <li>Jeff Erickson's <a href="http://compgeom.cs.uiuc.edu/~jeffe/mathgames.html">Math Games, Toys, and Puzzles</a></li>
+                <li><a href="http://www.ludoteka.com/">LudoTeka</a></li>
+                <li><a href="http://www.gamesaboveboard.com/">Games Above Board</a></li>
+            </ul>
+            <h3 id="sec-other-research">Other Game Theory Research</h3>
+            <ul>
+                <li>Berkeley's very own Aaron Siegel's <a href="http://cgsuite.sourceforge.net/">Combinatorial Game Suite</a></li>
+                <li>David Wolfe's <a href="http://www.gac.edu/~wolfe/games">game theory page</a> and his <a href="http://www.gac.edu/~wolfe/games/games.tar.gz">Gamesman's Toolkit</a></li>
+                <li>(Economic) Strategy and Conflict: <a href="http://william-king.www.drexel.edu/top/eco/game/game.html">An Introductory Sketch of Game Theory</a></li>
+                <li>A resource for educators and students of gametheory: <a href="http://www.gametheory.net/">gametheory.net</a></li>
+                <li><a href="http://www.boardgamesstudies.org/">The International Society for Board Game Studies</a></li>
+                <li><a href="http://www.boardgamegeek.com/">BoardGameGeek</a> - Serving the Board Game Community Since 2000</li>
+                <li><a href="https://gamecows.com/">Game Cows</a> - reviews to discover new abstract strategy games</li>
+                <li>Wikipedia: <a href="http://en.wikipedia.org/wiki/Abstract_strategy_game">Two-player abstract strategy games</a></li>
+                <li>Wikipedia: <a href="http://en.wikipedia.org/wiki/Solved_board_games">Solved board games</a></li>
+                <li><a href="http://www.cs.ualberta.ca/~games/">Alberta</a></li>
+                <li><a href="http://www.thegamesjournal.com/Archives.php">The Games Journal</a></li>
+                <li><a href="http://www.thegamesjournal.com/articles/DefiningtheAbstract.shtml">Defining the Abstract</a></li>
+            </ul>
+            <blockquote>
+                <p>In certain kinds of positions, the computer sees so deeply that it plays like God.</p>
+                <p>&mdash; <cite>Gary Kasparov, after losing his first of six chess games to IBM's Deep Blue</cite></p>
+            </blockquote>
+        </div>
+    </div>
+    <?php renderFooter() ?>
+</body>
+</html>

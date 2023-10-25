@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Gobblet</name>
+  <code>gobblet</code>
+  <history></history>
+  <board>3x3 board</board>
+  <pieces>Each player has two large and two small pieces.</pieces>
+  <tomove>Players may either place a piece or move a piece.</tomove>
+  <towin>To get three pieces in a row.</towin>
+  <rules>The players each have two large and two small pieces on a 3x3 board. On each turn a player can either place a piece or move a piece. In moving a piece, a large piece can go over a smaller piece, but not vice versa. The game ends when one player has three in a row of his/her pieces.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>To force your opponent into getting three of his pieces in a row.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="gobblet_01.jpg" alt="goblet" width="200"]</picture>
+    <picture>[img src="gobblet_02.jpg" alt="goblet" width="200"]</picture>
+    <picture>[img src="gobblet_03.jpg" alt="goblet" width="200"]</picture>
+    <picture>[img src="gobblet_04.jpg" alt="goblet" width="200"]</picture>
+    <picture>[img src="gobblet_05.jpg" alt="goblet" width="200"]</picture>
+    <picture>[img src="gobblet_06.jpg" alt="goblet" width="200"]</picture>
+  </pictures>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Damian Hites</gamescrafter>
+    <gamescrafter>John Jordan</gamescrafter>
+    <gamescrafter>Scott Lindeneau</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Hasami Shogi</name>
+  <code>hasamishogi</code>
+  <history>Hasami Shogi is a variation of Go-Bang, a popular child's game in Japan.</history>
+  <board>The board is a standard shogi board, which is a 9x9 grid of squares.</board>
+  <pieces>There are 9 white shogi pawns for one player and 9 black shogi pawns for the other player. Because shogi pawns have something written on the other side in red for promoting in normal shogi, usually the player with the black pawns will flip his or her pawns over to make it easier to distinguish.</pieces>
+  <tomove>Pieces move as many squares as they want in any perpendicular direction, limited only by the edge of the board and by the presence of other pieces. This is exactly the same as the way the standard chess rook moves.&#13;
+To Capture: You capture by sandwiching your opponent's pieces. This means that for any number of pawns they have in a line, if after your move you have a pawn on each side of this line, you capture all of those pawns. This is referred to as custodian capture. You may only capture horizontally or vertically. However, if you move in between two of your opponent's pieces, your piece is not captured. A player captures only if they create the custodian capture position during their turn. Capturing means actually removing the pieces from the board.</tomove>
+  <towin>You win when your opponent only has one piece left.</towin>
+  <rules>First, both players place all of their pawns on opposite ranks of the board. Then whichever player is first makes the first move. Players alternate until one player's number of pieces is reduced to one, in which case the other player has won.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Be the first player to only have one piece left to win.</description>
+    </variant>
+    <variant>
+      <name>Board Size</name>
+      <description>It is possible to play this game on any NxN board where N &gt; 3. However, because it is linked to the actual game of shogi, the board is rarely varied.</description>
+    </variant>
+    <variant>
+      <name>Win Condition</name>
+      <description>You win when your opponent only has 4 pieces left. Both conditions are widely used so players will generally agree to which goal they are playing by. Another popular win condition variant is connecting 5 of your pieces in a row, column, or diagonal. This is in addition to winning by reducing your opponent's number of pieces to the agreed amount.</description>
+    </variant>
+    <variant>
+      <name>Jump</name>
+      <description>A piece may jump over an adjacent piece of their own. However, it may only land on the square on the other side of the occupied square. This means you may not move over vacant and adjacent squares in the same turn.</description>
+    </variant>
+    <variant>
+      <name>Capture</name>
+      <description>A common variant is to allow capturing of opponent's pieces in corners by having one of your pieces in each of the squares orthogonal to the opponent's piece.</description>
+    </variant>
+    <variant>
+      <name>Intervention Capture</name>
+      <description>When a player moves a piece so that two of the opponent's pieces are on each edge of a connected line of that player's pieces, then that player captures the opponent's pieces.</description>
+    </variant>
+    <variant>
+      <name>Dai Hasami Shogi</name>
+      <description>Dai means big in Japanese, so this is the name for the variant where each player gets 18 pieces. Because there aren't enough pawns in shogi to support this, this variant is usually played on a 9x9 Go board, using 18 black and 18 white stones as pieces.</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Sandwiching Chess (English Translation Of Hasami Shogi)</alternate>
+  </alternates>
+  <pictures/>
+  <references>
+    <reference>Bell, R. C. Board and Table Games from Many Civilizations. New York, N.Y.: Dover, 1979. 97-98.</reference>
+    <reference>Neto, João Pedro. Games of Soldiers - HASAMI. 9 Mar 2006.&lt; http://www.di.fc.ul.pt/~jpn/gv/hasami.htm&gt;.</reference>
+    <reference>Katsutoshi Seki. "Hasami Shogi and Chess" The Chess Variants Pages. Accessed on: 1 Mar 2006. 13 Oct 1998. &lt;http://www.chessvariants.com/shogivariants.dir/hasami.html&gt;.</reference>
+    <reference>Take. BoardGameGeek. Accessed on: 10 Mar 2006. &lt;http://www.boardgamegeek.com/game/15655&gt;.</reference>
+    <reference>Provenzo, Asterie Baker and Eudge F. Provenzo, Jr. Favorite Board Games You Can Make and Play. New York: Dover, 1981.</reference>
+  </references>
+  <links>
+    <link>
+      <url>http://www.chessvariants.com/shogivariants.dir/hasami.html</url>
+      <description>Chess Variants Page</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Chris Willmore</gamescrafter>
+    <gamescrafter>Ann Chen</gamescrafter>
+  </gamescrafters>
+</game>

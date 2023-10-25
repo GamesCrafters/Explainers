@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Ice Blocks</name>
+  <code>iceblocks</code>
+  <history>Iceblocks was created by Ann Stambler and Dr. Monty Stambler when they were fooling around with left over dice. The company that supported the game was Gamewright in 1999. Iceblocks was listed under the “Ages 8 &amp; up” section but was remove for some unknown reason.</history>
+  <board>Any flat playing surface is valid. Also, players will need a pencil/pen and a piece of paper to keep track of the score.</board>
+  <pieces>In the official game, there are 15 blue blocks and 15 clear blocks. However, it’s possible to use anything that is of different color that could be stacked on top of each other.</pieces>
+  <tomove>Each player will take alternating turns stacking their blocks neither horizontally nor vertically.</tomove>
+  <towin>To win, each player will attempt to build as high of a stack as possible with their blocks in a row (horizontally or vertically). The winner will be the one with the most points.</towin>
+  <rules>Both players are essentially building a pyramid-like structure with their sets of blocks. The base of the pyramid is 8 blocks and, from there, both players will build upward till both sets are used. The idea behind the game is to connect 3 or more blocks horizontally or vertically in a row while attempting to intercept the opponent’s chain of blocks. A block must be placed next to another block or on top of two touching blocks regardless of the color.[img src="ice.jpg" alt="ice" width="200"]The score table is as follows:&#13;
+&lt;table align="center"&gt;&#13;
+&lt;tr&gt;&lt;th&gt;No. of blocks in a row&lt;/th&gt;&lt;th&gt;No. of points&lt;/th&gt;&lt;tr&gt;&#13;
+&lt;tr&gt;&lt;td align="center"&gt;3&lt;/td&gt;&lt;td align="center"&gt;1&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td align="center"&gt;4&lt;/td&gt;&lt;td align="center"&gt;3&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td align="center"&gt;5&lt;/td&gt;&lt;td align="center"&gt;6&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td align="center"&gt;6&lt;/td&gt;&lt;td align="center"&gt;10&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td align="center"&gt;7&lt;/td&gt;&lt;td align="center"&gt;15&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;tr&gt;&lt;td align="center"&gt;8&lt;/td&gt;&lt;td align="center"&gt;21&lt;/td&gt;&lt;/tr&gt;&#13;
+&lt;/table&gt;</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>Mike Lester. 1999. Ice Blocks, Gamewright. 2006</reference>
+  </references>
+  <links>
+    <link>
+      <url>http://gamescrafters.berkeley.edu/inside/games/iceblocks.pdf</url>
+      <description>Official IceBlocks Instructions</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Dan Garcia</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>XiGua</name>
+  <code>xigua</code>
+  <history></history>
+  <board>Diamond shaped board.</board>
+  <pieces>Two different colored pieces.</pieces>
+  <tomove>Place a piece or make a capture move.</tomove>
+  <towin>To be the player with the most pieces on the board at the end of a game.</towin>
+  <rules>Players take turns placing pieces onto any open vertex on the diamond or in the middle of the diamond. Captures may be made if the piece placed blocks all the exit points or the edges of the board. The first person to have the most pieces on the board at the end of the game wins.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Board Size</name>
+      <description>Change the board size.</description>
+    </variant>
+    <variant>
+      <name>Number Of Pieces</name>
+      <description>Change the number of pieces each player gets.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Joshua Kocher</gamescrafter>
+    <gamescrafter>Daniel Honneger</gamescrafter>
+    <gamescrafter>Gerardo Snyder</gamescrafter>
+  </gamescrafters>
+</game>

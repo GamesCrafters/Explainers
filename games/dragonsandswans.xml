@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Dragons And Swans</name>
+  <code>dragonsandswans</code>
+  <history>Dragons and Swans is a "game of soldiers."</history>
+  <board>The standard Dragons and Swans board is a 4x4 board of squares.&#13;
+Starting position: Up to four (depending on how many you set) dragons on the corners of the board and no swans on the board. One player is the swans and the other is the dragons.</board>
+  <pieces>There are two different pieces: dragons (4) and swans (12).</pieces>
+  <tomove>Each player takes turns making one valid move.&#13;
+Valid Moves:&#13;
+If it is the swan's turn and there are swans remaining from the initial pile, place a swan on one of the empty board positions. If no swans are remaining in the initial pile, move one of your pieces to an orthogonally-adjacent empty board position.&#13;
+If it is the dragon's turn, move one of your pieces to an orthogonally-adjacent empty board position. A dragon can eat a swan by jumping over it to an empty square.</tomove>
+  <towin>Swans try to TRAP all of the dragons and dragons try to EAT all of the swans.</towin>
+  <rules>Swans go first and place one swan on an empty square. Dragons then move next and a dragon must be moved when it is the dragon's turn. On each turn, if there are swans available in the initial pile, a swan must be placed on an empty square. Swans cannot move until all of the swans have been placed on the board.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>NRich.  Dragons and Swans - a game for two players.  18 Feb 2007. &lt;http://www.nrich.maths.org/public/viewer.php?obj_id=1211∂=index&amp;refpage=monthindex.php&gt;.</reference>
+    <reference>Games of Soldiers. Games of Soldiers - Fox &amp; Geese. 18 Feb 2007. &lt;http://www.di.fc.ul.pt/~jpn/gv/fox-geese.htmx∂=index&amp;refpage=monthindex.php&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Anh Thai</gamescrafter>
+    <gamescrafter>Sandra Tang</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Pylos</name>
+  <code>pylos</code>
+  <history>Pylos was designed by David G. Royffe, a British electrical engineer. He first came up with the idea in 1964, using his family's snooker balls. He eventually took his idea, then called Elevation, to the 1993 ESSEN game fair in Germany. Two representatives from Gigamic liked the idea and signed a manufacturing contract for the game, which was named Pyraos (later Pylos). Pylos won Games Magazine's "Best Strategy Game" award in 1994 and 1995 and was also named to the Mensa Select Top 5 Best Games list in 1994.</history>
+  <board>The game is played on a wooden board with 16 hollows arranged in a square.&#13;
+Starting Position: The empty board is the starting position.</board>
+  <pieces>The pieces are 15 light spheres for one player and 15 dark spheres for the other.</pieces>
+  <tomove>A player may take a sphere from his or her reserve and place it in an empty hollow on the board or on top of a square of spheres, if one exists. If a 2x2 square of spheres exists and does not have a sphere on top of it already, a player may take one of his spheres already on the board that is not supporting any others.</tomove>
+  <towin></towin>
+  <rules></rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Board Size</name>
+      <description>Any even size square will work as the base of the pyramid. The square must be even so that there are an equal number of spheres for each player.</description>
+    </variant>
+    <variant>
+      <name>"Children's Version"</name>
+      <description>Do not play with the complete a 2x2 square and recover pieces rule. This is a simplified variant for younger players.</description>
+    </variant>
+    <variant>
+      <name>"Expert Version"</name>
+      <description>Play that if players form a complete line (4 spheres on the first level, 3 spheres on the second) of their own color, they take back one or two spheres that are not supporting other spheres. This is a more complex variant meant to make the game more interesting for older players.</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Strat-O-Sphere</alternate>
+    <alternate>Pyraos</alternate>
+    <alternate>Elevation</alternate>
+  </alternates>
+  <pictures/>
+  <references>
+    <reference>Pylos. BoardGameGeek. 6 Apr 2006.</reference>
+    <reference>Pylos Game. Educational Learning Games. 7 Apr 2006.</reference>
+  </references>
+  <links>
+    <link>
+      <url>http://www.educationallearninggames.com/how-to-play-pylos-game-rules.asp</url>
+      <description>Pylos Rules And Diagrams</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Eric Siroker</gamescrafter>
+  </gamescrafters>
+</game>

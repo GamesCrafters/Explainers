@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Rubik's Checkers</name>
+  <code>rubikscheckers</code>
+  <history>Rubik's Checkers is a game that is similar to checkers. The popular Rubik's games were originally invented by Ernö Rubik.</history>
+  <board>The standard Rubik's Checkers board is a variable grid of squares.&#13;
+Starting position: A specific number of kings for each player on opposite sides of the board.</board>
+  <pieces>There are two pieces - kings and men. Kings become men when jumped over by a king.</pieces>
+  <tomove>Each player takes turns making one valid move.&#13;
+Valid Moves:&#13;
+Kings may move diagonally, forward, or backward. A king may jump over an opponent's piece if the space it jumps to is empty. Multiple jumps are possible (like in regular checkers). When a king jumps over an opponent's king, that king is demoted to a man. If the king jumps over an opponent's man, then that man is removed from the board. When a player's king jumps over the same player's man, that man is promoted back to a king.&#13;
+A man may only move backwards, not forward. A man cannot jump or capture any piece.&#13;
+On your turn, a piece in your home row may be promoted to a King.</tomove>
+  <towin>Eliminate all of the opponents pieces or prevent them from moving.</towin>
+  <rules>Players alternate making legal moves.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Eliminate all of your own pieces or prevent all of your pieces from moving.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="rubikscheckers_01.jpg" alt="rubik's checkers"]</picture>
+  </pictures>
+  <references>
+    <reference>Toys in the Attic.  Rubik's Checkers Challenge.  18 Feb 2007. &lt;http://www.toysintheattic.biz/products/winningmoves/rubiks.htm&gt;.</reference>
+    <reference>ESP Plus. Rubik's Checkers Challenge. 18 Feb 2007. &lt;http://www.espplusnc.com/store/merchant.mv?Screen=PROD&amp;Store_Code=ESP&amp;Product_Code=WM5012&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Johnny Tran</gamescrafter>
+    <gamescrafter>Steve Wu</gamescrafter>
+  </gamescrafters>
+</game>

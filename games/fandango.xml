@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Fandango</name>
+  <code>fandango</code>
+  <history>Fandango is a fast action 2 player game.</history>
+  <board>Each player puts 22 pieces in the spaces indicated. Black pieces are placed on the black dots, and white pieces on the white dots. The central space is left open.</board>
+  <pieces>There are 44 pieces total, 22 for each player. One player is all white, while the other player is all black.</pieces>
+  <tomove>During each turn, the player moves one piece in any direction along any line, into a vacant space.</tomove>
+  <towin>The goal is to capture all of the enemy's pieces.</towin>
+  <rules>Players can capture an opponent's piece in forward or reverse, but always along the same line that the movement is made. If the player's move gives either a withdrawal or approach capture, that player must choose. The player cannot choose both captures. After a capture is made, the player's piece may be in a position to make another capture. If another capture is available, the move must be made. The player must keep moving on a single turn, as long as each move is a capture, and no successive captures are along the same line.</rules>
+  <strategies>
+    <strategy>
+      <name>Approach Capture</name>
+      <description>By moving next to an opponent's piece, the player can capture that piece and any others that stretch in a chain away from it along the line of movement. (see picture below for an example of strategy)</description>
+    </strategy>
+    <strategy>
+      <name>Withdrawal Capture</name>
+      <description>Withdrawal capture is the opposite of an approach capture. By moving away from an enemy piece or a straight line chain of enemy pieces, the player can capture those pieces. (see picture below for an example of strategy) </description>
+    </strategy>
+  </strategies>
+  <variants/>
+  <alternates/>
+<pictures>
+<picture>[img src = "fandango board.png" alt="fandango" width="500"]</picture>
+<picture>[img src = "approach capture.png" alt="fandango" width="500"]</picture>
+<picture>[img src = "withdrawal capture.png" alt="fandango" width="500"]</picture>
+  </pictures>
+  <references>
+    <reference>Sackson, Sid. The Book of Classic Board Games. Palo Alto, California: Klutz Press, 1991.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Albert Chae</gamescrafter>
+  </gamescrafters>
+</game>

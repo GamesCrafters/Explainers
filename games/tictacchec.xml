@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Tic Tac Chec</name>
+  <code>tictacchec</code>
+  <history>Tic Tac Chec was created by Dream Green.</history>
+  <board>The board is a 4x4 chess board</board>
+  <pieces>Chess Pieces: Pawn, knight, bishop and rook.</pieces>
+  <tomove>Pawn: A pawn may move one space forward, except when it captures a piece it may move diagonally one space forward.&#13;
+Knight: A knight moves one space forward or backward and then two space left or right or it moves two spaces backward or forwards and one space left or right.&#13;
+Bishop: The bishop may move diagonally in any direction in any number of spaces.&#13;
+Rook: The rook moves vertically or horizontally any number of spaces as long as long as it does not have to jump over another piece.</tomove>
+  <towin>Get four of your pieces in a line before your opponent.</towin>
+  <rules>Players alternate turns placing a piece on the board or moving one of his already placed pieces. Players may only move their pieces once they have placed at least 3 of their 4 pieces on the board. Pieces move as in normal chess, and capture according to normal chess rules. Captured pieces are returned to the opponent's pool of pieces.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures>
+    <picture>[img src="tictacchec_01.jpg" alt="tic tac chec" width="200"]</picture>
+    <picture>[img src="tictacchec_02.jpg" alt="tic tac chec" width="200"]</picture>
+    <picture>[img src="tictacchec_03.jpg" alt="tic tac chec" width="200"]</picture>
+    <picture>[img src="tictacchec_04.jpg" alt="tic tac chec" width="200"]</picture>
+    <picture>[img src="tictacchec_05.jpg" alt="tic tac chec" width="200"]</picture>
+  </pictures>
+  <references>
+    <reference>Green, Don. Tic Tac Chec. Dream Green Instructions. 1998.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Reman Child</gamescrafter>
+  </gamescrafters>
+</game>

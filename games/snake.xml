@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Snake</name>
+  <code>snake</code>
+  <history></history>
+  <board>Any board containing cells</board>
+  <pieces>Head, tail and body of the snake.</pieces>
+  <tomove>Each player may move up, right or left one space to an adjacent square.</tomove>
+  <towin>Force your opponent into a spot where on the next turn he or she will hit the wall (cannot move).</towin>
+  <rules>The first player is the head of the snake and the second player is the tail. Players alternate turns moving one space up, right or left into an adjacent open square. Once a player has moved to an open spot, it becomes occupied and neither player is allowed to move into that space. The game ends when there is no more room for a player to move.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Force yourself into a position from where you cannot move.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Alice Chang</gamescrafter>
+    <gamescrafter>Eleen Chiang</gamescrafter>
+    <gamescrafter>Judy Chen</gamescrafter>
+  </gamescrafters>
+</game>

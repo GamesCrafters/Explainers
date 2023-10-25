@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Shift Tac Toe</name>
+  <code>shifttactoe</code>
+  <history>Shift Tac Toe was first released in 1988 by Pressman games.</history>
+  <board>A 3x3 grid with slots for the pieces. As the game progresses, players may shift the game by sliding one of the rows.</board>
+  <pieces>Black and red circles.</pieces>
+  <tomove>The player either selects an open slot or shifts the game board.</tomove>
+  <towin>To be the first player to get three in a row either horizontally, vertically or diagonally.</towin>
+  <rules>Shift Tac Toe is very similar to Tic Tac Toe, with the extra option to “shift” on of the rows on your turn. The players take turns, and on each turn a player gets to choose either to drop a piece into the board or shift on of the rows. The game ends when one of the players gets three-in-a-row.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>To force your opponent in getting three in a row either horizontally, vertically or diagonally.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="shifttactoe_01.jpg" alt="shift tac toe" width="200"]</picture>
+    <picture>[img src="shifttactoe_02.jpg" alt="shift tac toe" width="200"]</picture>
+    <picture>[img src="shifttactoe_03.jpg" alt="shift tac toe" width="200"]</picture>
+    <picture>[img src="shifttactoe_04.jpg" alt="shift tac toe" width="200"]</picture>
+    <picture>[img src="shifttactoe_05.jpg" alt="shift tac toe" width="200"]</picture>
+  </pictures>
+  <references/>
+  <links>
+    <link>
+      <url>http://www.pressmantoy.com/Shifttactoe.html</url>
+      <description>Official Shift Tac Toe Site</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>David Chen</gamescrafter>
+    <gamescrafter>Ling Xiao</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Go</name>
+  <code>go</code>
+  <history>Go is a two player strategic board game that was created in China between three and four thousand years ago. It was played in Korea by the 5th century and Japan since the 7th century. It was not until the end of the 19th century that Go became popular in the West. According to legend, Go was used as a teaching tool after ancient Chinese Emperor Yao designed it for his son to learn discipline, concentration, and balance.</history>
+  <board>Go is played on a 19x19 grid. The board is empty at the beginning of the game. Throughout the game, each intersection on the board is either empty or occupied by a white or black stone.</board>
+  <pieces>A full set of Go stones contains 181 black and 180 white stones.</pieces>
+  <tomove>Throughout the game, a player may either pass by saying "pass" or doing nothing, or play. A play consist of three moves: playing, capture, or self-capture. Playing is when a player places their stone on an empty intersection. A capture is the act of removing the opponent's stones that have no liberties. A self-capture is when the player removes one of their own stones that have no liberties after playing a stone and capturing the opponent's stone(s). (see photos below for examples of capturing and self-capturing) A liberty is an empty intersection that is adjacent to a stone or connected stones of the same color. If two or more stones of the same color or empty intersections are adjacent, they are considered as connected.</tomove>
+  <towin>The player with the higher score wins.</towin>
+  <rules>The player with the black stones goes first. Each player take turns to move. The game ends when both players have passed consecutively. When the game ends, the scores of each player is calculated by counting the number of intersections in their area in the final position.&#13;
+* The final position is the position on the board at the time the players pass consecutively.&#13;
+* An area is the intersections that belong in a player's territory or is occupied by a stone of their color.&#13;
+* A territory is the empty intersections in the final position where either all the stones are adjacent to that intersection or an empty intersection is connected to it are the player's color.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Tibetan Go</name>
+      <description>Tibetan Go is played on a 17x17 grid instead of the usual 19x19 grid. Before the game starts, six stones of each color are placed on the third line. In this game, white moves first. The rules are similar to Go except for an additional rule and the scoring. The additional rule known as the "Ko rule" forbids the current player to play a stone at an intersection where the opponent has just removed a stone. Just like the rules, the scoring is the same as Go, except that the player who controls (occupies or surrounds) all four corner points of the board gets an additional 40 points and the player who controls the center point gets 10 bonus points.</description>
+    </variant>
+    <variant>
+      <name>Sunjang Baduk</name>
+      <description>This variant of Go evolved in Korea during the 7th century. Instead of an empty board, Sunjang Baduk starts with 16 stones in a box-like formation. The rules for this game is the same as Go, however, the stones inside a territory and irrelevant to the boundary are removed before counting the territories.</description>
+    </variant>
+    <variant>
+      <name>Batoo</name>
+      <description>Batoo is a modern Korean variant. It's played entirely in cyberspace. In this variant, certain areas of the board are worth different point values than standard Go. Before the game can start, both players place three stones on the board. An additional "hidden stone" may be placed, however this stone is invisible to the opponent.</description>
+    </variant>
+    <variant>
+      <name>First Capture</name>
+      <description>See Atari Go for rules and details of the game.</description>
+    </variant>
+    <variant>
+      <name>Environmental Go</name>
+      <description>This variant was invented by Elwyn Berlekamp, a mathematics and EECS professor at UC Berkeley. Instead of playing a stone, the player may take the highest remaining card from a pack of cards valued in steps of 1/2 from 1/2 to 20. The value on these cards will be added to the player's total score.</description>
+    </variant>
+    <variant>
+      <name>Cards Go</name>
+      <description>During this game, the players draw from a pack of cards containing instructions to play one of fixed set of commonly occurring shapes. If that shape cannot be placed on the board, then it is counted as an illegal move that requires the player to resign.</description>
+    </variant>
+    <variant>
+      <name>Multi-player Go</name>
+      <description>This variant is played with different multicolored stones so that four or more players can play on one board.</description>
+    </variant>
+    <variant>
+      <name>Paper And Pencil Go</name>
+      <description>Like the name suggests, this variant is played with a paper and pencil. In this variant, the surrounded stones are not captured, just marked. The points occupied by marked stones count as territory for the surrounding player, however, neither player can play on these spots for the remainder of the game. In addition, suicide is allowed for this Go variant.</description>
+    </variant>
+    <variant>
+      <name>Rengo</name>
+      <description>Rengo involves two teams, one team for the white stones and one for the black stones. Each member of the team has to play, but playing out of order will result in small penalties. Throughout the game, team members are not allowed to consult on how to play or use any form of communication such as signaling.</description>
+    </variant>
+    <variant>
+      <name>Pair Go</name>
+      <description>This variant of Go is played the same way as Rengo, but the only difference is that each team is composed of one male and female member.</description>
+    </variant>
+    <variant>
+      <name>Blind Go</name>
+      <description>Throughout the whole game, one or both players are not allowed to see the board. They have to memorize the whole position.</description>
+    </variant>
+    <variant>
+      <name>One Color Go</name>
+      <description>This variant requires both players to use the same color stones.</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Igo</alternate>
+    <alternate>Weiqi</alternate>
+    <alternate>Wei Ch'i</alternate>
+    <alternate>Baduk</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src = "single piece capture.png" alt="tibetan go" width="800"]</picture>
+    <picture>[img src = "group capture.png" alt="tibetan go" width="800"]</picture>
+    <picture>[img src = "self capture.png" alt="tibetan go" width="800"]</picture>
+    <picture>[img src = "go_01.jpg" alt="go" width="400"]</picture>
+    <picture>[img src = "tibetan go.png" alt="tibetan go" width="300"]</picture>
+    <picture>[img src = "sun-chang pa-tuk.png" alt="sun-chang pa-tuk" width="300"] [img src = "Batoo.png" alt="batoo" width="300"]</picture>
+  </pictures>
+  <references>
+    <reference>Sackson, Sid. The Book of Classic Board Games. Palo Alto, California: Klutz Press, 1991.</reference>
+  </references>
+  <links>
+    <link>
+      <url>http://en.wikipedia.org/wiki/Go_%28board_game%29</url>
+      <description>Go (game) - Wikipedia</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Alexander D'Archangel</gamescrafter>
+  </gamescrafters>
+</game>

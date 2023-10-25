@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Paradux</name>
+  <code>paradux</code>
+  <history>Paradux is a game created by Cliff Blood in 2003.</history>
+  <board>The standard Paradux board is a hexagon with four, five, six, seven, six, five, and four holes in each row, in that order. Playing with other variable sized boards is possible.&#13;
+Starting position: Alternate the pieces on the outer spaces of the board, placing the remaining pieces in the center of the board, across from each other (as seen in the picture below).</board>
+  <pieces>There are two different pieces in Paradux - white and black, with 10 pieces each (20 total) for the standard board.</pieces>
+  <tomove>Each player takes turns making one valid move and CANNOT reverse the opponent's move that was just made.&#13;
+Valid Moves:&#13;
+Select one of your own pieces and an adjacent piece of the opponent. Move the pair of pieces one space away either horizontally, vertically, or diagonally. Both pieces must have an empty space to move to, or the move cannot be done. A player cannot move a ball with another ball of their own color or move two of the opponent's pieces.&#13;
+A player may also switch the places of two adjacent pieces.</tomove>
+  <towin>Be the first player to have four pieces of their own color in a row. The number of pieces needed to win can be changed with different variations of the game.</towin>
+  <rules>Each player chooses a color and one player goes first. The players alternate making legal moves.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Line up four (or however many pieces is needed depending on the variant) of the opponent's pieces in a row.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>Board Game Geek. Paradux. 5 Feb 2007. &lt;http://www.boardgamegeek.com/game/7981&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>David Chen</gamescrafter>
+    <gamescrafter>Yanpei Chen</gamescrafter>
+  </gamescrafters>
+</game>

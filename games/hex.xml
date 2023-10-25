@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Hex</name>
+  <code>hex</code>
+  <history>Hex is a 2 (or 4 divided into two teams) player abstract strategy game. It was invented by Danish mathematician Piet Hein, who introduced the game in 1942 at Niels Bohr Institute. It was also invented by mathematician John Nash in 1947 at Princeton University. In 1952, the game was marketed as Hex by the Parker Brothers.</history>
+  <board>Hex is played on a hexagonal grid of any size (i.e. 13x13, 14x14, 19x19, etc.), but the traditional board is a 11x11 rhombus grid. The shapes of the grid may also vary.</board>
+  <pieces>The game is played with red and blue stone pieces, with each player or team assigned a color.</pieces>
+  <tomove></tomove>
+  <towin>The goal of the game is to form a connected path of your stones linking two opposing sides of the board marked by your colors before your opponent connects their sides in a similar process. The player who completes the connection first wins.</towin>
+  <rules>Each player take turns placing one of their stone on a single cell within the overall playing board.</rules>
+  <strategies>
+    <strategy>
+      <name>Bridges And Connections</name>
+      <description>Two groups of stones are safely connected if nothing can stop them from being connected even if the opponent has the next move (i.e. a bridge).</description>
+    </strategy>
+    <strategy>
+      <name>Paths</name>
+      <description>Paths consists of two or more groups of stones and an empty-point set (set of empty hexes required for the given connection).</description>
+    </strategy>
+    <strategy>
+      <name>Templates</name>
+      <description>A special type of 0-connected path where one of the groups of stones is the edge that you are trying to connect to.</description>
+    </strategy>
+    <strategy>
+      <name>Ladders</name>
+      <description>Sequences of forcing moves where pieces are placed in two parallel lines.</description>
+    </strategy>
+  </strategies>
+  <variants>
+    <variant>
+      <name>Blockbusters</name>
+      <description>Blockbusters is played on 5 alternating columns of 4 hexagons. In this variant, the player has to answer a question correctly to move.</description>
+    </variant>
+    <variant>
+      <name>Y</name>
+      <description>Y is played on a triangular board with hexagonal spaces. The player who connects all three sides of the board wins.</description>
+    </variant>
+    <variant>
+      <name>Havannah</name>
+      <description>Havannah is played on a base-10 hexagonal board. A player wins if they complete one of three different structures (a ring, bridge, or fork) from unbroken lines or paths of connected stones, all of their color. A Ring is a loop around one or more cells. A Bridge is the connection of any two of the six corner cells of the board. A fork is the connection any three edges of the board, however the corner points are not included.</description>
+    </variant>
+    <variant>
+      <name>Mind Ninja</name>
+      <description>The players define patters, subject to certain constraints. This can be played on any tiled surface. Each player may fill in the cell with any available color.</description>
+    </variant>
+    <variant>
+      <name>Charmeleon</name>
+      <description>Charmeleon give players the option of placing a piece of either color on the board. One player attempts to connect the north and south edges, while the other player attempts to connect the east and west edges. The game is over when a connection between the player's goal edges is formed using either color. If a piece is placed that connects both player's goal edges, the winner is the player who placed the final piece.</description>
+    </variant>
+    <variant>
+      <name>The Shannon Switching Game</name>
+      <description>This variant involves two players coloring edges of an arbitrary graph. The goal of the game is to connect two distinguished vertices with the edges of the player's color.</description>
+    </variant>
+    <variant>
+      <name>Pex</name>
+      <description>The rules are almost the same as Hex except for the board. This variant is played on a rhombus shaped tiling of irregular pentagons.</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Polygon (in Denmark)</alternate>
+    <alternate>CON-TAC-TIX (by Hein)</alternate>
+    <alternate>Nash (by Nash's Fellow Players)</alternate>
+    <alternate>John (by Princeton Universtiy Students)</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src = "hex_01.jpg" alt="hex" width="200"]</picture>
+<picture>[img src = "Hex1.png" alt="hex" width="300"]</picture>   	<picture>[img src = "Hex game1.png" alt="hex" width="300"]</picture>
+  </pictures>
+  <references>
+    <reference>Sackson, Sid. The Book of Classic Board Games. Palo Alto, California: Klutz Press, 1991.</reference>
+  </references>
+  <links>
+    <link>
+      <url>http://en.wikipedia.org/wiki/Hex_%28board_game%29</url>
+      <description>Hex (board Game) - Wikipedia</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Shah Bawany</gamescrafter>
+    <gamescrafter>Jacob Andreas</gamescrafter>
+  </gamescrafters>
+</game>

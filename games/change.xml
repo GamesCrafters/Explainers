@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Change!</name>
+  <code>change</code>
+  <history></history>
+  <board>Any simple board that has ten slots to place counters. This game is also known as a pencil and paper game, so the board can easily be drawn on a paper.</board>
+  <pieces>This game can be played with one counter or a supply of counters if players want to keep track of each other's moves. Players can also use a pencil to write down the total count.</pieces>
+  <tomove>Players alternate turns by sliding one of their pieces along the line towards the opponent's starting position. Players, on their turn, may move one or two spaces to an open spot. They are not allowed to turn corners, jump or go backwards.</tomove>
+  <towin>Occupy your opponent's initial spaces or trap your opponent's piece.</towin>
+  <rules>The game is played on a diagonal board with each player starting out with three markers. The pieces are placed on opposite ends of the board and each player alternates turns moving one piece.[img src="changea.jpg" alt="change initial board" width="150"]To move, you slide the piece along one of the lines as many times as you want.[img src="changeb.jpg" alt="change board" width="150"]Markers cannot turn corners, jump or go backwards. The first person to occupy his opponent's initial spaces or traps his opponent's piece wins.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Force your opponent to occupy your initial starting positions or get trapped by the opponent.</description>
+    </variant>
+    <variant>
+      <name>Strategy</name>
+      <description>You can alter whether or not trapping is a win or loss.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Alice Change (C And Tcl)</gamescrafter>
+    <gamescrafter>Judy Tuan (C)</gamescrafter>
+    <gamescrafter>Bryon Ross (Tcl)</gamescrafter>
+  </gamescrafters>
+</game>

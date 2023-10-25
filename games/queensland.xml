@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Queensland</name>
+  <code>queensland</code>
+  <history>Queensland was published by Cheapass Games in Chief Herman's Next Big Thing. A compilation of over 20 games, Chief Herman's Next Big Thing is the sequel to Chief Herman's Holiday Fun Pack, which was nominated for an Origins Award for Best Abstract Board Game. Some of the games featured in Chief Herman's Next Big Thing were "previously published as magazine inserts, free games, or postcard games."</history>
+  <board>The default is a 4x4 board, although the board size may be changed for a twist.</board>
+  <pieces>The game is played with two different colored pieces. The default number of pieces each player has is four, but the game may be played with more pieces.</pieces>
+  <tomove>On each turn you do two things. First, if you have a piece on the board, you may slide the piece any number of squares and in any direction as long as long as the path to get to the square is unimpeded (like a Queen in Chess). Players may not jump over pieces. Players have the option to skip this step. After sliding your piece or skipping the sliding phase, you place a piece on any empty square.</tomove>
+  <towin>The player who sandwiches the most empty spaces wins.</towin>
+  <rules>Each player begins by placing one piece on the board. After each piece is placed, the first player has the option of sliding his piece into any open square so long as the path to get to the square is not blocked by any other pieces. After a player slides his piece, he must place a piece on any empty spot on the board. The player may also skip the sliding phase and just place another piece onto any open spot on the board. Players alternate turns until all the pieces have been placed on the board. Any pieces that are connected by a straight (horizontal, vertical or diagonal) unbroken line is one point. The player with the most points wins the game.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Try to score as few points as possible.</description>
+    </variant>
+    <variant>
+      <name>Sliding Options</name>
+      <description>Players may change the game so that sliding is prohibited. Players in this game are only allowed to place pieces. Another variant is to make sliding mandatory. In this variant, players must slide their pieces before placing a piece.</description>
+    </variant>
+    <variant>
+      <name>Moves</name>
+      <description>Players may change how the pieces move. So instead of moving like a queen, pieces may be moved like bishops or rooks.</description>
+    </variant>
+    <variant>
+      <name>Scoring</name>
+      <description>When counting points, players may make it optional to count diagonals.</description>
+    </variant>
+    <variant>
+      <name>Board Size</name>
+      <description>Change the size of the board to be smaller or bigger.</description>
+    </variant>
+    <variant>
+      <name>Pieces</name>
+      <description>Vary the number of pieces to be placed on the board.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links>
+    <link>
+      <url>http://www.cheapass.com/products/boardgames/cag038.html</url>
+      <description>Cheapass Games</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Stephen Kusalo</gamescrafter>
+    <gamescrafter>Alex Wallisch</gamescrafter>
+  </gamescrafters>
+</game>

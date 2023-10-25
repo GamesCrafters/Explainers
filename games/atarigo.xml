@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Atari Go</name>
+  <code>atarigo</code>
+  <history>Atari Go was first introduced by Yasuda Tasutoshi, an 8 Dan professional Go player. It is a 2 player, simplified version of Go, invented especially for beginning players to learn about the tactical fundamentals of Go.</history>
+  <board>The game of Go is played on a grid board. The size of the board may vary depending on the players' preference. Some can be 19x19, 13x13, 9x9, etc.</board>
+  <pieces>There are two colored stones, black and white.</pieces>
+  <tomove>A move consists of the player putting one of their pieces on an empty intersection of the board.</tomove>
+  <towin>The first player to capture one or more pieces (depending on how many pieces you and your opponent want) wins.</towin>
+  <rules>The rules for Atari Go are similar to those of regular Go. The player with the black stones moves first. Both players alternatively move, however, once a stone is placed on the board, the player is not allowed to move it. The only way that stones can be moved is being captured. Capturing is when one f your or your opponent's piece is surrounded.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Go</name>
+      <description>description of variant is on Go page</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Capture Go</alternate>
+    <alternate>Capture Game</alternate>
+    <alternate>First Capture Go</alternate>
+    <alternate>Ponnuki-Go</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src = "atarigo_02.png" alt = "atari go" width = "200"]</picture>
+  </pictures>
+  <references/>
+  <links>
+    <link>
+      <url>http://361points.com/capturego/</url>
+      <description>The Game Of Go</description>
+    </link>
+    <link>
+      <url>http://www.cis.hut.fi/praiko/atarigo/</url>
+      <description>AtariGo For Palm</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Ofer Sadgat</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Dots And Boxes</name>
+  <code>dotsandboxes</code>
+  <history>The game of Dots and Boxes was studied extensively by Elwyn Berlekamp, who in the late 1960s presented the Dots and Boxes theorem at the University of Calgary. While the game is known as a popular children's game, it is actually very sophisticated in nature. A nim-like Sprague-Grundy theory can be applied to Dots and Boxes, which according to Berlekamp because the theory is suppose to only apply to disjoint impartial games. Dots and Boxes, which does not fit the typical mold of impartial games, where the players fight over the last move, also fails to be disjoint.</history>
+  <board>Any piece of paper where dots can be drawn maybe be used as a board.</board>
+  <pieces>Two different color pens.</pieces>
+  <tomove>Connect any vertical or horizontal line between the dots.</tomove>
+  <towin>To create the most boxes.</towin>
+  <rules>Players take turns connecting horizontal or vertical lines between dots. After winning one or more boxes, the player places another line. The player’s turn ends when he or she cannot make a box.</rules>
+  <strategies>
+    <strategy>
+      <name>Odd Advantage</name>
+      <description>An easy strategy to follow is to make sure that there is an odd number of moves left. Generally, the player to go first will have the advantage.</description>
+    </strategy>
+  </strategies>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Force your opponent into creating the most boxes.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="dotsandboxes_01.jpg" alt="dots and boxes" width="200"]</picture>
+    <picture>[img src="dotsandboxes_02.jpg" alt="dots and boxes" width="200"]</picture>
+    <picture>[img src="dotsandboxes_03.jpg" alt="dots and boxes" width="200"]</picture>
+  </pictures>
+  <references/>
+  <links>
+    <link>
+      <url>http://math.berkeley.edu/~berlek/cgt/dots.html</url>
+      <description>Berlekamp's Web Page On Dots And Boxes</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Brian Carnes</gamescrafter>
+  </gamescrafters>
+</game>

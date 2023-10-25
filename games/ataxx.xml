@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Ataxx</name>
+  <code>ataxx</code>
+  <history>Ataxx is a board game, originally named Infection and invented by Dave Crummack and Craig Galley in 1988. However, its first appearance was in 1990 as a arcade video game by Leland Corporation.</history>
+  <board>Ataxx is played on a 7x7 square grid, but the size may vary depending on the players. The initial position of the game consists of four pieces, one on each corner of the board (2 white pieces in the top left and bottom right corners, 2 black pieces in the top right and bottom left corners).</board>
+  <pieces>Black and white pieces, one color for each player.</pieces>
+  <tomove>During each turn, a player can chooses to either split or jump their pieces. Splitting consists of moving a piece to an adjacent available square in any direction. Splitting would split the players piece in two (this move would occupy both the original space and the new space that the piece is moved to). The jump move is moving a piece two squares away. Jumping does not split the player's piece, it just moves that piece to a different square. (see pics below for an example of both moves)</tomove>
+  <towin>The goal of the game is to have the majority of the pieces on the board by the end of the game.</towin>
+  <rules>The rules for Ataxx are similar to othello. The player with the white pieces moves first. During each player's turn, the player would either move their piece one or two spaces in any direction. If any of your opponent's pieces are next to your piece after you have moved, those pieces would convert to your pieces. The game ends when the board is completely filled.&#13;
+[img src="ataxx combine.png" alt="ataxx" width="600"]</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>to let your opponent get the most pieces</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Slime And Frog</alternate>
+    <alternate>Infection</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src = "ataxx_01.jpg" alt="ataxx" width="250"]</picture>
+  </pictures>
+  <references/>
+  <links>
+    <link>
+      <url>http://en.wikipedia.org/wiki/Ataxx</url>
+      <description>Ataxx - Wikipedia</description>
+    </link>
+    <link>
+      <url>http://vying.org/games/ataxx</url>
+      <description>Vying Games:Ataxx</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Max Delgadillo</gamescrafter>
+  </gamescrafters>
+</game>

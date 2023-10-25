@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Critical Mass</name>
+  <code>criticalmass</code>
+  <history></history>
+  <board>The 3x3 board contains cells. Each cell may have 0 or more pieces in them.</board>
+  <pieces>Two different colored pieces.</pieces>
+  <tomove>Place a piece into an open box that does not have the opponent's color.</tomove>
+  <towin>Completely remove all of your opponent's pieces.</towin>
+  <rules>Players alternate turns placing pieces into any box or cell that does not contain the opponent's color.[img src="cmassa.jpg" alt="default critical mass board" width="150"][img src="cmassb.jpg" alt="critical mass board" width="150"]If the cell or box becomes greater than or equal to the number of adjacent cells, then the cell will explode. When this occurs all the pieces in the box are removed except for one. The remaining pieces are distributed to each adjacent box and each box becomes the color of the player who caused the explosion.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>If you place your piece into an open box that does not have your opponent's piece you lose.</description>
+    </variant>
+    <variant>
+      <name>Board Size</name>
+      <description>Vary the size of the board.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>E.R.Berlekamp, J.H.Conway, R.K.Guy, Winning Ways for Your Mathematical Plays.London: Academic Press, 1982.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Brian Carnes</gamescrafter>
+  </gamescrafters>
+</game>
