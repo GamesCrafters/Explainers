@@ -199,7 +199,7 @@ $sidebarReprise = !empty($game);
     <div class="page-sidebar <?= $sidebarReprise ? 'page-sidebar-reprise' : '' ?>">
         <div class="page-sidebar-wrapper">
             <h2>Games</h2>
-            <h3>All games</h3>
+            <h3>All Games</h3>
             <ul>
                 <?php foreach ($gameCodeAndNames as $codeAndName) {
                     $code = $codeAndName[0];
@@ -207,7 +207,7 @@ $sidebarReprise = !empty($game);
                     ?><li><a href="?game=<?= $code ?>"><?= $name ?></a></li><?php
                 } ?>
             </ul>
-            <h3>All puzzles</h3>
+            <h3>All Puzzles</h3>
             <ul>
                 <!-- TODO: List puzzles -->
             </ul>
