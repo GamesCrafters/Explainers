@@ -3,15 +3,15 @@
     <name>3-SPOT</name>
     <code>3spot</code>
     <history/>
-    <board>The game is played on a 3x3 grid. The bottom 3 cells are point squares.[img src="a.svg" alt="a" width="300" height="300"]</board>
+    <board>The game is played on a 3-row, 3-column grid. The bottom 3 cells are point squares.[img src="a.svg" alt="a" width="300" height="300"]</board>
     <pieces>There are three rectangular pieces that each shall cover a 1-by-2 area of the board. The first player controls the blue piece. The second player controls the red piece. Both players control the white (neutral) piece.</pieces>
     <tomove>Move your colored piece (whichever of the blue or red piece you control) so that it covers a 1-by-2 area of the board such that at least one of the squares newly covered by your colored piece was not covered by it immediately before you moved it. Count the number of point squares covered by your colored piece, and add it to your score. Then, move the white piece such that it coveres a 1-by-2 area of the board such that at least one of the squares newly covered by the white piece was not covered by it immediately before you moved it.</tomove>
     <towin>Have fewer than 6 points while your opponent has at least 12 points, or have at least 12 points while your opponent has at least 6 points.</towin>
     <rules>
-        Both players' scores begin at 0. The pieces are initially arranged as follows: [img src="b.svg" alt="a" width="300" height="300"] As an example, suppose it is the first (blue) player's turn at the following position:[img src="c.svg" alt="a" width="300" height="300"]
-        The blue player first moves the blue piece. The blue player may decide, for example to move the blue piece to reach the following state:[img src="d.svg" alt="a" width="300" height="300"]
-        We count the number of point squares that the blue piece covers after the blue piece has moved. The blue piece covers one point square, so the blue player gains one point. Then the blue player must move the white piece.[img src="e.svg" alt="a" width="300" height="300"]
-        Point squares covered by the white piece do not count toward either player's score. It is now the red player's turn.
+        Both players' scores begin at 0. The pieces are initially arranged as follows: [img src="3spot.svg" alt="a" width="300" height="300"] As an example, suppose it is the first (blue) player's turn at the following position:[img src="c.svg" alt="a" width="300" height="300"]
+        The blue player first moves the blue piece. The blue player may decide, for example, to move the blue piece to reach the following state:[img src="d.svg" alt="a" width="300" height="300"]
+        We count the number of point squares that the blue piece covers after the blue piece has moved. The blue piece covers one point square, so the blue player gains one point. Then the blue player must move the white piece. The blue player may decide, for example, to move the white piece to reach the following position:[img src="e.svg" alt="a" width="300" height="300"]
+        Point squares covered by the white piece do not count toward A player's score. It is now the red player's turn.
     </rules>
     <strategy>
         <name>General</name>
@@ -20,7 +20,7 @@
     <variants>
         <variant>
             <name>Misere</name>
-            <description>Either (1) stay below 6 points and force your opponent to score at least 12 points or (2) score 12 points while keeping your opponent under 6 points.</description>
+            <description>Win by either (1) staying below 6 points and force your opponent to score at least 12 points or (2) scoring 12 points while keeping your opponent under 6 points.</description>
         </variant>
         <variant>
             <name>Optional Neutral Piece Move</name>

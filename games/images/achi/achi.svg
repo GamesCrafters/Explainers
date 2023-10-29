@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <path d="M10,10h80v80h-80zM10,10l80,80M90,10l-80,80M50,10v80M10,50h80" stroke-width="1.5" stroke="black"
+        fill="#d0f1f2" />
+
+    <radialGradient id="path1" cx="-107.6189" cy="-90.5162" r="10" fx="-109.6206" fy="-92.5178"
+        gradientTransform="matrix(1 0 0 1 159.5 142.5)" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#000" />
+        <stop offset="1" stop-color="#000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="path2" cx="-109.6189" cy="-92.5162" r="10" fx="-114.623" fy="-97.5203"
+        gradientTransform="matrix(1 0 0 1 159.5 142.5)" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#888888" />
+        <stop offset="0.5" stop-color="#5B5B5B" />
+        <stop offset="1" stop-color="#000000" />
+    </radialGradient>
+
+    <radialGradient id="path3" cx="-107.5" cy="190.5449" r="10" fx="-109.5" fy="188.55"
+        gradientTransform="matrix(1 0 0 -1 159.5 242.5)" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#000000" />
+        <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="path4" cx="-109.5" cy="192.55" r="10" fx="-114.5" fy="187.55"
+        gradientTransform="matrix(0 1 1 0 -142.5 159.5)" gradientUnits="userSpaceOnUse">
+        <stop offset="0" stop-color="#FFFFFF" />
+        <stop offset="0.5" stop-color="#DDDDDD" />
+        <stop offset="1" stop-color="#999999" />
+    </radialGradient>
+
+    <g transform="translate(20,20) scale(0.6)">
+        <path fill="url(#path1)" d="M61.9,52
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S61.9,46.5,61.9,52z" />
+        <path fill="url(#path2)" d="M59.9,50
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S59.9,44.5,59.9,50z" />
+    </g>
+
+    <g transform="translate(60,20) scale(0.6)">
+        <path fill="url(#path1)" d="M61.9,52
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S61.9,46.5,61.9,52z" />
+        <path fill="url(#path2)" d="M59.9,50
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S59.9,44.5,59.9,50z" />
+    </g>
+
+    <g transform="translate(-20,60) scale(0.6)">
+        <path fill="url(#path1)" d="M61.9,52
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S61.9,46.5,61.9,52z" />
+        <path fill="url(#path2)" d="M59.9,50
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S59.9,44.5,59.9,50z" />
+    </g>
+
+    <g transform="translate(60,60) scale(0.6)">
+        <path style="fill:url(#path3);" d="M62,52
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S62,46.4,62,52z" />
+        <path style="fill:url(#path4);" d="M50,60
+            c-5.5,0-10-4.5-10-10s4.5-10,10-10s10,4.5,10,10S55.6,60,50,60z" />
+    </g>
+
+    <g transform="translate(-20,-20) scale(0.6)">
+        <path style="fill:url(#path3);" d="M62,52
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S62,46.4,62,52z" />
+        <path style="fill:url(#path4);" d="M50,60
+            c-5.5,0-10-4.5-10-10s4.5-10,10-10s10,4.5,10,10S55.6,60,50,60z" />
+    </g>
+
+    <g transform="translate(20,-20) scale(0.6)">
+        <path style="fill:url(#path3);" d="M62,52
+            c0,5.5-4.5,10-10,10s-10-4.5-10-10s4.5-10,10-10S62,46.4,62,52z" />
+        <path style="fill:url(#path4);" d="M50,60
+            c-5.5,0-10-4.5-10-10s4.5-10,10-10s10,4.5,10,10S55.6,60,50,60z" />
+    </g>
+</svg>

@@ -145,6 +145,7 @@ $sidebarReprise = !empty($game);
                             <?php
                             $extension = '';
                             if (file_exists("$rootDir/games/i/$code/$code.png")) $extension = "png";
+                            else if (file_exists("$rootDir/games/i/$code/$code.svg")) $extension = "svg";
                             else if (file_exists("$rootDir/games/i/$code/$code.jpg")) $extension = "jpg";
                             else if (file_exists("$rootDir/games/i/$code/$code.jpeg")) $extension = "jpeg";
                             else if (file_exists("$rootDir/games/i/$code/$code.gif")) $extension = "gif";

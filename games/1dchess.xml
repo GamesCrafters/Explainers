@@ -4,7 +4,7 @@
     <code>1dchess</code>
     <history/>
     <board>The game is played on a 1-row, 8-column chessboard.</board>
-    <pieces>The first player has a white king, knight, and rook. The second player has a black king, knight, and rook. The pieces are initially arranged as follows...[img src="a.svg" alt="a" width="400" height="50"]</pieces>
+    <pieces>The first player has a white king, knight, and rook. The second player has a black king, knight, and rook. The pieces are initially arranged as follows:[img src="1dchess.svg" alt="a" width="400" height="50"]</pieces>
     <tomove>A player chooses one of their pieces to move on their turn. A piece may not move to a space that is occupied by a piece of its own color. A capture occurs when a piece moves to a space occupied by an enemy piece, thereby removing the enemy piece from the board. A king may move one space left or right. A rook may move to any space as long as every space between the departure and destination spaces is unoccupied. A knight moves two spaces left or right, regardless of whether there is a piece between the departure and destination spaces.</tomove>
     <towin>A king is in check if either (1) there are only empty spaces between it and the enemy rook or (2) the enemy knight is two spaces away from it. At the end of a player's turn, their own king must neither be in check nor next to the enemy king. If a player's king is in check and cannot get out of check, then it is checkmated and the player loses.</towin>
     <rules>A draw by stalemate occurs if a player has no legal moves but their king is not in check. A draw by insufficient material occurs when all non-king pieces have been captured. There is no castling.</rules>
