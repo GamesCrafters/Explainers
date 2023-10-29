@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
-  <name>Bagh Chal</name>
+  <name>Bagh-Chal</name>
   <code>baghchal</code>
-  <history>Bagh Chal, which means "Change of Tigers" or "Tigers Moves", originates from the country of Nepal. As the country's national game, Bagh Chal was created by Himalayan herders, whose job the game resembles. The game, which has been played for more than a thousand years, is played by some shepherds on a grid scrapped into dirt with stones used as bagh (tigers) and pebbles symbolizing bakhri (goats).</history>
-  <board>The square board is a five by five point grid, with intersecting diagonal lines. During setup, the tigers are placed on the four corners of the board. Goats are not placed onto the board until the first phase.</board>
-  <pieces>20 Goats and 4 Tigers</pieces>
-  <tomove>Tigers may leap over the goat to capture it. Once the goat is captured, it is removed from the board.</tomove>
-  <towin>If you are a tiger, you must capture five goats. For the goat to win, they must protect themselves by surrounding the tigers so that they are unable to move.</towin>
-  <rules>The game is played in two phases. During the first phase, goats are placed on the board by one player, while the tigers move from their initial position in the four corners of the board. During the second phase, both tigers and goats move. The player with the goats moves first by placing a piece on an empty intersection. The play then alternates to the tiger, which is allowed to move into an open adjacent position along the lines of the board. Play continues until all the goats are placed on the board. If possible during phase one, a tiger may capture a goat by jumping over it to an empty adjacent spot. When a goat is captured, it is removed from the board. Jumps can occur in any direction except backwards as long as the jump is to an open spot next to the goat. Tigers are not allowed to jump over their own pieces. During phase two or takedown, goats are allowed to move to an empty adjacent point along the lines of the board.</rules>
+  <history>Bagh-Chal, which means "Change of Tigers" or "Tigers' Moves", originates from Nepal. As the country's national game, Bagh-Chal was created by Himalayan herders, whose job the game resembles. The game, which has been played for more than a thousand years, is played by some shepherds on a grid scrapped into dirt with stones used as bagh (tigers) and pebbles symbolizing bakhri (goats).</history>
+  <board>The game is played on a board with 25 intersection points and lines indicating how pieces can travel among these points.</board>
+  <pieces>The first (GOATS) player plays with twenty goats and the second (TIGERS) player plays with four tigers. The tigers are placed at the corners of the board at the start of the game, as shown below.[img src="a.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove/>
+  <towin>The TIGERS player wins if five goats are captured. The GOATS player wins if the TIGERS player has no legal moves.</towin>
+  <rules>The moves available to the GOATS player depend on whether there are still goats to place. If not all twenty goats have been placed, then the GOATS player shall place one of their goats on an empty point. If all goats have been placed, then the GOATS player shall move one of the goats on the board to an adjacent unoccupied point.[img src="baghchal.svg" alt="a" width="300" height="300"] On their turn, the TIGERS player either (1) moves one tiger to an adjacent unoccupied point OR (2) performs a goat capture by having one tiger jump over a goat to an unoccupied point, after which that goat is removed from the board and cannot be placed again. Only one goat may be captured at a time. A tiger may not jump over another tiger. In the above example, the rightmost tiger may jump over the goat below it in order to capture it.
+  </rules>
   <strategies/>
   <variants/>
   <alternates/>
@@ -15,8 +16,7 @@
   <references/>
   <links/>
   <gamescrafters>
-    <gamescrafter>Max Delgadillo</gamescrafter>
-    <gamescrafter>Deepa Mahajan</gamescrafter>
-    <gamescrafter>Damian Hites</gamescrafter>
+    <gamescrafter>Max Delgadillo, Deepa Mahajan, Damian Hites (Original Bagh-Chal GamesmanClassic code that current code took inspiration from.)</gamescrafter>
+    <gamescrafter>Cameron Cheung (Solving, GamesmanUni GUI)</gamescrafter>
   </gamescrafters>
 </game>
