@@ -1,9 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <game>
-    <link type="text/css" rel="stylesheet" id="dark-mode-custom-link"/>
-    <link type="text/css" rel="stylesheet" id="dark-mode-general-link"/>
-    <style lang="en" type="text/css" id="dark-mode-custom-style"/>
-    <style lang="en" type="text/css" id="dark-mode-native-style"/>
-    <style lang="en" type="text/css" id="dark-mode-native-sheet"/>
     <name>1D Chess</name>
     <code>1dchess</code>
     <history/>
@@ -13,12 +9,7 @@
     <towin>A player wins when they checkmate the opponent's king. Note that draws by stalemate are possible. For example, stalemate can be achieved in one move if white captures black's rook.</towin>
     <rules>There is no castling.</rules>
     <strategies/>
-    <variants>
-        <variant>
-            <name>End State</name>
-            <description>The final state can be a number other than 10.</description>
-        </variant>
-    </variants>
+    <variants/>
     <alternates/>
     <pictures/>
     <references/>
