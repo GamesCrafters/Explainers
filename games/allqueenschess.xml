@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>All Queens Chess</name>
+    <code>allqueenschess</code>
+    <history/>
+    <board>The game is played on 5-row, 5-column chessboard.</board>
+    <pieces>The first player has six white queens. The second player has six black queens. The queens are arranged as follows at the start of the game.[img src="allqueenschess.svg" alt="aqc" width="500" height="500"]</pieces>
+    <tomove>Move one of your queens as you would in chess, except that you may not capture pieces.<tomove>
+    <towin>Be the first to arrange four or five of your queens in a vertical, horizontal, or diagonal line.<towin>
+    <rules/>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Andrew Esteban (Backend, Solving)</gamescrafter>
+        <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
