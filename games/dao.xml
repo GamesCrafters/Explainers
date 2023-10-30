@@ -2,14 +2,12 @@
 <game>
   <name>Dao</name>
   <code>dao</code>
-  <history>Dao is a simple puzzle game that involves moving a counter one or two spaces. Due to the lack of documentation when Dao was created, there is currently no information as to how this game came into existence. The company that made the game was Reveal Entertainment, Inc.</history>
-  <board>The game is played on a 4 x 4 dimensional playing board. The official board that was made for Dao by Reveal Entertainment is a white and gold board with 16 yin and yang spots to place the pieces.</board>
-  <pieces>The official pieces made by Reveal Entertainment are two sets of 4 pieces of black and gold colors. Some variant types of pieces of the game may include anything from black and red checkers to pennies and nickels. As long as the two sets are of different color, any different types of pieces are valid.</pieces>
-  <tomove>Each player’s pieces have to move (one piece per turn) as many "open" positions that are available to them.</tomove>
-  <towin>To win, the player can either form a straight line with 4 of their own pieces, occupy the four corners of the board, or forming a 2 x 2 square with their pieces anywhere on the playing board.</towin>
-  <rules>The beginning setup is that each player will form an "X" that is aligned "diagonally" from the corners of the board. Dao will be played on a 4 x 4 dimensional board where each player will take turns moving their colored pieces in a straight line towards any available, or "open", positions including diagonally. Players are not allowed to jump over their opponents pieces or enter a position that is already occupied. The objective of this game is for each player to move their pieces as far as possible during each turn, till their pieces reach the end of the board or till their pieces reach another one of own pieces. During each turn, players has to move as many spaces as there are "open" positions in their path (i.e. if there are 3 "open" spaces in Player 1’s direction, Player 1 must move 3 spaces).&#13;
-A player is declared the victor if any of these following conditions is met:&#13;
--Forming a straight line with all 4 of their pieces (diagonal lines do not count).</rules>
+  <history>Due to the lack of documentation when Dao was created, there is currently no information as to how this game came into existence. The company that made the game was Reveal Entertainment, Inc.</history>
+  <board>Dao is played on a 4-row, 4-column grid.</board>
+  <pieces>The first player has four light-colored pieces and the second player has four dark-colored pieces. At the start of the game, the light pieces lie along the main diagonal and the dark pieces lie along the antidiagonal.[img src="dao.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove>A player chooses one of their pieces to move on their turn. A piece may move in any of eight directions (north, northeast, east, southeast, south, southwest, west, or northwest) as long as there is an unoccupied space adjacent to the piece's departure space in that direction. A piece being moved must be relocated to the farthest unoccupied space in the chosen direction that can be reached from its departure space without jumping over another piece. A piece moving diagonally is not “blocked” by pieces on adjacent diagonals.</tomove>
+  <towin>A player wins when they either (1) form a vertical or horizontal four-in-a-row of their own pieces, (2) occupy the four corners of the board, or (3) form a 2-by-2 square of their pieces anywhere on the board. The game does not end when a diagonal four-in-a-row is created.</towin>
+  <rules/>
   <strategies/>
   <variants/>
   <alternates/>
@@ -30,6 +28,6 @@ A player is declared the victor if any of these following conditions is met:&#13
     </link>
   </links>
   <gamescrafters>
-    <gamescrafter>Dan Garcia</gamescrafter>
+    <gamescrafter>Dan Garcia (Backend, Solving)</gamescrafter>
   </gamescrafters>
 </game>

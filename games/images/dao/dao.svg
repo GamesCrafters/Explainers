@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="BackgroundSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+    <path d="M0,0h40v40h-40z" stroke="#000" stroke-width="0.5" fill="#D8D9DA"/>
+    <path d="M0,10h40M0,20h40M0,30h40M10,0v40M20,0v40M30,0v40" stroke="#000" stroke-width="0.25"/>
+    <g fill="#000">
+        <circle cx="35" cy="5" r="4.5"/>
+        <circle cx="25" cy="15" r="4.5"/>
+        <circle cx="15" cy="25" r="4.5"/>
+        <circle cx="5" cy="35" r="4.5"/>
+    </g>
+    <g fill="#fff">
+        <circle cx="5" cy="5" r="4.5"/>
+        <circle cx="15" cy="15" r="4.5"/>
+        <circle cx="25" cy="25" r="4.5"/>
+        <circle cx="35" cy="35" r="4.5"/>
+    </g>
+</svg>

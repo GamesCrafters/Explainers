@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
-  <name>Bagh-Chal</name>
-  <code>baghchal</code>
+  <name>Beeline</name>
+  <code>beeline</code>
   <history>Bagh-Chal, which means "Change of Tigers" or "Tigers' Moves", originates from Nepal. As the country's national game, Bagh-Chal was created by Himalayan herders, whose job the game resembles. The game, which has been played for more than a thousand years, is played by some shepherds on a grid scrapped into dirt with stones used as bagh (tigers) and pebbles symbolizing bakhri (goats).</history>
   <board>The game is played on a hexagonal tiling, as shown in the following image:[img src="a.svg" alt="a" width="300" height="300"]</board>
   <pieces>Each player controls three bees. The bees are placed at the ends of board at the start of the game, as in the following image:[img src="beeline.svg" alt="a" width="300" height="300"]</pieces>
