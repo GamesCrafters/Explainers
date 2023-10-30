@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="BackgroundSVG" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 144">
+    <defs>
+        <path id="h" d="M40 20 l-10,17.3 l-20,0 l-10,-17.3 l10,-17.3 l20,0 l10,17.3 z" fill="#fac45f" stroke="black" stroke-width="2"/>
+    </defs>
+
+    <use href="#h" x="100" y="0"/>
+    <use href="#h" x="70" y="17.3"/>
+    <use href="#h" x="130" y="17.3"/>
+    <use href="#h" x="40" y="34.6"/>
+    <use href="#h" x="100" y="34.6"/>
+    <use href="#h" x="160" y="34.6"/>
+    <use href="#h" x="10" y="51.9"/>
+    <use href="#h" x="70" y="51.9"/>
+    <use href="#h" x="130" y="51.9"/>
+    <use href="#h" x="190" y="51.9"/>
+    <use href="#h" x="40" y="69.2"/>
+    <use href="#h" x="100" y="69.2"/>
+    <use href="#h" x="160" y="69.2"/>
+    <use href="#h" x="70" y="86.5"/>
+    <use href="#h" x="130" y="86.5"/>
+    <use href="#h" x="100" y="103.8"/>
+</svg>
