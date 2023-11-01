@@ -3,11 +3,11 @@
   <name>Change!</name>
   <code>change</code>
   <history></history>
-  <board>The game is played on network of fourteen points, as shown in the folloiwng image:[img src="a.svg" alt="a" width="300" height="300"]</board>
+  <board>The game is played on a network of fourteen points, as shown in the following image:[img src="a.svg" alt="a" width="300" height="300"]</board>
   <pieces>The first player controls three blue pieces and the second player controls three red pieces. The pieces are initially arranged as shown in the following image:[img src="change.svg" alt="a" width="300" height="300"] The spaces that are occupied by the pieces at the start of the game are referred to as "home spaces".</pieces>
-  <tomove>Move one of your pieces in straight line forward (i.e., towards your opponent's home spaces) by as many spaces as you would like, as long as there are no pieces in the way. A piece may not move backward (towards your home spaces), jump, or turn corners.</tomove>
+  <tomove>Move one of your pieces in a straight line forward (i.e., towards your opponent's home spaces) as many spaces as you would like, as long as there are no pieces in the way. A piece may not move backward (towards your home spaces), jump, or turn corners.</tomove>
   <towin>Occupy your opponent's home spaces or trap your opponent's pieces (i.e., leave them without legal moves).</towin>
-  <rules>In the below example position, if it is red's turn, the topmost red piece can move either northwest 1 or 2 spaces or southwest 1, 2, or 3 spaces. The bottommost red piece cannot move because it is blocked by other pieces.[img src="c.svg" alt="a" width="300" height="300"]</rules>
+  <rules>In the below example position, if it is red's turn, the topmost red piece can move either northwest one or two spaces or southwest one, two, or three spaces. The bottommost red piece cannot move because it is blocked by other pieces.[img src="c.svg" alt="a" width="300" height="300"]</rules>
   <strategies/>
   <variants>
     <variant>
@@ -16,7 +16,7 @@
     </variant>
     <variant>
       <name>Strategy</name>
-      <description>Alter whether or not trapping is a win or loss.</description>
+      <description>Whether or not trapping is a win or loss.</description>
     </variant>
   </variants>
   <alternates/>

@@ -2,7 +2,7 @@
 <game>
   <name>Dao</name>
   <code>dao</code>
-  <history>Due to the lack of documentation when Dao was created, there is currently no information as to how this game came into existence. The company that made the game was Reveal Entertainment, Inc.</history>
+  <history>Dao is a game created by Reveal Entertainment, Inc.</history>
   <board>Dao is played on a 4-row, 4-column grid.</board>
   <pieces>The first player has four light-colored pieces and the second player has four dark-colored pieces. At the start of the game, the light pieces lie along the main diagonal and the dark pieces lie along the antidiagonal.[img src="dao.svg" alt="a" width="300" height="300"]</pieces>
   <tomove>A player chooses one of their pieces to move on their turn. A piece may move in any of eight directions (north, northeast, east, southeast, south, southwest, west, or northwest) as long as there is an unoccupied space adjacent to the piece's departure space in that direction. A piece being moved must be relocated to the farthest unoccupied space in the chosen direction that can be reached from its departure space without jumping over another piece. A piece moving diagonally is not “blocked” by pieces on adjacent diagonals.</tomove>

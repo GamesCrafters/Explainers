@@ -2,21 +2,21 @@
 <game>
   <name>Sim</name>
   <code>sim</code>
-  <history>Sim, like many pencil and paper type games was probably passed on by word of mouth. Unfortunately, when this occurs some information about the game is lost, including the author of the game.</history>
-  <board>Draw six dots and connect all of the dots to each other with a line. The shape of the board after connecting the outer dots will be a hexagon.</board>
-  <pieces>Two different color pens to mark the lines.</pieces>
-  <tomove>Form a line by connecting any two dots with your color.</tomove>
-  <towin>Force your opponent to complete a triangle with his own color.</towin>
-  <rules>Also known as Honeycomb, Sim can be finished in less than 15 moves. The game starts out with six dots or vertices. Each dot is connected to the other dots by a neutral line, forming a honeycomb pattern. Players take turns connecting 2 of the 6 dots with their color by coloring one of the neutral lines. A line cannot be drawn or colored twice. The objective of Sim is to force your opponent to form a triangle with their color. This does not include the small triangles that are formed within the honeycomb. Rather, the triangle must be created by connecting 3 of the outer vertices with one color. The first player will always lose while the second player may win if the game is played perfectly.</rules>
+  <history>Sim, like many pencil-and-paper games, was probably passed on by word of mouth. Unfortunately, when this occurs some information about the game is lost, including the creator of the game.</history>
+  <board/>
+  <pieces/>
+  <tomove>Draw a colored line/edge between two dots/vertices that are not yet connected by a colored edge.</tomove>
+  <towin>A player wins when their opponent creates a triangle whose sides are all the same color.</towin>
+  <rules>Draw 6 dots/vertices. The first player draws blue lines and the second player draws red lines. Each player takes turns drawing an edge between two dots that do not yet have an edge drawn between them. A line cannot be drawn or colored twice.[img src="sim.svg" alt="a" width="300" height="300"]A player loses when they create a triangle whose sides are all the same color. Specifically, this triangle must be one whose vertices are three of the six original dots; any triangles with a vertex that is an intersection of two drawn lines that is not one of the original six vertices does not count. In the above example, the player drawing blue lines loses because they created a triangle whose sides are all blue.</rules>
   <strategies/>
   <variants>
     <variant>
       <name>Misere</name>
-      <description>To complete a triangle of your own color before your opponent.</description>
+      <description>The objective is to complete a triangle of your own color before your opponent does.</description>
     </variant>
     <variant>
       <name>Heptagon</name>
-      <description>If the players want to start with a 7 point board, then 3 people can play. After each round, players rotate who goes first. If players do not rotate at the end of each round, the first player has a disadvantage.</description>
+      <description>Each player colors edges of a 7-vertex complete graph.</description>
     </variant>
   </variants>
   <alternates/>
@@ -26,10 +26,11 @@
   </references>
   <links/>
   <gamescrafters>
-    <gamescrafter>Dan Garcia</gamescrafter>
-    <gamescrafter>Atilla Gyulassy</gamescrafter>
-    <gamescrafter>Alex Perelman</gamescrafter>
-    <gamescrafter>Sunil Ramesh</gamescrafter>
-    <gamescrafter>Peter Trethewey</gamescrafter>
+    <gamescrafter>Dan Garcia (Backend, Solving)</gamescrafter>
+    <gamescrafter>Sunil Ramesh (Backend, Solving)</gamescrafter>
+    <gamescrafter>Atilla Gyulassy (Backend, Solving)</gamescrafter>
+    <gamescrafter>Alex Perelman (Backend, Solving)</gamescrafter>
+    <gamescrafter>Peter Trethewey (GamesmanClassic Sim Tcl/Tk)</gamescrafter>
+    <gamescrafter>Cameron Cheung (Current GamesmanUni CustomGUI)</gamescrafter>
   </gamescrafters>
 </game>
