@@ -7,7 +7,7 @@
     <pieces/>
     <tomove/>
     <towin/>
-    <rules>The initial value is 0.[br]Players take turns adding either 1 or 2 to the current value. You may not add a number to the current value if the resulting value will be greater than 10, e.g., you may not add 2 if the current value is 9.[br]You win if you add either 1 or 2 to the current value and the resulting value is 10.</rules>
+    <rules>The initial value is 0.[br]Players take turns adding either 1 or 2 to the current value.[br]You may not add a number to the current value if the resulting value will be greater than 10, e.g., you may not add 2 if the current value is 9.[br]You win if you add either 1 or 2 to the current value and the resulting value is 10.</rules>
     <strategies/>
     <variants>
         <variant>
