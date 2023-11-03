@@ -2,12 +2,12 @@
 <game>
   <name>Sim</name>
   <code>sim</code>
-  <history>Sim, like many pencil-and-paper games, was probably passed on by word of mouth. Unfortunately, when this occurs some information about the game is lost, including the creator of the game.</history>
+  <history/>
   <board/>
   <pieces/>
-  <tomove>Draw a colored line/edge between two dots/vertices that are not yet connected by a colored edge.</tomove>
-  <towin>A player wins when their opponent creates a triangle whose sides are all the same color.</towin>
-  <rules>Draw 6 dots/vertices. The first player draws blue lines and the second player draws red lines. Each player takes turns drawing an edge between two dots that do not yet have an edge drawn between them. A line cannot be drawn or colored twice.[img src="sim.svg" alt="a" width="300" height="300"]A player loses when they create a triangle whose sides are all the same color. Specifically, this triangle must be one whose vertices are three of the six original dots; any triangles with a vertex that is an intersection of two drawn lines that is not one of the original six vertices does not count. In the above example, the player drawing blue lines loses because they created a triangle whose sides are all blue.</rules>
+  <tomove/>
+  <towin/>
+  <rules>The game starts with six dots/vertices.[br]The first player, on their turn, draws a blue line between two dots that do not yet have a line drawn between them. The second player, on their turn, draws a red line between two dots that do not yet have a line drawn between them. An edge between two dots may not be drawn or colored twice.[br]A player loses when they create a triangle whose sides are all the same color. Specifically, this triangle must be one whose vertices are three of the six original dots; any triangles with a vertex that is an intersection of two drawn lines that is not one of the original six vertices does not count.[img src="sim.svg" alt="a" width="300" height="300"]In the above example, the player drawing blue lines loses because they created a triangle whose sides are all blue.</rules>
   <strategies/>
   <variants>
     <variant>

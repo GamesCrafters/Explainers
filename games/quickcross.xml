@@ -12,11 +12,7 @@
   <variants>
     <variant>
       <name>Misere</name>
-      <description>To force your opponent into getting four in a row either vertically, horizontally or diagonally.</description>
-    </variant>
-    <variant>
-      <name>Corners And Diagonals</name>
-      <description>The player to score all four corners or diagonals wins.</description>
+      <description>The objective is to force your opponent to create a horizontal, vertical, or diagonal line of four chips of the same orientation.</description>
     </variant>
   </variants>
   <alternates/>

@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 10">
-    <path d="M0,0h80v10h-80z" fill="#FEC595" />
-    <path d="M0,0h10v10h-10zM20,0h10v10h-10zM40,0h10v10h-10zM60,0h10v10h-10z" fill="#C97D41" />
-
+    <path d="M0,0h80v10h-80z" fill="#FEC595" /><path d="M0,0h10v10h-10zM20,0h10v10h-10zM40,0h10v10h-10zM60,0h10v10h-10z" fill="#C97D41" />
     <g fill="#fff" stroke="#000" stroke-width="1.5" transform="translate(-0.1,0) scale(0.2222)">
         <path d="M22.5 11.63V6M20 8h5" stroke-linecap="round" />
         <path d="M22.5 25s4.5-7.5 3-10.5c0 0-1-2.5-3-2.5s-3 2.5-3 2.5c-1.5 3 3 10.5 3 10.5" />
@@ -18,7 +16,6 @@
         <path d="M 15 15.5 A 0.5 1.5 0 1 1  14,15.5 A 0.5 1.5 0 1 1  15 15.5 z"
             transform="matrix(0.866,0.5,-0.5,0.866,9.693,-5.173)" />
     </g>
-
     <g style="fill:#fff;stroke:#000;stroke-width:1.5;stroke-linecap:round;"
         transform="translate(20,0.3) scale(0.2222)">
         <path d="M 9,39 L 36,39 L 36,36 L 9,36 L 9,39 z " />
@@ -29,7 +26,6 @@
         <path d="M 31,29.5 L 32.5,32 L 12.5,32 L 14,29.5" />
         <path d="M 11,14 L 34,14" />
     </g>
-
     <g style="stroke:#000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;"
         transform="translate(50,0.3) scale(0.2222)">
         <path d="M 9,39 L 36,39 L 36,36 L 9,36 L 9,39 z "/>
@@ -44,7 +40,6 @@
         <path d="M 14,16.5 L 31,16.5" style="stroke:#ffffff; stroke-width:1;" />
         <path d="M 11,14 L 34,14" style="stroke:#ffffff; stroke-width:1;" />
     </g>
-
     <g style="fill:#000;stroke:#000;stroke-width:1.5;" transform="translate(60,0.3) scale(0.2222)">
         <path d="M 22,10 C 32.5,11 38.5,18 38,39 L 15,39 C 15,30 25,32.5 23,18" style="stroke:#000000;" />
         <path
@@ -58,7 +53,6 @@
             d="M 24.55,10.4 L 24.1,11.85 L 24.6,12 C 27.75,13 30.25,14.49 32.5,18.75 C 34.75,23.01 35.75,29.06 35.25,39 L 35.2,39.5 L 37.45,39.5 L 37.5,39 C 38,28.94 36.62,22.15 34.25,17.66 C 31.88,13.17 28.46,11.02 25.06,10.5 L 24.55,10.4 z "
             style="fill:#ffffff; stroke:none;" />
     </g>
-
     <g style="stroke:#000000; stroke-width:1.5; stroke-linecap:round;" transform="translate(69.9,0) scale(0.2222)">
         <path d="M 22.5,11.63 L 22.5,6" />
         <path

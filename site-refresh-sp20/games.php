@@ -53,8 +53,8 @@ function renderString($str, $allowBlockElements = false) {
 
     // Empty paragraphs
     $replaced = preg_replace(
-        "/<p>(<br>)*<\/p>/",
-        "",
+        "/\[br\]/",
+        "</p><p>",
         $replaced);
 
     echo $replaced;

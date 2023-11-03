@@ -7,16 +7,16 @@
     <pieces/>
     <tomove/>
     <towin/>
-    <rules>The initial value is 0. Players take turns adding either 1 or 2 to the current value. You may not add a number to the current value if the resulting value will be greater than 10, e.g., you may not add 2 if the current value is 9. You win if you add either 1 or 2 to the current value and the resulting value is 10.</rules>
+    <rules>The initial value is 0.[br]Players take turns adding either 1 or 2 to the current value. You may not add a number to the current value if the resulting value will be greater than 10, e.g., you may not add 2 if the current value is 9.[br]You win if you add either 1 or 2 to the current value and the resulting value is 10.</rules>
     <strategies/>
     <variants>
         <variant>
-            <name>End State</name>
-            <description>The final state can be a number other than 10.</description>
+            <name>Start and End State</name>
+            <description>The initial state can be a number other than 0 and the final state can be a number other than 10.</description>
         </variant>
         <variant>
             <name>Addend Set</name>
-            <description>Players can add any number from an arbitrary set of numbers.</description>
+            <description>Players can choose any number from an arbitrary set of numbers to add to the current value.</description>
         </variant>
     </variants>
     <alternates/>

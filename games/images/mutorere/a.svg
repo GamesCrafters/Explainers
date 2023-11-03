@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="mtore" viewBox="-50 -50 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="0" cy="0" r="50" fill="#CFCFCF"/>
+    <g fill="#000"><circle cx="0" cy="0" r="2"/><circle cx="-17" cy="41.0416" r="2"/><circle cx="-41.0416" cy="17" r="2"/><circle cx="-17" cy="-41.0416" r="2"/><circle cx="17" cy="-41.0416" r="2"/><circle cx="41.0416" cy="-17" r="2"/><circle cx="41.0416" cy="17" r="2"/><circle cx="17" cy="41.0416" r="2"/><circle cx="-41.0416" cy="-17" r="2"/></g>
+    <path d="M17,41.0416L-17,41.0416L-41.0416,17L-41.0416,-17L-17,-41.0416L17,-41.0416L41.0416,-17L41.0416,17zL-17,-41.0416M17,-41.0416L-17,41.0416M41.0416,-17L-41.0416,17M41.0416,17L-41.0416,-17" stroke="#000" fill="none"/>
+</svg>

@@ -3,11 +3,11 @@
   <name>Connect 4</name>
   <code>connect4</code>
   <history>Connect 4 or Four-in-a-Row has its roots in Tic-Tac-Toe. The object of the game is to get four pieces in a row. Four-in-a-Row also adds the element of restricted placement by requiring the players to "drop" the pieces vertically down the board. In the United States, this game was popularized under the name "Connect Four", which was first coined by Milton Bradley Company in 1974. The company was founded by Milton Bradley in Springfield, Massachusetts in 1860. The company is known for its contributions in the board game and video game industries.</history>
-  <board>The official playing board is a 6-row, 7-column plastic game board with slots in the middle to place the pieces into. There is also a switch at the right and left hand side of the board that is used to release the pieces from their slots thus resetting the board.</board>
+  <board>Connect 4 is played on a standing 6-row, 7-column plastic grid with slots at the tops of the columns to drop pieces into.</board>
   <pieces>The first player has 21 checkers of one color to place and the second player has 21 checkers of another color to place.</pieces>
-  <tomove>Choose a column in which to place a checker. The checker will fall to the lowest available space in that column. Each column can hold at most six checkers.</tomove>
-  <towin>Be the first to create a horizontal, diagonal, or vertical line of four or more pieces. In the following example position, the blue player has created a horizontal four-in-a-row and won.[img src="connect4.svg" alt="a" width="300" height="300"]</towin>
-  <rules>If all columns are filled and there are no four-in-a-rows, the game is a tie.</rules>
+  <tomove>Place a checker in any column containing fewer than 6 pieces. The checker will fall to the lowest available space in that column.</tomove>
+  <towin>Be the first to create a horizontal, diagonal, or vertical line of four or more pieces.</towin>
+  <rules>In the following example position, the blue player has won by creating a horizontal line of four blue checkers.[img src="connect4.svg" alt="a" width="300" height="300"]If all columns are filled and there are no four-in-a-rows, the game is a tie.</rules>
   <strategies>
     <strategy>
       <name>Beginner</name>
@@ -15,17 +15,17 @@
     </strategy>
     <strategy>
       <name>Advanced</name>
-      <description>A key strategy to win is by making two simultaneous threats for the opponent. Usually this involves connecting three discs to prevent the opponent from having an advantage in that column. Also, remember that discs placed in the middle are more valuable then those place on the sides because players have more chances of creating four in a row with them.</description>
+      <description>A key strategy to win is by making two simultaneous threats for the opponent. Usually, this involves connecting three checkers to prevent the opponent from having an advantage in that column. In addition, checkers placed in the center column are more valuable then those place on the sides because players have more opportunities to create four-in-a-rows with them.</description>
     </strategy>
   </strategies>
   <variants>
     <variant>
       <name>Misere</name>
-      <description>To force your opponent into getting three in a row.</description>
+      <description>The objective is to force your opponent to get a four-in-a-row.</description>
     </variant>
     <variant>
       <name>(m, n, k) Game</name>
-      <description>The game can be played on a m-row, n-column grid with the objective of forming a k-in-a-row.</description>
+      <description>Generalization: The game can be played on an m-row, n-column grid with the objective of forming a k-in-a-row.</description>
     </variant>
   </variants>
   <alternates>

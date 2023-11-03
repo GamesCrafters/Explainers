@@ -23,23 +23,7 @@
             </g>
         </g>
     </defs>
-
-    <use href="#h" x="100" y="0"/>
-    <use href="#h" x="70" y="17.3"/>
-    <use href="#h" x="130" y="17.3"/>
-    <use href="#h" x="40" y="34.6"/>
-    <use href="#h" x="100" y="34.6"/>
-    <use href="#h" x="160" y="34.6"/>
-    <use href="#h" x="10" y="51.9"/>
-    <use href="#h" x="70" y="51.9"/>
-    <use href="#h" x="130" y="51.9"/>
-    <use href="#h" x="190" y="51.9"/>
-    <use href="#h" x="40" y="69.2"/>
-    <use href="#h" x="100" y="69.2"/>
-    <use href="#h" x="160" y="69.2"/>
-    <use href="#h" x="70" y="86.5"/>
-    <use href="#h" x="130" y="86.5"/>
-    <use href="#h" x="100" y="103.8"/>
+    <use href="#h" x="100" y="0"/><use href="#h" x="70" y="17.3"/><use href="#h" x="130" y="17.3"/><use href="#h" x="40" y="34.6"/><use href="#h" x="100" y="34.6"/><use href="#h" x="160" y="34.6"/><use href="#h" x="10" y="51.9"/><use href="#h" x="70" y="51.9"/><use href="#h" x="130" y="51.9"/><use href="#h" x="190" y="51.9"/><use href="#h" x="40" y="69.2"/><use href="#h" x="100" y="69.2"/><use href="#h" x="160" y="69.2"/><use href="#h" x="70" y="86.5"/><use href="#h" x="130" y="86.5"/><use href="#h" x="100" y="103.8"/>
     <g>
         <use href="#b" x="30" y="74"/>
         <use href="#f" x="30" y="74"/>
@@ -51,8 +35,7 @@
         values="0,0;0,0;0,0;0,0;0,0;0,0;0,0;30,17.32;30,17.32;30,17.32;30,17.32;30,17.32;30,17.32;30,17.32;"
         repeatCount="indefinite"/>
     </g>
-    <use href="#b" x="60" y="57"/>
-    <use href="#f" x="60" y="57"/>
+    <use href="#b" x="60" y="57"/><use href="#f" x="60" y="57"/>
     <g>
         <use href="#b" x="60" y="91"/>
         <use href="#f" x="60" y="91"/>
@@ -64,8 +47,7 @@
         values="0,0;0,0;0,0;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;90,-51.96;"
         repeatCount="indefinite"/>
     </g>
-    <use href="#r" x="210" y="74"/>
-    <use href="#f" x="210" y="74"/>
+    <use href="#r" x="210" y="74"/><use href="#f" x="210" y="74"/>
     <g>
         <use href="#r" x="180" y="57"/>
         <use href="#f" x="180" y="57"/>
@@ -78,6 +60,5 @@
         -90,-17.32;-90,-17.32;-90,-17.32;-90,-17.32;-90,-17.32;"
         repeatCount="indefinite"/>
     </g>
-    <use href="#r" x="180" y="91"/>
-    <use href="#f" x="180" y="91"/>
+    <use href="#r" x="180" y="91"/><use href="#f" x="180" y="91"/>
 </svg>

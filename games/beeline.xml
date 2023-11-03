@@ -4,9 +4,9 @@
   <code>beeline</code>
   <history/>
   <board>The game is played on a hexagonal tiling, as shown in the following image:[img src="a.svg" alt="a" width="300" height="300"]</board>
-  <pieces>Each player controls three bees. The bees are placed at the ends of board at the start of the game, as in the following image:[img src="beeline.svg" alt="a" width="300" height="300"]</pieces>
-  <tomove>Move one of your bees in any of the six directions away from its current hexagon. The bee must move as many spaces in the chosen direction as it can without hitting another bee or the edge of the board. There is no capturing; bees are never removed from the board. Examples of how the bees should move are presented in the animation below.[img src="c.svg" alt="a" width="300" height="300"]</tomove>
-  <towin>You win if all three of your bees are adjacent to any one of your opponent's bees.</towin>
+  <pieces>Each player controls three bees. The bees are placed at the ends of board at the start of the game, as shown in the following image:[img src="beeline.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove>Move one of your bees in any of the six directions away from its current hexagon. The bee must move as many spaces in the chosen direction as it can without hitting another bee or the edge of the board. There is no capturing; bees are never removed from the board.[br]Examples of how the bees should move are presented in the animation below.[img src="c.svg" alt="a" width="300" height="300"]</tomove>
+  <towin>You win if any one of your opponent's bees is adjacent to all three of your bees.</towin>
   <rules/> 
   <strategies/>
   <variants/>
