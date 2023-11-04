@@ -2,8 +2,8 @@
 <game>
   <name>Bagh-Chal</name>
   <code>baghchal</code>
-  <history>Bagh-Chal, which means "Change of Tigers" or "Tigers' Moves", originates from Nepal. As the country's national game, Bagh-Chal was created by Himalayan herders, whose job the game resembles. The game, which has been played for more than a thousand years, is played by some shepherds on a grid scrapped into dirt with stones used as bagh (tigers) and pebbles symbolizing bakhri (goats).</history>
-  <board>The game is played on a board with 25 intersection points and lines indicating how pieces can travel among these points.</board>
+  <history>Bagh-Chal, which means "Change of Tigers" or "Tigers' Moves", originated in Nepal. As the country's national game, Bagh-Chal was created by Himalayan herders, whose job the game resembles. The game, which has been played for more than a thousand years, is played by some shepherds on a grid scrapped into dirt with stones used as bagh (tigers) and pebbles symbolizing bakhri (goats).</history>
+  <board>Bagh-Chal is played on a board with 25 intersection points and lines indicating how pieces can travel among these points.</board>
   <pieces>The first (GOATS) player plays with twenty goats and the second (TIGERS) player plays with four tigers. At the start of the game, the tigers are placed at the corners of the board and no goats are placed yet, as shown below.[img src="a.svg" alt="a" width="300" height="300"]</pieces>
   <tomove/>
   <towin>The TIGERS player wins if five goats are captured. The GOATS player wins if the TIGERS player has no legal moves.</towin>

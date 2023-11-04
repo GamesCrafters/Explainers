@@ -3,10 +3,10 @@
     <name>All Queens Chess</name>
     <code>allqueenschess</code>
     <history/>
-    <board>The game is played on 5-row, 5-column chessboard.</board>
+    <board>All Queens Chess is played on five-row, five-column chessboard.</board>
     <pieces>The first player has six white queens. The second player has six black queens. At the start of the game, the queens are arranged as follows:[img src="allqueenschess.svg" alt="aqc" width="300" height="300"]</pieces>
     <tomove>Move one of your queens as you would in chess, except that you may not capture queens. In other words, you may move a queen any number of spaces horizontally, vertically, or diagonally to an unoccupied space as long as all spaces between the departure and destination spaces are unoccupied.</tomove>
-    <towin>Be the first to arrange four or five of your queens in a vertical, horizontal, or diagonal line.</towin>
+    <towin>Arrange four or five of your queens in a vertical, horizontal, or diagonal contiguous line.</towin>
     <rules/>
     <strategies/>
     <variants/>

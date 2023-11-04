@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
-  <name>Tac Tix</name>
+  <name>TacTix</name>
   <code>tactix</code>
   <history>TacTix was invented by Piet Hein, a Danish poet who was also well known for dabbling in mathematics and science. According to Martin Gardner, the board size most commonly played at the time he authored his article is 6x6, because it "is small enough to keep the game from being long and tiresome, yet complex enough to make for an exciting, unpredictable game" (Gardner 160).</history>
   <board>TacTix is played on an N-row, N-column grid. Most commonly, N=4.</board>
@@ -21,7 +21,7 @@
   <variants>
     <variant>
       <name>Board Size</name>
-      <description>Tac Tix can be played with any value of N.</description>
+      <description>TacTix can be played with any value of N.</description>
     </variant>
     <variant>
       <name>Misere</name>
