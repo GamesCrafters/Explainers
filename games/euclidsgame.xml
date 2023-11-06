@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Euclid's Game</name>
+    <code>euclidsgame</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>Player 1 chooses an integer between 1 and 100, inclusive. Player 2 then chooses an integer between 1 and 100, inclusive, that is not the same number that Player 1 picked.[br]From this point on, each player on their turn selects a number between 1 and 100, inclusive, that both (1) has not yet been chosen and (2) is the difference of some pair of already-selected numbers.[br]A player wins when there are no numbers left to legally select, i.e., when their opponent has no legal moves.[br]Suppose, for example, that at the start of the game, Player 1 chooses 65, then Player 2 chooses 47. On Player 1's turn, the only available number to select is 18 because 18 is the only number that has not been selected that is a difference of the already-selected numbers, 47 and 65. Afterward, on Player 2's turn, the only available number to select is 29 because 29 is the only number that has not been selected that is a difference of two of the already-selected numbers, 18, 47, and 65. Then on Player 1's next turn, there are two available numbers to select — 11 and 35 — because neither has been selected and each is a difference of two of the already-selected numbers, 18, 29, 47, and 65 (11 is the difference between 29 and 18 and 35 is the difference between 47 and 18).</rules>
+    <strategies>
+        <strategy>
+            <name>First Two Numbers</name>
+            <description>The outcome of the game entirely depends on the first two numbers selected. Once each player has chosen their first number, one can calculate the number of moves until the game ends and who will win, regardless of which numbers each player chooses from that point onward. Any moves made after each player has chosen their first number are perfect play. The total number of moves from start to end is the max of the first two selected numbers, divided by the GCD of the first two selected numbers.</description>
+        </strategy>
+    </strategies>
+    <variants>
+        <variant>
+            <name>Number Set</name>
+            <description>Vary the set of integers to choose from.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Arihant Choudhary, Cameron Cheung (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
