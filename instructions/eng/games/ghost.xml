@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Ghost (Word Game)</name>
+    <code>ghost</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>Before the game begins, the players must agree upon a minimum word length and a list of valid English words.[br]Players then take turns adding any letter of the alphabet to a growing sequence of letters.[br]A player loses if they add a letter such that the resulting sequence is either (1) a valid word at least as long as the minimum word length or (2) not a prefix of any valid word.</rules>
+    <strategies/>
+    <variants>
+        <variant>
+            <name>Minimum Word Length</name>
+            <description>Vary the agreed upon minimum word length.</description>
+        </variant>
+        <variant>
+            <name>List of Valid Words</name>
+            <description>One can vary the set of letter sequences that count as valid English words.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Cameron Cheung (Solving, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

@@ -4,7 +4,7 @@
     <code>joust</code>
     <history/>
     <board>Joust is played on a chessboard.</board>
-    <pieces>The first player controls the white chess knight and the second player controls the black chess knight. At the start of the game, the knights are placed at opposite corners of the board.</pieces>
+    <pieces>The first player controls the white chess knight and the second player controls the black chess knight. At the start of the game, the knights are placed on opposite corners of the board.</pieces>
     <tomove>Move your knight to a space that has never been occupied by either knight. A knight moves either (1) two spaces horizontally and one space vertically or (2) one space horizontally and two spaces vertically. The space that your knight departs from will be burned and neither knight can jump to it for the rest of the game.</tomove>
     <towin>You win if your opponent has no place to move their knight to on their turn.</towin>
     <rules/>
