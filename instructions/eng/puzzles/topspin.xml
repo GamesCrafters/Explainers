@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Top Spin</name>
+    <code>topspin</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>Twenty disks numbered 1-20 are arranged in a cycle in no particular order. To move, reverse the order of any four consecutive disks in the cycle. The puzzle is solved when the disks are in numerical order.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Yishu Chao</gamescrafter>
+    </gamescrafters>
+</game>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Rubik's Cube</name>
+    <code>rubiks</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>An NxNxN Rubik's Cube is a cube-shaped structure with six faces, each divided into N² smaller surface squares, totaling 6N² colored surface squares. Initially, when the cube is scrambled, each face consists of a jumbled assortment of colors.[br]To move, rotate an individual layer of the cube. Each turn of a layer rotates an entire row or column of squares.[br]The objective of the puzzle is to arrange the colors on each face so that each side of the cube is a single, solid color.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Mark Presten (Backend)</gamescrafter>
+        <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
