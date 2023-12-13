@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
-  <name>Tac Tix</name>
+  <name>TacTix</name>
   <code>tactix</code>
-  <history>TacTix was invented by Piet Hein, a Danish poet who was also well known for dabbling in mathematics and science. The game is played in its misere form because the strategies listed above render the non-misere variant trivial. According to Martin Gardner, the board size most commonly played at the time he authored his article is 6x6, because it "is small enough to keep the game from being long and tiresome, yet complex enough to make for an exciting, unpredictable game." (Gardner 160)</history>
-  <board>The board is an NxN grid of squares.</board>
-  <pieces>The pieces are usually circles but they can be anything as long as you can pick it off the board. N^2 pieces are needed to play a game.</pieces>
-  <tomove>The player removes as many pieces lying adjacently in a row or column as he or she wants. At least one piece must be removed.</tomove>
-  <towin>To force the opponent to remove the last piece from the board.</towin>
-  <rules>Set up the board so every square on the board is covered by a piece. The first player may then take as many pieces as they want off the board, provided that they are adjacent to each other and all lie in the same row or column. Players alternate doing this until the last piece is removed, in which case a winner is determined.</rules>
+  <history>TacTix was invented by Piet Hein, a Danish poet who was also well known for dabbling in mathematics and science. According to Martin Gardner, the board size most commonly played at the time he authored his article is 6x6, because it "is small enough to keep the game from being long and tiresome, yet complex enough to make for an exciting, unpredictable game" (Gardner 160).</history>
+  <board>TacTix is played on an N-row, N-column grid. Most commonly, N=4.</board>
+  <pieces>There are N² pieces that cover all spaces of the grid at the start of the game, as shown in the following image:[img src="a.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove>On their turn, a player may remove as many pieces as they want as long as the pieces (1) either lie on the same row or lie on the same column and (2) are contiguous.</tomove>
+  <towin>In non-misere gameplay, a player wins if they remove the last piece(s) from the board, i.e., leave their opponent with no pieces left to remove.</towin>
+  <rules>An example sequence of removals is shown in the following animation:[img src="tactix.svg" width="300" height="300"]</rules>
   <strategies>
     <strategy>
-      <name>First Player If N Is Odd (non-misere)</name>
+      <name>First Player If N Is Odd (Non-Misere)</name>
       <description>Take the center piece. Now copy every move your opponent makes symmetrically. Eventually you will take the last piece and win.</description>
     </strategy>
     <strategy>
-      <name>Second Player If N Is Even (non-misere)</name>
+      <name>Second Player If N Is Even (Non-Misere)</name>
       <description>Copy your opponent's moves symmetrically. You will eventually take the last piece and win.</description>
     </strategy>
   </strategies>
   <variants>
     <variant>
       <name>Board Size</name>
-      <description>This game can be played with almost any value of N.</description>
+      <description>TacTix can be played with any value of N.</description>
     </variant>
     <variant>
-      <name>Non-Misere</name>
-      <description>What is normally considered the misere variant is actually the standard for this game. Therefore the rule for non-misere is the player to remove the last piece from the board is the winner.</description>
+      <name>Misere</name>
+      <description>What is normally considered the misere variant is actually the standard for this game. The objective of the misere variant is to force your opponent to remove the last piece(s) from the board.</description>
     </variant>
   </variants>
   <alternates>
     <alternate>Bulo (in Denmark)</alternate>
-    <alternate>Sometimes Referred To As 2 Dimensional Nim.</alternate>
+    <alternate>2-Dimensional Nim.</alternate>
   </alternates>
   <pictures/>
   <references>
@@ -39,6 +39,7 @@
   </references>
   <links/>
   <gamescrafters>
-    <gamescrafter>Dan Garcia</gamescrafter>
+    <gamescrafter>Dan Garcia (Backend, Solving, Tcl/Tk interface that GamesmanUni GUI is based on)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
   </gamescrafters>
 </game>

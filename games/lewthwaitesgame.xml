@@ -2,12 +2,12 @@
 <game>
   <name>Lewthwaite's Game</name>
   <code>lewthwaitesgame</code>
-  <history></history>
-  <board>5x5 board</board>
-  <pieces>Black and White pieces. All 24 pieces are placed on the board alternating black and white. All spaces are filled except the middle.</pieces>
-  <tomove>Players move either vertically or horizontally into an open spot.</tomove>
-  <towin>Stalemate the opponent.</towin>
-  <rules>Players alternate turns either moving vertically or horizontally into an open spot. The first person to stalemate the other player (they cannot move) wins the game.</rules>
+  <history/>
+  <board>Lewthwaite's game is played on a board containing 25 intersection points.[img src="a.svg" alt="a" width="300" height="300"]</board>
+  <pieces>The first player controls 12 white pieces, and the second player controls 12 black pieces. The pieces are arranged in an alternating pattern at the start of the game, with the center point left empty, as shown in the following image:[img src="lewthwaitesgame.svg" width="300" height="300"]</pieces>
+  <tomove>Pieces move horizontally or vertically, but not diagonally. At all times there will be one unoccupied point on the board. On your turn, move one of your pieces that is orthogonally adjacent to the unoccupied point to the unoccupied point.</tomove>
+  <towin>Trap your opponent's pieces, i.e., leave your opponent with no legal moves by letting the unoccupied point only be orthogonally adjacent to your pieces.</towin>
+  <rules>Example piece movements are shown in the following animation:[img src="c.svg" alt="a" width="300" height="300"]</rules>
   <strategies/>
   <variants/>
   <alternates/>
@@ -15,6 +15,7 @@
   <references/>
   <links/>
   <gamescrafters>
-    <gamescrafter>Yuliya Sarkisyan</gamescrafter>
+    <gamescrafter>Yuliya Sarkisyan (Backend, Solving)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
   </gamescrafters>
 </game>

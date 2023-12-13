@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>N Queens Puzzle</name>
+    <code>nqueens</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>Coloque N reinas en un tablero de ajedrez de N filas y N columnas en una configuración sin ataque. No deben haber dos reinas diferentes en la misma fila, columna o diagonal.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Mia Campdera-Pulido (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Cameron Cheung (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

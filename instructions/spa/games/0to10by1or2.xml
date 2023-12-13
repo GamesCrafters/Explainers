@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>0 a 10 por 1 o 2</name>
+    <code>0to10by1or2</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>El valor inicial es 0.[br]Los jugadores se turnan para sumar 1 o 2 al valor actual.[br]No puede agregar un número al valor actual si el valor resultante será mayor que 10; por ejemplo, no puede agregar 2 si el valor actual es 9.[br]Ganas si sumas 1 o 2 al valor actual y el valor resultante es 10.</rules>
+    <strategies/>
+    <variants>
+        <variant>
+            <name>Estado inicial y final</name>
+            <description>El estado inicial puede ser un número distinto de 0 y el estado final puede ser un número distinto de 10.</description>
+        </variant>
+        <variant>
+            <name>Conjunto de sumandos</name>
+            <description>Los jugadores pueden elegir cualquier número de un conjunto arbitrario de números para agregarlo al valor actual.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Dan Garcia (Backend)</gamescrafter>
+        <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

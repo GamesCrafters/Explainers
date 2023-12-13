@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="BackgroundSVG" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+    <defs><path id="cross" stroke="#000" stroke-width="6" stroke-linecap="round" d="M-32,0h64M0,-32v64" /></defs>
+    <rect x="0" y="0" width="400" height="400" rx="40" ry="40" fill="#48392e"/><use href="#cross" x="50" y="50"/><use href="#cross" x="50" y="150"/><use href="#cross" x="50" y="250"/><use href="#cross" x="50" y="350"/><use href="#cross" x="150" y="50"/><use href="#cross" x="150" y="150"/><use href="#cross" x="150" y="250"/><use href="#cross" x="150" y="350"/><use href="#cross" x="250" y="50"/><use href="#cross" x="250" y="150"/><use href="#cross" x="250" y="250"/><use href="#cross" x="250" y="350"/><use href="#cross" x="350" y="50"/><use href="#cross" x="350" y="150"/><use href="#cross" x="350" y="250"/><use href="#cross" x="350" y="350"/>  
+</svg>

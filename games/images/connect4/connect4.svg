@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70">
+    <defs>
+        <circle id="b" r="5" fill="blue"/>
+        <circle id="r" r="5" fill="red"/>
+        <path id="z" d="M0,0h70v10.1h-70zM1,5a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0M11,5 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0M21,5 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0M31,5 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0M41,5 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0M51,5 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0M61,5 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0" fill="gray" fill-rule="evenodd"/>
+    </defs>
+
+    <use href="#r" x="5" y="60"/>
+    <use href="#b" x="15" y="60"/>
+    <use href="#r" x="25" y="60"/>
+    <use href="#b" x="35" y="60"/>
+    <use href="#b" x="45" y="60"/>
+    <use href="#b" x="55" y="60"/>
+    <use href="#r" x="65" y="60"/>
+    <use href="#r" x="15" y="50"/>
+    <use href="#b" x="25" y="50"/>
+    <use href="#r" x="35" y="50"/>
+    <use href="#r" x="45" y="50"/>
+    <use href="#b" x="55" y="50"/>
+    <use href="#r" x="65" y="50"/>
+    <use href="#b" x="15" y="40"/>
+    <use href="#r" x="25" y="40"/>
+    <use href="#r" x="35" y="40"/>
+    <use href="#b" x="45" y="40"/>
+    <use href="#r" x="55" y="40"/>
+    <use href="#b" x="65" y="40"/>
+    <use href="#r" x="25" y="30"/>
+    <use href="#b" x="35" y="30"/>
+    <use href="#b" x="45" y="30"/>
+    <use href="#b" x="55" y="30"/>
+    <use href="#b" x="65" y="30"/>
+    <use href="#r" x="35" y="20"/>
+    <use href="#z" x="0" y="5"/>
+    <use href="#z" x="0" y="15"/>
+    <use href="#z" x="0" y="25"/>
+    <use href="#z" x="0" y="35"/>
+    <use href="#z" x="0" y="45"/>
+    <use href="#z" x="0" y="55"/>
+</svg>

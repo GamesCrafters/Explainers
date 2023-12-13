@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
-  <name>Mu Torere</name>
+  <name>Mū Tōrere</name>
   <code>mutorere</code>
-  <history>Mu Torere is a game that gives the strong misconception as an “easy” game to play. Early settlers were often beaten when playing against Maori players due to carelessness. A game that requires a surprising amount of wits and skill, Mu Torere is a two-player game that originated from Maori tribes.&#13;
-&#13;
-Since Mu Torere existed much longer than recorded, the complete history of this game is incomplete. The game was first recorded by Europeans or Polynesian seafarers in the 1850s. These early settlers discovered a local game that was played by the Ngati-Porou tribe of the Maoris of the East Cape district of New Zealand. However, during the discovery, Mu Torere was just starting to lose interest among the tribe thus was never described to the general public. It was till the game was described in R.C.Bell’s Board and Table Games, volume 2 (Oxford University Press 1969) that the game became popular again.</history>
-  <board>Mu Torere is a game that is played on “papa takaro”, or game boards, or can be written into clay or sand. The board is in a form of an eight-pointed star that points to the center, or “putahi”, with no connecting lines around the circumference. The “kewai”, or stars, and the lines that connected to the center are oriented at 45 degrees.</board>
-  <pieces>Each player starts with four pieces of a set – two sets of colored four pieces in total. Since the game was usually played on clay or sand, the pieces can be anything (e.g. stones, coins….) as long as there are two different sets.</pieces>
-  <tomove>Each player will start with all their pieces on one half of the board, placed at the stars of the game board. Once the players have decided which player will move, each player will move one piece at a time. The pieces can be moved to either into the center or onto the side (left or right) stars. Players cannot occupy the same space on the board or jump over their opponent or their own pieces.</tomove>
-  <towin>The object of the game is to block the opponent’s pieces so that their pieces are unable to move at all.</towin>
-  <rules>The game board is a shape of an eight-pointed star. The first player who will go first will place four of their colored pieces into the stars of the board toward their side. The second player will then place their four colored pieces at their end of the adjacent stars. Players will take alternating turns playing one stone per move. Players are either able to move their pieces to adjacent empty spaces, move to the center of the board, or move from the center of the board to the unoccupied stars. The game is over when a player is trapped and unable to move any of their pieces.</rules>
+  <history>Mū Tōrere is a deceptively simple game. Early settlers of present-day New Zealand were often beaten when playing against Māori players due to carelessness. A game that requires a surprising amount of wits and skill, Mū Tōrere is a two-player game that originated from Māori tribes. Since Mū Tōrere existed much longer than recorded, the complete history of this game is incomplete. The game was first recorded by Europeans or Polynesian seafarers in the 1850s. These early settlers discovered a local game that was played by the Ngati-Porou tribe of the Māoris of the East Cape district of New Zealand. However, during the discovery, Mū Tōrere was just starting to lose interest among the tribe thus was never described to the general public. The game became popular again when it was described in R.C.Bell's Board and Table Games, volume 2 (Oxford University Press 1969).</history>
+  <board>Mū Tōrere is played on an eight-pointed star. Each endpoint of the star is connected to its two neighboring star endpoints. The center of the star is referred to as the “pūtahi” and the endpoints of the star are referred to as the “kewai”.[img src="a.svg" alt="a" width="300" height="300"]</board>
+  <pieces>The first player moves around four pieces of one color, and the second player moves around four pieces of another color. At the start of the game, the pieces are arranged on the board as follows:[img src="mutorere.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove>At all times there will be one unoccupied point of the star. Move one of your pieces that is adjacent to the unoccupied point to the unoccupied point. Two pieces may not occupy the same point and a piece may not jump over another piece.</tomove>
+  <towin>Leave your opponent with no legal moves. You win if your opponent has no pieces adjacent to the unoccupied point, i.e., your opponent's pieces are all trapped.</towin>
+  <rules>Example piece movements are shown in the following animation:[img src="c.svg" alt="a" width="300" height="300"]</rules>
   <strategies/>
-  <variants/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>The objective is to force your opponent to trap your pieces.</description>
+    </variant>
+  </variants>
   <alternates/>
   <pictures/>
   <references>
     <reference>The board game of Mu Torere, New Zealand in History, 2005</reference>
     <reference>Jelliss, George. "Mu Torere" The Games and Puzzles Journal 17(2006).</reference>
-    <reference>Mu-Torere – Maori game from New Zealand, Sandy Greenfarb, 2006</reference>
+    <reference>Mu-Torere - Maori game from New Zealand, Sandy Greenfarb, 2006</reference>
   </references>
   <links/>
   <gamescrafters>
-    <gamescrafter>Joe Jing</gamescrafter>
-    <gamescrafter>Jeff Chous</gamescrafter>
+    <gamescrafter>Joe Jing, Jeff Chous (Backend, Solving)</gamescrafter>
+    <gamescrafter>Jingfan "Harry" Xia, Cameron Cheung (GamesmanUni GUI)</gamescrafter>
   </gamescrafters>
 </game>

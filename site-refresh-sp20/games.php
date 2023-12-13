@@ -53,8 +53,8 @@ function renderString($str, $allowBlockElements = false) {
 
     // Empty paragraphs
     $replaced = preg_replace(
-        "/<p>(<br>)*<\/p>/",
-        "",
+        "/\[br\]/",
+        "</p><p>",
         $replaced);
 
     echo $replaced;
@@ -145,6 +145,7 @@ $sidebarReprise = !empty($game);
                             <?php
                             $extension = '';
                             if (file_exists("$rootDir/games/i/$code/$code.png")) $extension = "png";
+                            else if (file_exists("$rootDir/games/i/$code/$code.svg")) $extension = "svg";
                             else if (file_exists("$rootDir/games/i/$code/$code.jpg")) $extension = "jpg";
                             else if (file_exists("$rootDir/games/i/$code/$code.jpeg")) $extension = "jpeg";
                             else if (file_exists("$rootDir/games/i/$code/$code.gif")) $extension = "gif";
@@ -199,7 +200,7 @@ $sidebarReprise = !empty($game);
     <div class="page-sidebar <?= $sidebarReprise ? 'page-sidebar-reprise' : '' ?>">
         <div class="page-sidebar-wrapper">
             <h2>Games</h2>
-            <h3>All games</h3>
+            <h3>All Games</h3>
             <ul>
                 <?php foreach ($gameCodeAndNames as $codeAndName) {
                     $code = $codeAndName[0];
@@ -207,7 +208,7 @@ $sidebarReprise = !empty($game);
                     ?><li><a href="?game=<?= $code ?>"><?= $name ?></a></li><?php
                 } ?>
             </ul>
-            <h3>All puzzles</h3>
+            <h3>All Puzzles</h3>
             <ul>
                 <!-- TODO: List puzzles -->
             </ul>

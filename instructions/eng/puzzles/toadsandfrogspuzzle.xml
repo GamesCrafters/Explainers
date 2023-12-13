@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Toads and Frogs Puzzle</name>
+    <code>toadsandfrogspuzzle</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules></rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Mark Presten (Backend, GamesmanUni GUI v0)</gamescrafter>
+        <gamescrafter>Cameron Cheung (Backend, GamesmanUni GUI v1)</gamescrafter>
+    </gamescrafters>
+</game>

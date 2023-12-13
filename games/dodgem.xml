@@ -2,29 +2,26 @@
 <game>
   <name>Dodgem</name>
   <code>dodgem</code>
-  <history>Dodem was created in 1972 by Colin Vout in the book Challenging Puzzles. Vout was a mathematics students at the University of Cambridge. The original game was devised with two red cars and two blue cars on a 3x3 board. Players alternate turns moving their cars, with the red player moving either North, East or South, and the red player moving either North, East or West. This book was published by Cambridge University Press on October 1, 1993, it features many puzzle games that is suitably for children from the ages of 14 to 16. While Dodgem may seem deceptively simple in concept, the game quickly proves that vast effort is a necessity in order to acquire mastery of Dodgem.</history>
-  <board>The game is played on 3 x 3 board that is divided into 9 evenly distributed squares. Some varieties of the board can be from a simple 3 x 3 squared chalk drawing on the floor to an actual 3 x 3 wooden playing board.</board>
-  <pieces>The game requires 2 pieces, or “counters”, for each player up to 2 players. The counters can be anything (either black and white or X’s and O’s) as long as the 2 counters are different per player.</pieces>
-  <tomove>Player 1 can only move up, down, or right but not to the left. While Player 2 can only move left, right or up but not down.</tomove>
-  <towin>To win, Player 1 must get its counters to the right column of the board and spent a move to take one off at a time till the all of Player 1’s counters are off the board, while Player 2 can win if its counters are remove in the same way as Player 1 but on the top of the board. If both players are unable to move in its turn, the result is a stalemate and the player that created the stalemate loses.</towin>
-  <rules>The pieces on the NxN Dodgem board are arranged at a right angle. Players alternate turns moving their pieces to an adjacent open space. The player with pieces lined up vertically may move to the north, east or south, while the player with pieces lined up horizontally may move north, east or west. Pieces lined up vertically leave the board by moving onto the right edge and pieces lined up horizontally move off the board when they reach the top row.</rules>
+  <history>Dodgem was created in 1972 by Colin Vout in his book Challenging Puzzles. Vout was a mathematics student at the University of Cambridge. The original game was devised with two red cars and two blue cars on a three-column, three-row board. Players alternate turns moving their cars, with the red player moving either North, East or South, and the red player moving either North, East or West. This book, published by Cambridge University Press on October 1, 1993, features many puzzle games suitable for children from the ages of 14 to 16.</history>
+  <board>Dodgem is played on three-row, three-column board.[img src="a.svg" alt="a" width="300" height="300"]</board>
+  <pieces>Player 1 controls two blue pieces and Player 2 controls two red pieces. At the start of the game, the pieces are arranged on the board as follows:[img src="dodgem.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove/>
+  <towin/>
+  <rules>Player 1, on their turn, moves one of the blue pieces east, north, or south to an adjacent unoccupied space. If one of the blue pieces is on the east edge of the board, then Player 1 may move it east off the board. A blue piece may not move west and may not be moved off the north or south edges of the board.[br]Player 2, on their turn, moves one of the red pieces north, west, or east to an adjacent unoccupied space. If one of the red pieces is on the north edge of the board, then Player 2 may move it north off the board. A red piece may not move south and may not be moved off the west or east edges of the board.[br]The first player to move both of their pieces off the board wins.[br]An example game of Dodgem is shown in the following animation:[img src="c.svg" alt="a" width="300" height="300"]</rules>
   <strategies/>
-  <variants>
-    <variant>
-      <name>Misere</name>
-      <description>To force your opponent into moving his pieces off the board.</description>
-    </variant>
-  </variants>
+  <variants/>
   <alternates/>
   <pictures/>
   <references>
     <reference>Vout, C. and G. Gray. Challenging Puzzles. Cambridge: Cambridge University Press, 1993.</reference>
-    <reference>Berlekamp,E.R., J. H. Conway and R. K. Guy. Winning Ways Vol.2. London: Academic Press, 1982.</reference>
-    <reference>Marlow,T.W. "The Game of Dodgem" The Games and Puzzles Journal 2006.</reference>
+    <reference>Berlekamp, E.R., J. H. Conway and R. K. Guy. Winning Ways Vol. 2. London: Academic Press, 1982.</reference>
+    <reference>Marlow, T.W. "The Game of Dodgem" The Games and Puzzles Journal 2006.</reference>
   </references>
   <links/>
   <gamescrafters>
-    <gamescrafter>Desmond Cheung</gamescrafter>
-    <gamescrafter>Ming Can Chang</gamescrafter>
+    <gamescrafter>Desmond Cheung (Backend, Solving)</gamescrafter>
+    <gamescrafter>Ming Can Chang (Backend, Solving)</gamescrafter>
+    <gamescrafter>Stella Wan (Original GamesmanUni GUI)</gamescrafter>
+    <gamescrafter>Cameron Cheung (Current GamesmanUni GUI)</gamescrafter>
   </gamescrafters>
 </game>
