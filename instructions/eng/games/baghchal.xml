@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Bagh-Chal</name>
+  <code>baghchal</code>
+  <history>Bagh-Chal, which means "Change of Tigers" or "Tigers' Moves", originated in Nepal. As the country's national game, Bagh-Chal was created by Himalayan herders, whose job the game resembles. The game, which has been played for more than a thousand years, is played by some shepherds on a grid scrapped into dirt with stones used as bagh (tigers) and pebbles symbolizing bakhri (goats).</history>
+  <board>Bagh-Chal is played on a board with 25 intersection points and lines indicating how pieces can travel among these points.</board>
+  <pieces>The first (GOATS) player plays with twenty goats and the second (TIGERS) player plays with four tigers. At the start of the game, the tigers are placed at the corners of the board and no goats are placed yet, as shown below.[img src="a.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove/>
+  <towin>The TIGERS player wins if five goats are captured. The GOATS player wins if the TIGERS player has no legal moves.</towin>
+  <rules>The set of moves available to the GOATS player depends on whether there are still goats to place. If not all twenty goats have been placed, then the GOATS player shall place one of their goats on an empty point. If all goats have been placed, then the GOATS player shall move one of the goats on the board to an adjacent unoccupied point.[img src="b.svg" alt="a" width="300" height="300"]On their turn, the TIGERS player either (1) moves one tiger to an adjacent unoccupied point OR (2) performs a goat capture by having one tiger jump over an adjacent goat to an unoccupied point adjacent to and on the other side of the goat, after which the goat is removed from the board and cannot be placed again. Only one goat may be captured at a time. A tiger may not jump over another tiger. In the above example, the rightmost tiger may jump over the goat below it in order to capture it.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Max Delgadillo, Deepa Mahajan, Damian Hites (Old version of Bagh-Chal GamesmanClassic code)</gamescrafter>
+    <gamescrafter>Cameron Cheung (Solving, GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Connect 4</name>
+  <code>connect4</code>
+  <history>Connect 4 or Four-in-a-Row has its roots in Tic-Tac-Toe. The object of the game is to get four pieces in a row. Four-in-a-Row also adds the element of restricted placement by requiring the players to "drop" the pieces vertically down the board. In the United States, this game was popularized under the name "Connect Four", which was first coined by Milton Bradley Company in 1974. The company was founded by Milton Bradley in Springfield, Massachusetts in 1860. The company is known for its contributions in the board game and video game industries.</history>
+  <board>Connect 4 is played on a standing six-row, seven-column plastic grid with slots at the tops of the columns to drop pieces into.</board>
+  <pieces>The first player has 21 checkers of one color to place and the second player has 21 checkers of another color to place.</pieces>
+  <tomove>Place a checker in any column containing fewer than 6 pieces. The checker will fall to the lowest available space in that column.</tomove>
+  <towin>Be the first to create a horizontal, vertical, or diagonal contiguous line of four or more pieces.</towin>
+  <rules>In the following example position, the blue player has won by creating a horizontal contiguous line of four blue checkers.[img src="connect4.svg" alt="a" width="300" height="300"]If all columns are filled and there are no four-in-a-rows, the game is a tie.</rules>
+  <strategies>
+    <strategy>
+      <name>Beginner</name>
+      <description>Remember to check all possible connecting lines, including horizontal, vertical, and diagonal lines for possible threats.</description>
+    </strategy>
+    <strategy>
+      <name>Advanced</name>
+      <description>A key strategy to win is to create two simultaneous threats for the opponent. Usually, this involves connecting three checkers to prevent the opponent from having an advantage in that column. In addition, checkers placed in the center column are more valuable than those placed on the sides because players have more opportunities to create four-in-a-rows with them.</description>
+    </strategy>
+  </strategies>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>The objective is to force your opponent to get a four-in-a-row.</description>
+    </variant>
+    <variant>
+      <name>(m, n, k) Game</name>
+      <description>Generalization: The game can be played on an m-row, n-column grid with the objective of forming a k-in-a-row.</description>
+    </variant>
+  </variants>
+  <alternates>
+    <alternate>Four-In-A-Row</alternate>
+    <alternate>Plot Four</alternate>
+  </alternates>
+  <pictures>
+    <picture>[img src="connect4_01.jpg" alt="connect 4" width="200"]</picture>
+    <picture>[img src="connect4_04.jpg" alt="connect 4" width="200"]</picture>
+    <picture>[img src="connect4_03.jpg" alt="connect 4" width="200"]</picture>
+  </pictures>
+  <references>
+    <reference>Milton Brady Company, Connect Four, 1989 Connect Four, Wikipedia, the Free Encyclopedia, 2006</reference>
+  </references>
+  <links>
+    <link>
+      <url>http://en.wikipedia.org/wiki/Connect_Four</url>
+      <description>Wikipedia</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>Justin Yokota (Shard Solver)</gamescrafter>
+  </gamescrafters>
+</game>

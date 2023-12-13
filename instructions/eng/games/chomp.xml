@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Chomp</name>
+  <code>chomp</code>
+  <history/>
+  <board/>
+  <pieces/>
+  <tomove/>
+  <towin/>
+  <rules>Players take turns selecting a portion of a rectangular (m-row, n-column) chocolate bar to eat.[img src="chomp.svg" alt="a" width="300" height="300"]The bottom-left square of the chocolate bar is the poison square.[br]A player eats a section of the chocolate bar on their turn. Specifically, they select any uneaten square of the chocolate bar aside from the poison square, resulting in 
+  all squares that are both located (1) on or to the right of the selected square's column and (2) on or above the selected square's row being eaten.[br]A player loses if there are no edible squares left to eat, i.e., only the poison square remains.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Avery Liou (Backend, Solving)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>

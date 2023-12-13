@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Change!</name>
+  <code>change</code>
+  <history></history>
+  <board>The game is played on a network of fourteen points, as shown in the following image:[img src="a.svg" alt="a" width="300" height="300"]</board>
+  <pieces>The first player controls three blue pieces and the second player controls three red pieces. The pieces are initially arranged as shown in the following image:[img src="change.svg" alt="a" width="300" height="300"] The spaces that are occupied by the pieces at the start of the game are referred to as "home spaces".</pieces>
+  <tomove>Move one of your pieces in a straight line forward (i.e., towards your opponent's home spaces) as many spaces as you would like, as long as there are no pieces in the way. A piece may not move backward (towards your home spaces), jump, or turn corners.</tomove>
+  <towin>Occupy all three of your opponent's home spaces or trap your opponent's pieces (i.e., leave them without legal moves).</towin>
+  <rules>In the example position below, if it is red's turn, the topmost red piece can move either northwest one or two spaces or southwest one, two, or three spaces. The bottommost red piece cannot move because it is blocked by other pieces.[img src="c.svg" alt="a" width="300" height="300"]</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>The objective is to force your opponent to either occupy your home spaces or trap your pieces.</description>
+    </variant>
+    <variant>
+      <name>Strategy</name>
+      <description>Decide whether you win or lose if you trap your opponent's pieces.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Alice Chang (C And Tcl)</gamescrafter>
+    <gamescrafter>Judy Tuan (C)</gamescrafter>
+    <gamescrafter>Bryon Ross (Tcl)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>
