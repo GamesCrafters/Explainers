@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Achi</name>
+  <code>achi</code>
+  <history>Achi is one of the many traditional Morris-type games that involve placing pieces on a board with the objective of forming a three-in-a-row. The game originated in Ghana where it is often played by children who use pebbles as pieces. In England, game pieces were found near Hadrian's Wall in northern England dating back to the 3rd or 4th century AD.</history>
+  <board>The game is played on a board with nine intersection points and lines indicating how pieces can travel among these points.</board>
+  <pieces>The first player has three white pieces. The second player has three black pieces.</pieces>
+  <tomove/>
+  <towin>Arrange your pieces in a vertical, horizontal, or diagonal line of three.</towin>
+  <rules>The board starts empty. In the first phase, players take turns placing one of their pieces on an unoccupied point on the board. Example placements in the first phase are shown in the following animation:[img src="b.svg" alt="b" width="300" height="300"]In the second phase, which begins once all pieces have been placed, players take turns sliding one of their pieces to an adjacent unoccupied point. Example slides in the second phase are shown in the following animation:[img src="c.svg" alt="c" width="300" height="300"]</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>Pentagrams.  Pentagames.  New York: Fireside, 1990.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Jeffrey Chiang, Jennifer Lee, Jesse Phillips (Backend, Solving)</gamescrafter>
+    <gamescrafter>Kaelyn Huang, Harnoor Dhillon, Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>
