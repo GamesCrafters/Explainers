@@ -6,7 +6,7 @@ require "common.inc";
 
 require_once '../instructions/game.class.php';
 
-$rootDir = "../instructons";
+$rootDir = "../instructions";
 $xmlGameDir = "$rootDir/eng/games";
 $gameCodeAndNames = [];
 foreach (GetFiles($xmlGameDir) as $xml) {
@@ -123,16 +123,18 @@ function renderListDictionaryWithHeading($heading, $array) {
 
 $gameRequested = false;
 $game = NULL;
-$lang = NULL;
+$lang = "eng";
+$type = "games";
 if (!empty($_GET["game"])) {
     $gameRequested = true;
     $code = $_GET["game"];
     if (!empty($_GET["lang"])) { // If language requested
         $lang = $_GET["lang"];
-        $xml = "$rootDir/$lang/games/$code.xml"
+        $xml = "$rootDir/$lang/games/$code.xml";
         if (file_exists($xml)) { // See if file exists in requested language
             $game = new Game($xml, "");
         } else { // See if file exists in English
+            $lang = "eng";
             $xml = "$xmlGameDir/$code.xml";
             if (file_exists($xml)) {
                 $game = new Game($xml, "");
@@ -146,13 +148,15 @@ if (!empty($_GET["game"])) {
     }
 } else if (!empty($_GET["puzzle"])) {
     $gameRequested = true;
+    $type = "puzzles";
     $code = $_GET["puzzle"];
     if (!empty($_GET["lang"])) { // If language requested
         $lang = $_GET["lang"];
-        $xml = "$rootDir/$lang/puzzles/$code.xml"
+        $xml = "$rootDir/$lang/puzzles/$code.xml";
         if (file_exists($xml)) { // See if file exists in requested language
             $game = new Game($xml, "");
         } else { // See if file exists in English
+            $lang = "eng";
             $xml = "$xmlPuzzleDir/$code.xml";
             if (file_exists($xml)) {
                 $game = new Game($xml, "");
@@ -193,7 +197,7 @@ $sidebarReprise = !empty($game);
                             else if (file_exists("$rootDir/games/i/$code/$code.gif")) $extension = "gif";
                             if (!empty($extension)) { ?><img class="game-icon" src="/games/i/<?= $code ?>/<?= $code ?>.<?= $extension ?>" alt="<?= $game->name ?>"><?php } ?>
                             <h2><?= $game->name ?></h2>
-                            <p><a href="/games/<?= $code ?>.xml">Download XML</a></p>
+                            <p><a href="/instructions/<?= $lang ?>/<?= $type ?>/<?= $code ?>.xml">Download XML</a></p>
                         </div>
                     </div>
                     <?php renderParagraphsWithHeading("History", $game->history) ?>
