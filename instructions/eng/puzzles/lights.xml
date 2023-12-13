@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Lights Out</name>
+    <code>lights</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>A random set of lights is chosen from a rectangular grid of lights. Initially, each light in the random set is switched on and each light not in the random set is switched off.[br]To move, select a light. This will toggle the selected light and all lights orthogonally adjacent to it.[br]The puzzle is solved when all lights in the grid are switched off.[img src="a.svg" alt="a" width="300" height="300"]</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Avery Liou (Initial Version of Lights Out in GamesmanPuzzles)</gamescrafter>
+        <gamescrafter>Robert Shi (Current Version of Lights Out in GamesmanPuzzles)</gamescrafter>
+    </gamescrafters>
+</game>
