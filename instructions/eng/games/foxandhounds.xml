@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Fox and Hounds</name>
+    <code>foxandhounds</code>
+    <history/>
+    <board>The game is played on an 8x8 chessboard.</board>
+    <pieces>One player controls the four hounds. The other player controls the fox. The following image shows how the fox and hounds are placed at the start of the game.[img src="a.svg" alt="a" width="300" height="300"]</pieces>
+    <tomove>On their turn, the hounds player moves one of the hounds diagonally forward to an unoccupied space. On their turn, the fox player moves the fox diagonally forward or backward to an unoccupied space.</tomove>
+    <towin>The fox player wins if the fox can get past all four hounds or reach the opposite rank. The hounds player wins if the hounds trap the fox, i.e., the fox player is left with no legal moves.</towin>
+    <rules/>
+    <strategies/>
+    <variants>
+        <variant>
+            <name>First to Play</name>
+            <description>Either the hounds player or the fox player can start first.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Sergey Kirshner, Evan Huang (Backend)</gamescrafter>
+        <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
