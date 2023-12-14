@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Odd Or Even</name>
+  <code>oddoreven</code>
+  <history/>
+  <board/>
+  <pieces>There are 15 objects in a pool.</pieces>
+  <tomove>Remove 1, 2, or 3 objects from the pool and place them in front of you.</tomove>
+  <towin>Have an even number of objects in front of you when the pool is empty.</towin>
+  <rules>[img src="oddoreven.svg" alt="a" width="300" height="300"]</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>The player who has the odd number of objects at the end wins.</description>
+    </variant>
+    <variant>
+      <name>Number Of Counters</name>
+      <description>The game can be played with any initial odd number of objects in the pool.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Peter Yu (Backend)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>
