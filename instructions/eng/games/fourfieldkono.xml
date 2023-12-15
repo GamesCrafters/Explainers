@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Four Field Kono</name>
+  <code>fourfieldkono</code>
+  <history>Four Field Kono is a Korean capture game.</history>
+  <board>Four Field Kono is played on a four-row, four-column grid.</board>
+  <pieces>The first player controls eight white pieces and the second player controls eight black pieces. The following image shows how the pieces are arranged on the board at the start of the game.[img src="a.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove>You may either move one of your pieces to an orthogonally adjacent unoccupied cell or capture one of your opponent's pieces.[br]
+  One of your pieces, A, can capture one of your opponent's pieces, B, if A is orthogonally adjacent to another one of your own pieces, C, and B is orthogonally adjacent to C on the other side. To perform the capture, A jumps over C and lands on B, and B is removed from the board.[br]
+  The following animation shows an example of white capturing a black piece.[img src="b.svg" alt="b" width="300" height="300"]</tomove>
+  <towin>Capture seven of your opponent's pieces. (It is not possible to capture using only one remaining piece.)</towin>
+  <rules/>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>Mohr, Merilyn Simonds. The Games Treasury. Shelburn: Chapters Publishing Ltd., 1993, p. 36.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Greg Bonin (Backend)</gamescrafter>
+    <gamescrafter>Nathan Spindel (Backend)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>
