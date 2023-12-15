@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Quarto</name>
+    <code>quarto</code>
+    <history/>
+    <board>Quarto is played on a four-row, four-column grid. The board is empty at the beginning of the game.</board>
+    <pieces>There are 16 distinct pieces. [img src="pieces.svg" alt="p" width="200" height="170"]</pieces>
+    <tomove/>
+    <towin/>
+    <rules>To start the game, the first player chooses a piece for the second player to place. The second player then places that piece on an empty space on the board and chooses one of the remaining pieces for the first player to place next. Then the first player places that piece on an empty space and chooses a remaining piece for the second player to place, and so on.[br]A player wins by creating a vertical, horizontal, or diagonal line of four pieces such that the four pieces are alike in some way (e.g., all dark, all hollow, or all round). The game is a tie if the board is filled and neither player has created such a four-in-a-row.[br]In the following example, the game has ended because along the antidiagonal there are four pieces that are all tall.[img src="quarto.svg" alt="q" width="300" height="300"]</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Cameron Cheung (Solving, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
