@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Notakto</name>
+    <code>notakto</code>
+    <history/>
+    <board>Notakto is played on an arbitrary number of tic-tac-toe (three-row, three-column) grids. The grids are empty at the start of the game.</board>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>Players take turns placing an X on an empty space on one of the tic-tac-toe grids. If a horizontal, vertical, or diagonal line of Xs is created on one tic-tac-toe grid, that grid is dead and neither player can place an X there anymore. If a player forms a horizontal, vertical, or diagonal line of Xs on one board and all other boards are dead, then that player loses.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Andrew Esteban (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

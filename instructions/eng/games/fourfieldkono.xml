@@ -8,7 +8,7 @@
   <tomove>You may either move one of your pieces to an orthogonally adjacent unoccupied cell or capture one of your opponent's pieces.[br]
   One of your pieces, A, can capture one of your opponent's pieces, B, if A is orthogonally adjacent to another one of your own pieces, C, and B is orthogonally adjacent to C on the other side. To perform the capture, A jumps over C and lands on B, and B is removed from the board.[br]
   The following animation shows an example of white capturing a black piece.[img src="b.svg" alt="b" width="300" height="300"]</tomove>
-  <towin>Capture seven of your opponent's pieces. (It is not possible to capture using only one remaining piece.)</towin>
+  <towin>Capture seven of your opponent's pieces. (It is not possible to capture using only one remaining piece.) You also win if your opponent has no legal moves.</towin>
   <rules/>
   <strategies/>
   <variants/>

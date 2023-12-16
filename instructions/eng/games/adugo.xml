@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Adugo</name>
+    <code>adugo</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules></rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Haonan Huang (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
