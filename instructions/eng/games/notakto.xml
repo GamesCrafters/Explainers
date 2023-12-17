@@ -7,7 +7,7 @@
     <pieces/>
     <tomove/>
     <towin/>
-    <rules>[img src="notakto.svg" alt="a" width="300" height="300"]Players take turns placing an X on an empty space on one of the tic-tac-toe grids. If a horizontal, vertical, or diagonal line of Xs is created on one tic-tac-toe grid, that grid is dead and neither player can place an X there anymore. If a player forms a horizontal, vertical, or diagonal line of Xs on one board and all other boards are dead, then that player loses.</rules>
+    <rules>Players take turns placing an X on an empty space on one of the tic-tac-toe grids. If a horizontal, vertical, or diagonal line of Xs is created on one tic-tac-toe grid, that grid is dead and neither player can place an X there anymore. If a player forms a horizontal, vertical, or diagonal line of Xs on one board and all other boards are dead, then that player loses.[img src="notakto.svg" alt="a" width="300" height="300"]</rules>
     <strategies/>
     <variants/>
     <alternates/>
