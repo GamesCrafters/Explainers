@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Dragons and Swans</name>
+  <code>dragonsandswans</code>
+  <history/>
+  <board>Dragons and Swans is played on a board with sixteen intersection points and lines indicating how pieces can travel among these points.</board>
+  <pieces>The first (SWANS) player plays with twelve swans and the second (DRAGONS) player plays with four dragons. At the start of the game, the dragons are placed at the corners of the board and no swans are placed yet, as shown below.[img src="a.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove/>
+  <towin>The DRAGONS player wins if either (1) all swans are eaten or (2) if all swans have been placed and the swans remaining on the board cannot move. The SWANS player wins if the dragons cannot move, i.e., the DRAGONS player has no legal moves.</towin>
+  <rules>The set of moves available to the SWANS player depends on whether there are still swans to place. If not all twelve swans have been placed, then the SWANS player shall place one of their swans on an empty point. If all swans have been placed, then the SWANS player shall move one of the swans on the board to an adjacent unoccupied point.[img src="b.svg" alt="a" width="300" height="300"]On their turn, the DRAGONS player either (1) moves one dragon to an adjacent unoccupied point OR (2) performs a swan capture by having one dragon jump over an adjacent swan to an unoccupied point adjacent to and on the other side of the swan, after which the swan is removed from the board and cannot be placed again. Only one swan may be captured at a time. A dragon may not jump over another dragon. In the above example, the rightmost dragon may jump over the swan below it in order to capture it.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Number of Dragons</name>
+      <description>Vary the number of dragons on the board.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references>
+    <reference>NRich.  Dragons and Swans - a game for two players.  18 Feb 2007. &lt;http://www.nrich.maths.org/public/viewer.php?obj_id=1211∂=index&amp;refpage=monthindex.php&gt;.</reference>
+    <reference>Games of Soldiers. Games of Soldiers - Fox &amp; Geese. 18 Feb 2007. &lt;http://www.di.fc.ul.pt/~jpn/gv/fox-geese.htmx∂=index&amp;refpage=monthindex.php&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Anh Thai (Backend, Solving)</gamescrafter>
+    <gamescrafter>Sandra Tang (Backend, Solving)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>
