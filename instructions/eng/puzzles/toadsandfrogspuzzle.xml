@@ -5,7 +5,7 @@
     <history/>
     <board>Toads and Frogs is played on a 1-by-N grid.</board>
     <pieces>There are X toads and Y frogs (X+Y≤N). At the beginning of the puzzle, the toads occupy the leftmost X slots of the grid, the frogs occupy the rightmost Y slots of the grid, and the other slots are empty.[img src="toadsandfrogspuzzle.svg" alt="t" width="300" height="150"]</pieces>
-    <tomove>Toads move to the right and frogs move to the left.[br]A toad may move to the right one space if that space is unoccupied. If one space to the right of a toad there is a frog, and two spaces to the right of the toad there is an unoccupied slot, then the toad may hop over the frog into the unoccupied slot.[br]A frog may move to the left one space if that space is unoccupied. If one space to the left of a frog there is a toad, and two spaces to the left of the frog there is an unoccupied slot, then the frog may hop over the toad into that unoccupied slot.</tomove>
+    <tomove>Toads move to the right and frogs move to the left.[br]A toad may move to the right one space if that space is unoccupied. If one space to the right of a toad there is a frog, and two spaces to the right of the toad there is an unoccupied slot, then the toad may hop over the frog into the unoccupied slot.[br]A frog may move to the left one space if that space is unoccupied. If one space to the left of a frog there is a toad, and two spaces to the left of the frog there is an unoccupied slot, then the frog may hop over the toad into the unoccupied slot.</tomove>
     <towin/>
     <rules>The puzzle is solved after the frogs and toads are moved so that the frogs occupy the leftmost Y spaces and the toads occupy the rightmost X spaces.</rules>
     <strategies/>
