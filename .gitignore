@@ -11,3 +11,4 @@ robots.txt
 software/
 todo.txt
 .DS_Store
+.vscode/
