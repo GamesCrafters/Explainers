@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Sliding Number Puzzle</name>
+    <code>npuzzle</code>
+    <history>The first form of the sliding number puzzle was the 15-puzzle, which was invented in 1874 by Noyes Palmer Chapman, a postmaster in Canastota, New York. The puzzle made its way to Hartford, Connecticut, where students in the American school of the Deaf started manufacturing the puzzle. The puzzle became a craze in the U.S. in Febuarary 1880.</history>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>There are N tiles numbered 1 to N on an X-row, Y-column board, such that N is one less than the product of X and Y (there is always one space on the board not occupied by a tile). Most often, the board is square, so X=Y and N is one less than a square number.[br]The tiles are arranged randomly on the board at the start of the puzzle.[br]To move, slide any tile adjacent to the empty space to the empty space.[br]The puzzle is solved when the tiles are arranged in row-major order. Specificially, the puzzle is solved when for each tile, if the tile is numbered n, then it is at the nth cell of the board according to 1-indexed row-major order.[img src="a.svg" alt="a" width="300" height="300"]</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Arturo Olvera (Backend, GamesmanUni GUI v0)</gamescrafter>
+        <gamescrafter>Cameron Cheung (GamesmanUni GUI v1)</gamescrafter>
+    </gamescrafters>
+</game>
