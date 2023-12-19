@@ -3,11 +3,11 @@
     <name>Rush Hour</name>
     <code>rushhour</code>
     <history/>
-    <board>Rush Hour is played on a six-row, six-column grid. On the right of the second row, there is an exit slot.</board>
-    <pieces>Vehicles cover cells of the grid. Cars cover a horizontal or vertical line of two cells. Trucks cover a horizontal or vertical line of three cells. There is a red "escape" car, which lies in the horizontal direction on the second row, in line with the exist slot.<pieces>
+    <board>Rush Hour is played on a six-row, six-column grid. On the right side of the third row, there is an exit slot.</board>
+    <pieces>Vehicles cover cells of the grid. Cars cover a horizontal or vertical line of two cells. Trucks cover a horizontal or vertical line of three cells. There is a red "escape" car, which lies in the horizontal direction on the third row, in line with the exit slot.</pieces>
     <tomove/>
     <towin/>
-    <rules>The puzzle begins with vehicles blocking the red car's path to the exit. The goal is to clear a path to the exit so that the red car can escape. The initial arrangement of vehicles is chosen so that it is possible to solve the puzzle.[br]One vehicle may be moved at a time. Vehicles lying in the vertical direction can move as many spaces up or down without jumping over other vehicles. Vehicles lying in the horizontal direction can move as many spaces left or right without jumping over other vehicles. Vehicles may not move sideways.</rules>
+    <rules>The puzzle begins with vehicles blocking the red car's path to the exit. The goal is to clear a path to the exit so that the red car can escape. The initial arrangement of vehicles is chosen so that it is possible to solve the puzzle.[br]One vehicle may be moved at a time. Vehicles along the vertical direction can move as many spaces up or down without overlapping or jumping over other vehicles. Vehicles along the horizontal direction can move as many spaces left or right without overlapping or jumping over other vehicles. Vehicles may not move sideways.</rules>
     <strategies/>
     <variants/>
     <alternates/>

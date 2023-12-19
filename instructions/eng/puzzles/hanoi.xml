@@ -7,7 +7,7 @@
     <pieces/>
     <tomove/>
     <towin/>
-    <rules>There is an arbitrary number of rods and and arbitrary number of disks of different radii that can slide onto the rods.[br]The puzzle starts with the disks stacked in ascending order of size on the leftmost rod, with the largest disk at the bottom and the smallest at the top.[br]The challenge is to move the entire stack to another rod, maintaining the same order of disks.[br]One disk may be moved from one rod to another at a time. A disk can only be moved if it is at the top of a stack, and it cannot be placed on top of a smaller disk.</rules>
+    <rules>There is an arbitrary number of rods and an arbitrary number of disks of different radii that can slide onto the rods.[br]The puzzle starts with the disks stacked in ascending order of size on the leftmost rod, with the largest disk at the bottom and the smallest at the top.[br]The challenge is to move the entire stack to the rightmost rod, maintaining the same order of disks.[br]One disk may be moved from one rod to another at a time. A disk can only be moved if it is at the top of a stack, and it cannot be placed on top of a smaller disk.</rules>
     <strategies/>
     <variants/>
     <alternates/>

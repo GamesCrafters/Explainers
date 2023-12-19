@@ -7,7 +7,7 @@
     <pieces/>
     <tomove/>
     <towin/>
-    <rules>Peg solitaire is played with N pegs on a board containing N+1 holes. The puzzle starts with all holes except one filled with pegs.[br]To move, jump one peg over an adjacent peg to an empty hole immediately beyond the adjacent peg. When a peg is jumped over, it is removed from the board.[br]The goal is to remove all but one peg from the board.</rules>
+    <rules>Peg solitaire is played with N pegs on a board containing N+1 holes. The puzzle starts with all holes, except one, filled with pegs.[br]To move, jump one peg over an adjacent peg to an empty hole immediately beyond the adjacent peg. When a peg is jumped over, it is removed from the board.[br]The goal is to remove all but one pegs from the board.</rules>
     <strategies/>
     <variants/>
     <alternates/>

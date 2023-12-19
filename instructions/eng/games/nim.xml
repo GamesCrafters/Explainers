@@ -7,12 +7,16 @@
     <pieces/>
     <tomove/>
     <towin/>
-    <rules>There is an arbitrary number of piles (heaps) of objects. Each pile can have a different number of objects.[br]On their turn, a player selects a pile and removes some number of objects from it.[br]A player loses when they are unable to make a move, i.e., all piles have been cleared and there are no more objects for the player to remove.[img src="nim.svg" alt="a" width="300" height="180"]In the above example Nim position, the player to move can take either (1) take at least 1 and at most 2 from the first pile, (2) take at least 1 and at most 3 from the second pile, (3) take at least 1 and at most 5 from the third pile, or (4) take at least 1 and at most 7 from the fourth pile.</rules>
+    <rules>There is an arbitrary number of piles (heaps) of counters. Each pile can have a different number of counters.[br]On their turn, a player selects a pile and removes some number of counters from it.[br]A player loses when they are unable to make a move, i.e., all piles have been cleared and there are no more counters for the player to remove.[img src="nim.svg" alt="a" width="300" height="180"]In the above example Nim position, the player to move can take either take (1) at least 1 and at most 2 from the first pile, (2) at least 1 and at most 3 from the second pile, (3) at least 1 and at most 5 from the third pile, or (4) at least 1 and at most 7 from the fourth pile.</rules>
     <strategies/>
     <variants>
         <variant>
             <name>Pile Number and Sizes</name>
             <description>Vary the number of piles and the number of objects in each pile.</description>
+        </variant>
+        <variant>
+            <name>Misere</name>
+            <description>The objective is to force your opponent into removing the last counter.</description>
         </variant>
     </variants>
     <alternates/>
