@@ -2,12 +2,12 @@
 <game>
     <name>Yoté</name>
     <code>yote</code>
-    <history/>
-    <board/>
-    <pieces/>
-    <tomove/>
-    <towin/>
-    <rules></rules>
+    <history>Yoté is a traditional West African board game.</history>
+    <board>Yoté is played on a five-row, six-column board, which is empty at the beginning of the game.</board>
+    <pieces>The first player has twelve white pieces and the second player has twelve black pieces.</pieces>
+    <tomove>On your turn, either (1) place one of your pieces on an empty space on the board, (2) move one of your pieces already on the board to an orthogonally adjacent empty space, or (3) perform a capture. Capturing is performed by (1) jumping one of your pieces "A" already on the board over one of your opponent's pieces "B" that is orthogonally adjacent "A", to the empty space adjacent to and on the other side of "B", after which "B" is removed from the board, THEN (2) if your opponent still has pieces on the board, selecting another one of your opponent's pieces to remove.</tomove>
+    <towin>Capture all of your opponent's pieces.</towin>
+    <rules>Captured pieces may not be placed on the board again.</rules>
     <strategies/>
     <variants/>
     <alternates/>

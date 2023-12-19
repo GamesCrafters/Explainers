@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Snake</name>
+  <code>snake</code>
+  <history/>
+  <board/>
+  <pieces/>
+  <tomove/>
+  <towin/>
+  <rules>The game is played on a board of arbitrary shape. The first player controls the snake's head and the second player controls the snake's tail. Each player takes turns elongating the snake by moving their piece (head or tail) to an orthogonally adjacent empty cell. After a piece is moved, the cell it originally occupied is replaced with a "body" piece indicating that the cell is no longer empty. A player loses when they cannot elongate the snake on their turn.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Force yourself into a position from where you cannot move.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Alice Chang (Backend, Solving)</gamescrafter>
+    <gamescrafter>Eleen Chiang (Backend, Solving)</gamescrafter>
+    <gamescrafter>Judy Chen (Backend, Solving)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>
