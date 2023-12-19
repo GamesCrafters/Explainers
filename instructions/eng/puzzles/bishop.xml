@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Bishop Puzzle</name>
+    <code>bishop</code>
+    <history>The Bishop Puzzle appears in the video game, "The 7th Guest", in which the puzzle is played on a four-row, five-column board with four bishops of each color.</history>
+    <board>The bishop puzzle is played on a chessboard with M ranks and N files, where M is less than N.</board>
+    <pieces>There are at most M white bishops, and an equal number of black bishops. At the beginning of the puzzle, the white bishops are arranged on the leftmost file (if there are fewer white bishops than rows, then they can be placed on any rank), and the black bishops mirror the white bishops on the rightmost file.<pieces>
+    <tomove>Move any bishop diagonally to any empty space that is not attacked by an opposite-colored bishop. As a reminder, a chess bishop can move diagonally any number of spaces, as long as it does not jump over any other pieces.</tomove>
+    <towin/>
+    <rules>The puzzle is solved when the black bishops occupy the white bishops' starting spaces and the white bishops occupy the black bishops' starting spaces.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Brian Delaney (Backend, GamesmanUni GUI v0)</gamescrafter>
+        <gamescrafter>Cameron Cheung (GamesmanUni GUI v1)</gamescrafter>
+    </gamescrafters>
+</game>
