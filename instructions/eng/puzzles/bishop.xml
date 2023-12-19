@@ -7,7 +7,7 @@
     <pieces>There are at most M white bishops, and an equal number of black bishops. At the beginning of the puzzle, the white bishops are arranged on the leftmost file (if there are fewer white bishops than rows, then they can be placed on any rank), and the black bishops mirror the white bishops on the rightmost file.</pieces>
     <tomove>Move any bishop diagonally to any empty space that is not attacked by an opposite-colored bishop. As a reminder, a chess bishop can move diagonally any number of spaces, as long as it does not jump over any other pieces.</tomove>
     <towin/>
-    <rules>The puzzle is solved when the black bishops occupy the white bishops' starting spaces and the white bishops occupy the black bishops' starting spaces.</rules>
+    <rules>The puzzle is solved when the black bishops occupy all of the white bishops' starting spaces and the white bishops occupy all of the black bishops' starting spaces.</rules>
     <strategies/>
     <variants/>
     <alternates/>
