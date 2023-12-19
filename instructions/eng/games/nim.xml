@@ -20,11 +20,10 @@
     <references>
     <reference>Bolt, Brian. The Amazing Mathematical Amusement Arcade. New York: Cambridge University Press, 1990.</reference>
     <reference>Pentagrams. Pentagames. New York: Fireside, 1990.</reference>
-  </references>
+    </references>
     <links/>
     <gamescrafters>
         <gamescrafter>Avery Liou (Backend, Original GamesmanUni GUI)</gamescrafter>
         <gamescrafter>Cameron Cheung (Backend, Current GamesmanUni GUI)</gamescrafter>
-        </gamescrafter>
     </gamescrafters>
 </game>

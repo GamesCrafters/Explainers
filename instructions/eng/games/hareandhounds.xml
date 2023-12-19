@@ -1,0 +1,32 @@
+<game>
+    <name>Hare and Hounds</name>
+    <code>hareandhounds</code>
+    <history/>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>
+    The board is played on a board like those shown in the image above. One player controls the hare and the other player controls the hounds, which at the start of the game are arranged as shown in the image above. The hounds move forward or to the side to any adjacent unoccupied point. The hare may move to any adjacent unoccupied point.
+    The hounds win if they trap the hare, i.e., leave the hare player with no legal moves. The hare player wins if the hare goes past the hounds. We more strictly define the hare winning condition as the hare reaching the opposite corner of the board.
+    </rules>
+    <guiexplanation>
+    <strategies/>
+    <variants>
+        <variant>
+            <name>Board Size</name>
+            <description>Vary the length of the board.</description>
+        </variant>
+        <variant>
+            <name>Who Plays First</name>
+            <description>The players can agree upon whether the hounds player or hare player plays first.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Robert Shi (Solving, Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
