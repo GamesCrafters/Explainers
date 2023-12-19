@@ -12,7 +12,7 @@
   <variants>
     <variant>
       <name>Misere</name>
-      <description>To force your opponent in getting three in a row either horizontally, vertically or diagonally.</description>
+      <description>The objective is to force your opponent to get a three-in-a-row either horizontally, vertically or diagonally.</description>
     </variant>
   </variants>
   <alternates/>
