@@ -1,0 +1,24 @@
+<game>
+    <name>Y</name>
+    <code>y</code>
+    <history/>
+    <board>Y is played on a triangular board tiled with hexagonal spaces.</board>
+    <pieces>The first player places stones of one color and the second player places stones of another color.</pieces>
+    <tomove>Place one of your stones on an empty space on the board. You may not place your stone on a space already containing another stone.</tomove>
+    <towin>Connect the three sides of the board with your stones. Placing a stone on a corner space counts as connecting two sides.</towin>
+    <rules>In the following example, the player placing blue stones has connected all three sides of the board.[img src="y.svg" width="300" height="300"]</rules>
+    <strategies/>
+    <variants>
+        <variant>
+            <name>Sidelength</name>
+            <description>The board can have any sidelength N where N is the number of hexagons on the side of the triangular board.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Andrew Esteban (Solving, Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
