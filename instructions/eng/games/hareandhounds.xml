@@ -1,13 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <game>
     <name>Hare and Hounds</name>
     <code>hareandhounds</code>
     <history/>
     <board>Hare and Hounds is typically played on a board containing a series of connected points arranged in a rectangular formation, with two points at the ends of the rectangle. Horizontal, vertical, and diagonal lines connect the points, indicating how pieces can move among them.</board>
     <pieces>One player controls three hounds and the other player controls one hare. At the start of the game, the hounds start on one end of the board and the hare starts at the other end, as shown in the following image:[img src="hareandhounds.svg" alt="a" width="260" height="100"]</pieces>
-    <tomove>The hounds player moves one hound forward (toward the hare's starting point) or sideways to an adjacent unoccupied point following the lines of the board. A hound cannot move backward (away from the hare's starting location). The hare player moves the hare forward (towards the hounds' starting locations), backward (away from the hounds' starting locations), or sideways to an adjacent unoccupied point, following the lines of the board.</tomove>
+    <tomove>The hounds player moves one hound forward (toward the hare's starting point) or sideways to an adjacent empty point, following the lines of the board. A hound cannot move backward (away from the hare's starting location). The hare player moves the hare forward (towards the hounds' starting locations), backward (away from the hounds' starting locations), or sideways to an adjacent empty point, following the lines of the board.</tomove>
     <towin>The hounds win if they trap the hare, i.e., if the hare cannot legally move because it is blocked by the hounds. The hare wins if it runs past the hounds and is able to reach the opposite corner of the board.</towin>
     <rules/>
-    <guiexplanation>
     <strategies/>
     <variants>
         <variant>
