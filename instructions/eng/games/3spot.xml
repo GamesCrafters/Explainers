@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
-    <name>3-SPOT</name>
+    <name>3-Spot</name>
     <code>3spot</code>
     <history/>
     <board>3-SPOT is played on a three-row, three-column grid. The bottom three squares, each marked with a spot, are point squares.[img src="a.svg" alt="a" width="300" height="300"]</board>

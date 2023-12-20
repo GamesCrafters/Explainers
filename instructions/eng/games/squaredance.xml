@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Square Dance</name>
+    <code>squaredance</code>
+    <history/>
+    <board>Square Dance is played on a four-row, four-column grid. The grid is empty at the start of the game.</board>
+    <pieces>The first player has eight cones of one color and the second player has eight cones of another color.</pieces>
+    <tomove/>
+    <towin/>
+    <rules>Players alternate placing one of their cones on an empty cell of the grid either pointing up or pointing down.[br]Informally speaking, the first player to form a square of cones of either the same direction or the same color is the winner.[br]Specifically, if a player places a cone such that after the placement, there exist four cones on the board that (1) form a square and (2) are either the same color or pointing the same direction, then that player wins.[br]One can "form a square" in more ways than just by creating a two-by-two square of similar cones. The following image shows the twenty different ways four corner cells can define a square.[img src="a.svg" alt="a" width="300" height="300"]In the following example, the game has ended because the highlighted cones form a square and they are all pointing down.[img src="b.svg" alt="b" width="363" height="288"]</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Jack Hsu (Backend)</gamescrafter>
+        <gamescrafter>Joey Coreless (Backend)</gamescrafter>
+        <gamescrafter>Cameron Cheung (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
