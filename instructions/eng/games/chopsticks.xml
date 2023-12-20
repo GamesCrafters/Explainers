@@ -12,7 +12,7 @@
     <variants>
         <variant>
             <name>Allow Pass-Equivalent Transfers</name>
-            <description>If the value of one of your hands is X and the value of your other hand is Y, you are allowed to perform a transfer between your hands that results in, either (1) your first hand having value X and your second hand having value Y OR (2) your first hand having value Y and your second hand having value X. If pass-equivalent transfers are allowed, then you are allowed to transfer zero fingers between hands or transfer N fingers from the larger-value hand to the smaller-value hand, where N is the magnitude of the value difference between your hands.</description>
+            <description>If the value of one of your hands is X and the value of your other hand is Y, you are allowed to perform a transfer between your hands that results in either (1) your first hand having value X and your second hand having value Y OR (2) your first hand having value Y and your second hand having value X. If pass-equivalent transfers are allowed, then you are allowed to transfer zero fingers between hands or transfer N fingers from the larger-value hand to the smaller-value hand, where N is the magnitude of the value difference between your hands.</description>
         </variant>
         <variant>
             <name>Allow Full Transfers</name>
