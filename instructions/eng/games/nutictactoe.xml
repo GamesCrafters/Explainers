@@ -2,7 +2,7 @@
 <game>
   <name>Nu Tic-Tac-Toe</name>
   <code>nutictactoe</code>
-  <history>Nu Tic-Tac-Toe is a two-player game invented by Harry D. Ruderman, a mathematician from New York City. It can be learned in less than one minute, and is made for people of all ages. The game is strategically common to checkers and chess: timing, blocking, position, and anticipation.</history>
+  <history>Nu Tic-Tac-Toe is a two-player game invented by Harry D. Ruderman, a mathematician from New York City. It can be learned in less than one minute, and is made for people of all ages.</history>
   <board>Nu Tic-Tac-Toe is played on a five-row, four-column grid.</board>
   <pieces>The first player controls four X-pieces and the second player controls four O-pieces. At the start of the game, the pieces are arranged on the board as follows:[img src="a.svg" alt="a" width="300" height="300"]</pieces>
   <tomove>Slide one of your pieces left, right, up, or down, but not diagonally, to an adjacent empty cell. Pieces may not jump and there are no captures in this game.</tomove>

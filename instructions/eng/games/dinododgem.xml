@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Dino Dodgem</name>
+  <code>dinododgem</code>
+  <history>Dino Dodgem is based on the game Dodgem by Colin Vout. The game is published by Binary Arts.</history>
+  <board>Dino Dodgem is played on a four-row, four-column grid, with three starting points for green dinosaurs west of the board, and three starting points for purple dinosaurs south of the board.</board>
+  <pieces>Player 1 controls three green dinosaurs and Player 2 controls three purple dinosaurs. At the start of the game, the dinosaurs are arranged on the board as follows:[img src="a.png" alt="a" width="300" height="300"]</pieces>
+  <tomove/>
+  <towin/>
+  <rules>Player 1, on their turn, moves one of the green dinosaurs on the board east, north, or south to an adjacent unoccupied cell. If one of the green dinosaurs is on the east edge of the board, then Player 1 may move it east off the board. A green dinosaur may not move west, may not be moved off the north or south edges of the board, and may not move into the purple dinosaurs' starting area.[br]Player 2, on their turn, moves one of the purple dinosaurs on the board north, west, or east to an adjacent unoccupied cell. If one of the purple dinosaurs is on the north edge of the board, then Player 2 may move it north off the board. A purple dinosaur may not move south, may not be moved off the west or east edges of the board, and may not move into the green dinosaurs' starting area.[br]The first player to move all three of their dinosaurs off the board wins. A player loses if they have no legal moves.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Diana Fang (Backend, Solving)</gamescrafter>
+    <gamescrafter>John Lo (Backend, Solving)</gamescrafter>
+    <gamescrafter>Nathaniel Haynam (GamesmanUni GUI)</gamescrafter>
+    <gamescrafter>Siddharth Ganapathy (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>

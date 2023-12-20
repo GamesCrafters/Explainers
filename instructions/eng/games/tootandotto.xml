@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Toot and Otto</name>
+  <code>tootandotto</code>
+  <history>Toot and Otto is a game similar to Connect 4 made by ThinkFun.</history>
+  <board>Toot and Otto is played on a standing four-row, six-column grid with slots at the top of each column for inserting pieces. The board is empty at the start of the game.</board>
+  <pieces>There are two types of pieces in Toot and Otto - the T and the O. Each player has six Ts and six Os to place on the board.</pieces>
+  <tomove>On your turn, insert one of your pieces into one of the columns. The piece will fall to the lowest available row in the column. A piece cannot be inserted into a column that is full.</tomove>
+  <towin/>
+  <rules>One player will have the name "TOOT", and the other player will have the name "OTTO". "TOOT" plays first.[br]The first player to get their name - either "TOOT" or "OTTO", depending on which player they are - spelled on the board horizontally, vertically, or diagonally is the winner. It is possible for a player to complete the opponent's name for them, in which case the opponent wins. The game is a tie if "TOOT" and "OTTO" are simultaneously completed in a single move or if all pieces have been placed and neither TOOT nor OTTO has been spelled.</rules>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>The objective is to spell the opponent's name on the board. A player loses if their name is spelled.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="tootandotto_01.jpg" alt="toot and otto"]</picture>
+  </pictures>
+  <references>
+    <reference>ThinkFun.  ThinkFun.  7 Feb 2007. &lt;http://www.thinkfun.com&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Dan Garcia (Backend, Solving, GamesmanUni GUI)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>

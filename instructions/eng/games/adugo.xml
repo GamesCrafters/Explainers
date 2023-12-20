@@ -3,11 +3,11 @@
     <name>Adugo</name>
     <code>adugo</code>
     <history/>
-    <board/>
-    <pieces/>
-    <tomove/>
-    <towin/>
-    <rules></rules>
+    <board>Adugo is played on a board with 31 intersection points and lines indicating how pieces can travel among these points.</board>
+    <pieces>The first player controls the jaguar and the second player controls 14 dogs. At the start of the game, the jaguar and dogs are arranged on the board as follows:[img src="a.svg" alt="a" width="300" height="300"]</pieces>
+    <tomove>On the dogs player's turn, they move one dog to an adjacent empty point. On the jaguar player's turn, they either move the jaguar to an adjacent empty point, or they capture dogs. A jaguar can capture by jumping over an adjacent dog to the empty space immediately beyond the dog. The jaguar can also perform a sequence of jumps on their turn to capture multiple dogs. They may choose to stop jumping at any time if there is a chain of jumps. A jaguar cannot move to an adjacent empty space then jump in the same turn.</tomove>
+    <towin>The jaguar wins if it captures six dogs. The dogs win if they trap the jaguar (i.e., the jaguar cannot move).</towin>
+    <rules/>
     <strategies/>
     <variants/>
     <alternates/>

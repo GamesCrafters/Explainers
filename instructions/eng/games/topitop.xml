@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Topitop</name>
+  <code>topitop</code>
+  <history>Topitop is a wooden game created by Thierry Denoual and is made by BlueOrange Games.</history>
+  <board>Topitop is played on a three-row, three-column grid, which is empty at the beginning of the game.</board>
+  <pieces>There are four different types of building components - blue buckets (B), red buckets (R), small sand piles (S), and large sand piles (L). In total, there are ten building components: two blue buckets, two red buckets, four small sand piles, and four large sand piles.[img src="a.svg" alt="a" width="300" height="84"]</pieces>
+  <tomove/>
+  <towin/>
+  <rules>Player 1 is BLUE and "owns" blue structures (i.e., structures with a blue bucket on top). Player 2 is RED and "owns" red structures (i.e., structures with a red bucket on top). Both players have control over neutral structures (i.e., structures with no bucket on top).[br]Player 1 may only place components B, S, and L on the board. Player 2 may only place components R, S, and L on the board.[br]Over the course of the game, there are nine possible structures that can exist on the grid.[img src="b.svg" alt="a.svg" width="300" height="300"]Player 1 (blue) may move any building on the board except buildings 4, 5, and 6. Player 2 (red) may move any building on the board except buildings 1, 2, and 3. Buildings 7, 8, and 9 are neutral buildings. The buildings are created via the following stacking rules.[br]Valid Stackings: STACK(1,7)=2, STACK(2,8)=3, STACK(1,9)=3, STACK(4,7)=5, STACK(5,8)=6, STACK(4,9)=6, and STACK(7,8)=9. For every other building pair β₁,β₂ ∈ {1, ..., 9}, the stacking is invalid, i.e, STACK(β₁,β₂) is undefined. The order of arguments matters, e.g., STACK(1,7)=2 but STACK(7,1) is invalid/undefined.[br]The board starts empty. On a player's turn they may either (1) place one of the remaining building components they own on an empty cell on the board (placing B, R, S, or L on a particular empty slot establishes building 1, 4, 7, or 8 on that cell, respectively) or (2) move one of the buildings β₁ horizontally, vertically, or diagonally one space into either an empty slot or to a slot containing a building β₂ such that STACK(β₁,β₂) is defined, after which the destination slot will hold the building that results from STACK(β₁,β₂). If a player moves a neutral building to an empty slot, then the opponent on their next turn may not move that same neutral structure back to its original slot (it may be moved back on a following turn; just not on the turn immediately after).[br]If a player is unable to make a legal move, they pass their turn. A building may never be taken apart.[br]Player 1 wins once two of building 3 has been created, and Player 2 wins once two of building 6 has been created.</rules>
+  <strategies/>
+  <variants/>
+  <alternates/>
+  <pictures>
+    <picture>[img src="topitop_01.jpg" alt="topitop"]</picture>
+    <picture>[img src="topitop_02.gif" alt="topitop"]</picture>
+    <picture>[img src="topitop_03.jpg" alt="topitop"]</picture>
+  </pictures>
+  <references>
+    <reference>BlueOrange Games.  Topitop.  5 Feb 2007. &lt;http://www.blueorangegames.com/topitop.php&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Mike Hamada (GamesmanClassic Code v0)</gamescrafter>
+    <gamescrafter>Alex Choy (GamesmanClassic Code v0)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanClassic Code v1, Solving, GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>
