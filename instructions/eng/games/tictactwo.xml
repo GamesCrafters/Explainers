@@ -3,7 +3,7 @@
     <name>Tic-Tac-Two</name>
     <code>tictactwo</code>
     <history>Tic-Tac-Two is a variation of tic-tac-toe published by Chicago-based game seller Marbles: The Brain Store. The objective of creating a three-in-a-row is the same, but players are also allowed to move the tic-tac-toe grid and the markers.</history>
-    <board>Tic-Tac-Two is played on a five-row, five-column (25-cell) board with a movable tic-tac-toe (three-column, three-row) grid.[img src="a.svg" alt="a" width="300" height="300"]</board>
+    <board>Tic-Tac-Two is played on a five-row, five-column (25-cell) board with a movable tic-tac-toe (three-column, three-row) grid. At the start of the game, the tic-tac-toe grid is centered at the center cell of the board.[img src="a.svg" alt="a" width="300" height="300"]</board>
     <pieces>The first player has four "X" pieces and the second player has four "O" pieces to place.</pieces>
     <tomove/>
     <towin/>
