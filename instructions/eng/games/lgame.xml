@@ -2,46 +2,46 @@
 <game>
   <name>L-game</name>
   <code>lgame</code>
-  <history>L-game's humble beginnings started during a dinner conversation between Edward de Bono and mathematician Professor Littlewood. Both agreed that, chess was difficult because of its complexity and many pieces. De Bono who loves to play games but hates to focus on many pieces took up the challenge to create a game that required skill, yet was also fun and simple to play. The result was L Game. There are 2,296 distinct board positions or 18,268 if rotations and reflections are counted.</history>
+  <history>L-game's humble beginnings started during a dinner conversation between Edward de Bono and mathematician Professor Littlewood. Both agreed that chess was difficult because of its complexity and many pieces. De Bono, who loves to play games but hates to focus on many pieces, took up the challenge to create a game that required skill, yet was also fun and simple to play. The result was L-game. There are 2,296 unique positions under symmetry (18,268 if redundant positions under symmetry are counted).</history>
   <board>L-game is played on a four-row, four-column grid.</board>
-  <pieces>Each player has a 3x2 L-shaped piece that covers four of the squares and there are two neutral pieces.</pieces>
-  <tomove>First select the L that represents the position you want for the L piece. Next, you may move a neutral piece onto the board.</tomove>
-  <towin>To maneuver the opponent into a position where he cannot move his L piece.</towin>
-  <rules>The board starts out with two L pieces positioned in the middle of the board. One neutral piece is on the upper left hand corner of the board and the other on the bottom left hand corner.[img src="lgamea.jpg" alt="L game" width="200"]The first person takes his L-piece and places it on the board in a position where at least one of the squares vacated must be different from the previous position. At the end of the turn, the player has the option to place one of the neutral circles on any open square. Players alternate turns until one player cannot legally place his L-shaped piece on the board.[img src="lgameb.jpg" alt="L game" width="200"]</rules>
+  <pieces>There are four pieces — the blue L-piece, the red L-piece, and two 1-by-1 neutral pieces. Each L-piece covers four cells of the grid at any time. One player controls the blue L-piece and the other player controls the red L-piece. Both players control the two neutral pieces. At the beginning of the game, the pieces are arranged on the board as follows:[img src="lgame.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove>Pick up your L-piece and place it in a different way on the board. Specifically, the L-piece should be moved to cover at least one cell of the grid that was not covered by it immediately before it was picked up. Then, you may optionally move one of the neutral pieces to a different location on the board. Note that pieces are not allowed to overlap other pieces and may not hang off the side of the board.</tomove>
+  <towin>A player wins when their opponent is unable to move their L-piece on their turn.</towin>
+  <rules/>
   <strategies>
     <strategy>
       <name>Fundamentals</name>
-      <description>There are 6 fundamental ways in which an L piece can be placed on the board. All other positions are rotations or reflections of these six. In every winning position, the loser will have his L piece touching the edge of the board. 22/29 of the winning positions occur when the opponent is trapped in the upper left hand corner, with the long side of the L on the left edge of the board.</description>
+      <description>There are six fundamental ways an L-piece can be placed on the board. All other L-piece placements are rotations or reflections of these six. In every winning position, the loser will have their L-piece touching the edge of the board. 22/29 of winning positions involve the opponent's L-piece being trapped in the upper left hand corner, with the long side of the L on the left edge of the board.</description>
     </strategy>
   </strategies>
   <variants>
     <variant>
       <name>Misere</name>
-      <description>To force yourself into a position where you are unable to move your L piece.</description>
+      <description>The objective is to force yourself into a position where you are unable to move your L-piece.</description>
     </variant>
     <variant>
       <name>Sudden Death</name>
-      <description>Players are allowed to move both neutral pieces in this variant. The object of the games is to force your opponent into a position where he cannot move his L-piece.</description>
+      <description>Players are allowed to move both neutral pieces in a turn.</description>
     </variant>
     <variant>
       <name>Scoring</name>
-      <description>The four squares in one corner of the gameboard are marked so that every time the L-piece touches one of the four corners, he scores a point. If you block your opponent from placing his L-piece five points are rewarded and the game resets to the starting position. The winner is the first player to reach an agreed total or the most points within a period of time.</description>
+      <description>The four squares in one corner of the board are marked so that every time the L-piece touches one of the four corners, a point is scored. If you block your opponent from placing their L-piece, five points are awarded and the game resets to the starting arrangement of pieces. The winner is the first player to reach an agreed total.</description>
     </variant>
     <variant>
       <name>Symmetry</name>
-      <description>The rules are the same as the classic game. In order to win the game, however, one must place his L-piece symmetrically equivalent to his opponent's piece.</description>
+      <description>The rules are the same as the classic game, except that in order to win, one must place their L-piece so that it is symmetrical to the opponent's L-piece.</description>
     </variant>
     <variant>
       <name>Pieces</name>
-      <description>The amount of neutral pieces on the gameboard can be switched to just one. The same rules of the classic L game apply.</description>
+      <description>The number of neutral pieces on the board can be changed to one. The same rules of the classic L-game apply.</description>
     </variant>
     <variant>
-      <name>Required Movement Of The Neutral Piece</name>
-      <description>In the classic L game, each player had the option of moving a neutral piece on his or her turn. This variant forces each player to move the neutral piece on their turn.</description>
+      <name>Required Movement of a Neutral Piece</name>
+      <description>Make moving a neutral piece mandatory for each turn.</description>
     </variant>
     <variant>
-      <name>Changing The Initial Position</name>
-      <description>Players can change how the board is initially set up to give the game an additional twist.</description>
+      <name>Initial Position</name>
+      <description>Players can change how the board is initially set up.</description>
     </variant>
   </variants>
   <alternates/>
@@ -64,11 +64,12 @@
     </link>
     <link>
       <url>http://www.edwdebono.com/debono/lgame.htm</url>
-      <description>Official L Game Site</description>
+      <description>Official L-Game Site</description>
     </link>
   </links>
   <gamescrafters>
-    <gamescrafter>Alex Kozlowski</gamescrafter>
-    <gamescrafter>Mike Savitsky</gamescrafter>
+    <gamescrafter>Alex Kozlowski (Solving, Backend)</gamescrafter>
+    <gamescrafter>Mike Savitsky (Solving, Backend)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
   </gamescrafters>
 </game>
