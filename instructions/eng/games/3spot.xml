@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
-    <name>3-SPOT</name>
+    <name>3-Spot</name>
     <code>3spot</code>
     <history/>
-    <board>3-SPOT is played on a three-row, three-column grid. The bottom three squares, each marked with a spot, are point squares.[img src="a.svg" alt="a" width="300" height="300"]</board>
+    <board>3-Spot is played on a three-row, three-column grid. The bottom three squares, each marked with a spot, are point squares.[img src="a.svg" alt="a" width="300" height="300"]</board>
     <pieces>There are three rectangular pieces that each can cover a 1-by-2 area of the board. The first player controls the blue piece. The second player controls the red piece. Both players control the white (neutral) piece. The pieces are initially arranged on the board as follows:[img src="3spot.svg" alt="a" width="300" height="300"]</pieces>
     <tomove>Move your colored piece (i.e., the blue piece or red piece, whichever you control) so that it covers a 1-by-2 area of the board such that at least one of the squares covered by your colored piece was not covered by it immediately before you moved it. Count the number of point squares covered by your colored piece, and add that number to your score. Then, move the white piece such that it coveres a 1-by-2 area of the board such that at least one of the squares covered by the white piece was not covered by it immediately before you moved it.</tomove>
     <towin>Have fewer than 6 points while your opponent has at least 12 points, or have at least 12 points while your opponent has at least 6 points.</towin>

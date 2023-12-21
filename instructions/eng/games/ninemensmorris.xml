@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Nine Men's Morris</name>
+    <code>ninemensmorris</code>
+    <history>Nine Men's Morris is believed to be one of the oldest games in history. It is an alignment and configuration game that is found widely around the world. "Morris" comes fromt the Latin word "merellus", which means the corruption of counters. The earliest known diagram of Nine Men's Morris was found in an Egyptian temple in Kurna, Egypt, dating back to around 1440 BC. Other boards have been discovered in Ceylon of Sri Lanka (c. AD 10) and in the Gokstad Viking ship (c. AD 900). In Ceylon, two boards were carved into the steps leading to the hill at Mihimtali and others boards were found on a rock near Lankarama dagaba. Evidence of the board scratched in the ground has also been found in Bronze-Age Ireland, ancient Troy, and the Southwestern United States. Kere, Tigua, Tew and Zuni Native Americans played a version of the game called paritariya, picarva, and pedreria. To the ancient Celts, the Morris square was sacred. The central square known as the Cauldron or Mill was a symbol of regeneration while the lines and squares coming out from the middle were symbols of "the four cardinal directions, the four elements and the four winds" (Mohr 30).[br]Although it is not known when Nine Men's Morris reached Britain, it was widely played during the Middle Ages, along with similar games such as Three, Six, and Twelve Men's Morris. The game was most popular in the 14th and 15th Century. During the fourteenth century, Nine Men's Morris boards were a part of a set of games that were played on "shallow boxes with hinged lids" (Bell 8). When the box was closed, one surface had a chessboard while the other had a Nine Men's Morris board. When opened, the box was used as a backgammon board. The game was also frequently played with pebbles on engraved boards in taverns or on boards drawn in the ground with a trowel. The board was found scratched onto the seats of many British cathedrals, and on the "steps of Furness Abbey, tombstones at Dryburgh Abbey, Worksop, and Arbory in the Isle of Man, at Norwich, Dover, Helmsley, and Scarborough Castles, and on stones built into the walls of churches, as at Hargrace (Northants), Ickford (Bucks.), Sparsholt (Berks.), and Kirkby Underdale (Yorks.)" (Murray 44). By the late 16th century, the game was called Merels from an Old English word "mere" meaning "boundaries".[br]Shakespeare refers to Nine Men's Morris in A Midsummer Night's Dream, when he wrote "The Nine Men's Morris is fill'd up with mud" (Act 2, Scene 2). In the passage, Titania, the queen of the fairies blames Oberon for causing chaos in the world. The rain has not stopped causing disease and the Nine Men's Morris Board to be unplayable. This passage is often cited as evidence that the game was played outdoors. The game is also mentioned in the medieval literature of France and Germany. In Civis Bononiae MS, the popularity of the game among commoners is described as "Tunc merellos doceo quibus plebs iocatur" (Murray 45). The game has also been played with real life pieces. On June 24, 1897, boys and girls were used as pieces at Saffron Walden. During World War I, new versions of the game sprung up. Known as Trencho, these versions of Nine Men's Morris were inspired by trench fighting.</history>
+    <board>Nine Men's Morris is played on a board containing 24 intersection points, with lines indicating how pieces travel among the points. The board is empty at the beginning of the game.[img src="a.svg" alt="a" width="300" height="300"]</board>
+    <pieces>The first player has nine white pieces and the second player has nine black pieces.</pieces>
+    <tomove/>
+    <towin/>
+    <rules>Players begin taking turns placing one of their pieces on an unoccupied point on the board. Once all pieces have been placed, players take turns moving one of their pieces to an adjacent unoccupied space. If a player only has three pieces remaining, on their turn they may "fly" one of their pieces to any unoccupied space.[br]At any time, if a player forms a mill (a horizontal or vertical contiguous line of three of their own pieces), they shall remove one of their opponent's pieces from the board. An opponent's piece can only be removed as long as it is not part of a mill, unless all of the opponent's pieces are in mills, in which case any of the opponent's pieces may be removed. A removed piece cannot be placed on the board again.[br]The following image shows a Nine Men's Morris position with a horizontal white mill and a vertical black mill.[img src="b.svg" alt="b" width="300" height="300"]A player wins when either their opponent has no legal moves or their opponent only has two pieces remaining.</rules>
+    <strategies>
+    <strategy>
+      <name>Strategic Locations</name>
+      <description>Early in the game it is essential to place your piece in strategic locations where you can easily move your piece. Do not concentrate on trying to form mills. For example, pieces on the midpoints of the innermost ring can move in three directions while pieces placed on the corner may only move in two directions. A player should avoid crowding all of their pieces in one ring.</description>
+    </strategy>
+    <strategy>
+      <name>Blocking</name>
+      <description>A player may move a piece out of a mill, and then slide it back into the mill on the next move. Try to prevent your opponent from doing this. If you are unable to do so, then try to make a mill of your own using this strategy. The other player will be forced to choose between blocking your piece and continuing their strategy.</description>
+    </strategy>
+    <strategy>
+      <name>Double Mill/Seesaw/Running Jenny</name>
+      <description>It is desirable to form two mills side-by-side so that you can slide a piece from one mill to the other, removing one of their opponent's pieces every turn.</description>
+    </strategy>
+  </strategies>
+    <variants>
+    <variant>
+      <name>Six Men's Morris</name>
+      <description>The game became popular in Italy, France and England in the Middle Ages. The rules are similar to those Nine Men's Morris. Unlike in Nine Men's Morris, in Six Men's Morris, (1) players have only six pieces each, (2) the board only has sixteen intersection points, and (3) players may not "fly" their pieces regardless of how many pieces they have remaining.</description>
+    </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+    <reference>Bell, R. C. Board and Table Games from Many Civilizations. New York: Dover, 1979. 91-95.</reference>
+    <reference>Mohr, Merily Simonds. The Games Treasury. Shelburne: Chapters Publishing Ltd., 1993. 30-31.</reference>
+    <reference>Murray, H.J.R. Oxford: Oxford University Press, 1951. 35-48.</reference>
+    <reference>Provenzo, Asterie Baker, and Eugene F. Provenzo, Jr. Favorite Board Games You Can Make and Play. New York: Dover Publications, 1981. 30-36.</reference>
+    <reference>Pritchard, David. Brain Games. New York: Penguin Books, 1982. 128-131.</reference>
+  </references>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Patricia Fong (GamesmanClassic Code v0)</gamescrafter>
+        <gamescrafter>Kevin Liu (GamesmanClassic Code v0)</gamescrafter>
+        <gamescrafter>Erwin A. Vedar (GamesmanClassic Code v0)</gamescrafter>
+        <gamescrafter>Wei Tu (GamesmanClassic Code v0)</gamescrafter>
+        <gamescrafter>Elmer Lee (GamesmanClassic Code v0)</gamescrafter>
+        <gamescrafter>Cameron Cheung (GamesmanClassic Code v1, Solving, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Dan Garcia (GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

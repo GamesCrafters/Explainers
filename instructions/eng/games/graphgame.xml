@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Graph</name>
+    <code>graphgame</code>
+    <history/>
+    <board>The game is played on a weakly connected directed graph. The graph's sink nodes are either colored green (PRIMITIVE WIN), yellow (PRIMITIVE TIE), or red (PRIMITIVE LOSE).[img src="a.svg" alt="a" width="300" height="300"]</board>
+    <pieces>A counter is placed on one of the graph's nodes at the start of the game. This node is the initial position.</pieces>
+    <tomove>Players take turns moving the counter to an outgoing neighbor node.</tomove>
+    <towin>You win if either it is the opponent's turn and the counter is on a red sink node, or if it is your turn and the counter is on a green sink node.</towin>
+    <rules>The game is a tie if the counter is on a yellow sink node.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Dan Garcia (Backend)</gamescrafter>
+        <gamescrafter>Arihant Choudhary (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Cameron Cheung (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

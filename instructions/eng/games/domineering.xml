@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Domineering</name>
+    <code>domineering</code>
+    <history/>
+    <board>Domineering is often played on an N-row, N-column board. The board is empty at the start of the game.</board>
+    <pieces>One player uses vertical dominoes and the other uses horizontal dominoes. The player using vertical dominoes can cover any two vertically adjacent cells of the board with a domino. The player using horizontal dominoes can cover any two horizontally adjacent cells of the board with a domino.</pieces>
+    <tomove/>
+    <towin/>
+    <rules>Each turn, a player places a single domino onto the board. Each domino placed (1) cannot extend beyond the board's boundaries and (2) cannot overlap or cover a cell that is already occupied by another domino.[br]A player loses if they cannot legally place a domino on their turn.[img src="a.svg" alt="a" width="300" height="300"]</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Cameron Cheung (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

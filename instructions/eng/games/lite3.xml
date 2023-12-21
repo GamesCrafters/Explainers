@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Lite 3</name>
+  <code>lite3</code>
+  <history>The game of Lite 3 was created by Tiger Games.</history>
+  <board>Lite 3 is played on a tic-tac-toe (three-row, three-column) grid.</board>
+  <pieces/>
+  <tomove/>
+  <towin/>
+  <rules>Lite 3 is very similar to tic-tac-toe, with the change that each player can only have at most three of their markers on their board at a time.[br]The board starts empty. One player places X markers and the other player places O markers.[br]To move, choose an empty cell of the grid to place a marker. If you already have three markers on the board, then your least recently placed marker will disappear as soon as you have placed your newest marker, leaving its cell empty so that players can place a marker there in the future.[br]The first player to create a horizontal, vertical, or diagonal line of three markers wins.[img src="lite3.svg" alt="a" width="300" height="300"]</rules>
+  <strategies>
+    <strategy>
+      <name>Memory</name>
+      <description>Try to remember the order of markers placed.</description>
+    </strategy>
+  </strategies>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>Force your opponent to connect three of their pieces in a row either horizontally, vertically or diagonally.</description>
+    </variant>
+    <variant>
+      <name>Surround Wins</name>
+      <description>You win if all cells orthogonally adjacent to one of your opponent's markers are occupied by your own markers.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Alex Perelman (Backend)</gamescrafter>
+    <gamescrafter>Babak Hamadani (Backend)</gamescrafter>
+    <gamescrafter>Kehan Chen (GamesmanUni GUI)</gamescrafter>
+    <gamescrafter>Xiongsong Zhang (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>

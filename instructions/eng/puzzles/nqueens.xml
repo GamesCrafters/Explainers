@@ -7,7 +7,7 @@
     <pieces/>
     <tomove/>
     <towin/>
-    <rules>Place N queens on an N-row, N-column chessboard in a non-attacking configuration. Two different queens must not be on the same row, column, or diagonal.</rules>
+    <rules>Place N queens on an N-row, N-column chessboard in a non-attacking configuration. Two different queens must not be on the same rank (row), file (column), or diagonal.[img src="nqueens.svg" alt="a" width="300" height="300"]</rules>
     <strategies/>
     <variants/>
     <alternates/>

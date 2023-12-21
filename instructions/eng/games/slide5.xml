@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Slide-5</name>
+    <code>slide5</code>
+    <history/>
+    <board>Slide-5 is played on a 5-by-5 grid standing diagonally. There are five slots on the upper left side and five slots on the upper right side in which to insert pieces.</board>
+    <pieces>The first player inserts pieces of one color into the grid and the second player inserts pieces of another color into the grid.</pieces>
+    <tomove/>
+    <towin/>
+    <rules>Inserting a chip into a slot causes pieces in the row to which that slot is an entrance to slide down.[img src="a.svg" alt="a" width="300" height="250"]Inserting a chip into a filled-up row causes the bottommost chip in the row to fall out of the grid. Chips that fall out of the grid can be placed again.[img src="b.svg" alt="b" width="300" height="250"]To win, form a line of five of your pieces horizontally, vertically, or diagonally.[img src="c.svg" alt="c" width="300" height="250"]It is possible to create a five-in-a-row for your opponent, in which case you lose.[br]It is also possible in a single move to create a five-in-a-row for both you and your opponent. If you create a five-in-a-row for yourself and your opponent in a single move, then you win. Variations of this rule are explained in the Variants section.</rules>
+    <strategies/>
+    <variants>
+        <variant>
+            <name>When a Five-in-a-Row is Simultaneously Created for Both Players in a Single Move</name>
+            <description>Decide whether the result in this scenario is a win, lose, or tie for the player who created the five-in-a-rows.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Harnoor Dhillon (Solving, Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

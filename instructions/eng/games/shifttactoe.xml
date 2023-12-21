@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Shift Tac Toe</name>
+  <code>shifttactoe</code>
+  <history>Shift Tac Toe was first released in 1988 by Pressman games.</history>
+  <board>Shift-tac-toe is played on a standing three-row, three-column grid with slots for the pieces to be inserted from the top. As the game progresses, players may shift one of the rows on their turn. A row is able to be shifted at most one space to the left and at most one space to the right from its starting position.</board>
+  <pieces>The first player has five black disks to place and the second player has five red disks to place.</pieces>
+  <tomove>On their turn, a player either inserts one of their disks into an open column or shifts one of the rows. When placing a disk in the column, the disk will fall to the lowest available row on top of any other disks that were placed in the column. One may not insert a disk into a column already containing three disks. When shifting a row, (1) any piece shifted away from the main three-row, three-column grid drops out of the board and is returned to its owner and (2) some disks in above rows may fall one row lower if the row-shift opens up spaces below them.</tomove>
+  <towin>Be the first player to form a horizontal, vertical, or diagonal line of three of your disks.</towin>
+  <rules/>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>The objective is to force your opponent to get a three-in-a-row either horizontally, vertically or diagonally.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="shifttactoe_01.jpg" alt="shift tac toe" width="200"]</picture>
+    <picture>[img src="shifttactoe_02.jpg" alt="shift tac toe" width="200"]</picture>
+    <picture>[img src="shifttactoe_03.jpg" alt="shift tac toe" width="200"]</picture>
+    <picture>[img src="shifttactoe_04.jpg" alt="shift tac toe" width="200"]</picture>
+    <picture>[img src="shifttactoe_05.jpg" alt="shift tac toe" width="200"]</picture>
+  </pictures>
+  <references/>
+  <links>
+    <link>
+      <url>http://www.pressmantoy.com/Shifttactoe.html</url>
+      <description>Official Shift Tac Toe Site</description>
+    </link>
+  </links>
+  <gamescrafters>
+    <gamescrafter>David Chen (Backend, Solving)</gamescrafter>
+    <gamescrafter>Ling Xiao (Backend, Solving)</gamescrafter>
+    <gamescrafter>Seth Lu (Backend, GamesmanUni GUI v0)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUNI GUI v1)</gamescrafter>
+  </gamescrafters>
+</game>

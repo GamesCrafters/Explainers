@@ -1,0 +1,20 @@
+<game>
+    <name>Forest Fox</name>
+    <code>forestfox</code>
+    <history>This abstract strategy game we have named "Forest Fox" is adapted from the card game "The Fox in the Forest". It is a trick-taking card game for two players. The main modification made to the original game is that cards held by each player can be seen by both players.</history>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>There are fifteen cards total of three suits — five of them are Bell Cards, five of them are Key Cards, and five of them are Moon Cards. There are five ranks (1-5) in each of the suits.[img src="a.svg" alt="a" width="300"]Each player is dealt seven of the fifteen cards. The remaining card is the Decree Card.[br]The game has seven rounds, each of which goes as follows: Player 1 first plays a card. Then Player 2 must play a card of the same suit if Player 2 has one; otherwise, Player 2 can place any card. After both cards have been played (referred to as a trick), the winner of the trick is determined.[br]The winner of the trick is the player whose card has the higher suit, or the higher ranking if the suits of the players' cards are the same. "Higher suit" is defined as follows: the suit of the decree card is higher than the suit of the first player's card, which is higher than the remaining suit or both of the remaining suits.[br][br]Some cards have special abilities:[br] - Rank 1 Card (FOX): When you play this, you exchange the decree card with this card, i.e., the decree card becomes this card and your card becomes the original decree card.[br] - Rank 3 Card (TRIUMPH): When there is only one Rank 3 card played, then this Rank 3 card's suit will be upgraded as the decree card's suit.[br] - Rank 5 Card (MONARCH): This card's ability is only for the first player. After playing this, if your opponent has a card of the suit you played, the opponent can only play a Rank 1 card of this suit or the highest ranked card of this suit. If the opponent does not have cards of this suit, then the opponent can play any card.[br]The game ends at the end of the seventh trick. A player wins if they had 0 or 1 winning tricks (Humble); or 4 or 5 winning tricks (Victorious). A player loses if they had 2 or 3 winning tricks (Defeated); or 6 or 7 winning tricks (Greedy).</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Yifan Zhou (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Jiachun Li (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

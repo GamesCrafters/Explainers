@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Chung-Toi</name>
+  <code>chungtoi</code>
+  <history>Chung-toi was created by W. Reginald Chung and was published by Design Science Toys. Chung took time off of his engineering career to create the game for his children. Based off the game tic-tac-toe, Chung-Toi was designed with the intent of being educational and challenging, but also simple to learn. The publisher, Design Science Toys, sadly went bankrupt as of 2005.</history>
+  <board>Chung-Toi is played on a tic-tac-toe (three-row, three-column grid).</board>
+  <pieces>The first player has three red pieces and the second player has three white pieces.</pieces>
+  <tomove/>
+  <towin>Arrange your pieces in a horizontal, vertical, or diagonal line of three.</towin>
+  <rules>There are two phases in a game of Chung-Toi:[br]First Phase: Each player takes turns placing one of their pieces on the board. Each piece is placed either in a "+" or "x" orientation.[br]Second Phase: Begins once all pieces have been placed. Players take turns either (1) sliding pieces of their own color, (2) rotating a piece in place, or (3) passing their turn. Pieces in a "+"" orientation can only slide horizontally and vertically and pieces in a "x" orientation can only slide diagonally. When a piece slides, it must slide into an empty slot but it can jump over any piece that blocks its path between its departure and destination slot. After sliding a piece, the player chooses to change or keep the piece's orientation.</rules>
+  <strategies>
+    <strategy>
+      <name>Odd Avantage</name>
+      <description>An easy strategy to follow is to make sure that there is an odd number of moves left. Generally, the player to go first will have the advantage.</description>
+    </strategy>
+  </strategies>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>To force your opponent into getting three in a row.</description>
+    </variant>
+    <variant>
+      <name>Rotating Piece</name>
+      <description>Variation that says rotations are not allowed in place and if players are allowed to rotate upon landing.</description>
+    </variant>
+    <variant>
+      <name>Jumps</name>
+      <description>Players can select if they want to allow single-space jumps or double space jumps.</description>
+    </variant>
+    <variant>
+      <name>Trapping</name>
+      <description>Variation which allows the trapped player to lose.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures>
+    <picture>[img src="chungtoi_01.jpg" alt="chung-toi" width="200"]</picture>
+    <picture>[img src="chungtoi_02.jpg" alt="chung-toi" width="200"]</picture>
+    <picture>[img src="chungtoi_03.jpg" alt="chung-toi" width="200"]</picture>
+    <picture>[img src="chungtoi_04.jpg" alt="chung-toi" width="200"]</picture>
+    <picture>[img src="chungtoi_05.jpg" alt="chung-toi" width="200"]</picture>
+    <picture>[img src="chungtoi_06.jpg" alt="chung-toi" width="200"]</picture>
+  </pictures>
+  <references>
+    <reference>Design Science Toys. "Reginald Chung" Accessed on: 8 April 2006 through Google's Cache. 12 July 2005. &lt;http://www.dstoys.com/content/Bios/ReginaldChung/&gt;.</reference>
+  </references>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Farzad Eskafi (Backend, Solving)</gamescrafter>
+    <gamescrafter>Erwin Vedar (Backend, Solving)</gamescrafter>
+    <gamescrafter>Dan Garcia (GamesmanUni GUI)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>

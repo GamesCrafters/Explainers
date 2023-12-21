@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Joust</name>
+    <code>joust</code>
+    <history/>
+    <board>Joust is played on a chessboard.</board>
+    <pieces>The first player controls the white chess knight and the second player controls the black chess knight. At the start of the game, the knights are placed on opposite corners of the board.</pieces>
+    <tomove>Move your knight to a space that has never been occupied by either knight. A knight moves either (1) two spaces horizontally and one space vertically or (2) one space horizontally and two spaces vertically. The space that your knight departs from will be burned and neither knight can jump to it for the rest of the game.</tomove>
+    <towin>You win if your opponent has no place to move their knight to on their turn.</towin>
+    <rules/>
+    <strategies>
+    <strategy>
+      <name>Color Advantage</name>
+      <description>When both knights begin on squares of the same color, the first player has an advantage. This is due to the fact that after the second player's moves, both players will need to land on the same color the next turn. This means the first player can block the second player's move directly.</description>
+    </strategy>
+    <strategy>
+      <name>Symmetric Strategy</name>
+      <description>If the board has an even number of squares and both players start in symmetrically equivalent positions, then the second player can always win by copying the first player's moves.</description>
+    </strategy>
+    <strategy>
+      <name>Control The Center</name>
+      <description>Overall it is a good idea to try to maintain control of the center of the board. This also means it is a good idea to try to keep your opponent towards the edge of the board. This will limit the number of possible moves they have on their next turn. However, it is important to actually "keep" them there, instead of just pushing them there and then letting them jump out.</description>
+    </strategy>
+    <strategy>
+      <name>Rule Of Two</name>
+      <description>The following situation comes up often in the game of Joust. The board is close to being split into two large sections of squares. Generally you want to be left in the larger section of the board then. However, if you have the color advantage, you could either be in the larger section or the same section as your opponent and you will still be favored to win. The key to this, however, is before the board is actually split. There will only be two pathways left joining the two sections. The player to break one pathway will be disadvantaged because the second player will be able to break the second path and thus choose which section to stay on. (All strategies are ideas of Gerry Quinn)</description>
+    </strategy>
+  </strategies>
+    <variants>
+    <variant>
+      <name>Misere</name>
+      <description>If you are in a position where you are unable to move, you win.</description>
+    </variant>
+    <variant>
+      <name>Board Size</name>
+      <description>The board size can vary from 5x5 to any NxN. 5x5 is an appropriate minimum because of the nature of the knight's move. Also, it is possible to play on non-square boards.</description>
+    </variant>
+    <variant>
+      <name>Starting Position</name>
+      <description>It is possible to play with fixed starting positions, such as opposite corners. It is also an option to allow the players to choose their starting positions, restricting them to opposite ranks on the board or not.</description>
+    </variant>
+    <variant>
+      <name>Alternate Pieces</name>
+      <description>It is possible to play with different chess pieces, such as Kings, Queens, Bishops and Rooks. Another option is to allow differing pieces for opponents.</description>
+    </variant>
+    <variant>
+      <name>Grenading</name>
+      <description>This refers to burning a square other than your previous square. Thus grenading is ranged burning. Grenading has two variants. Piece-type burning refers to burning squares depending on what piece you are. Arbitrary burning means you can burn any square that is unburned or unoccupied. Grenading can also be based on your position prior to moving or after moving.</description>
+    </variant>
+  </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+    <reference>Quinn, Gerry. "Joust - A Simple Abstract Game." 10 Mar. 2006 &lt;http://indigo.ie/~gerryq/Joust/Joustra.htm &gt;.</reference>
+  </references>
+  <links>
+    <link>
+      <url>http://odin.prohosting.com/shazbot/joust/#AboutGamesman</url>
+      <description>Joust: A Two Person, Perfect Combinatorial Game</description>
+    </link>
+    <link>
+      <url>http://indigo.ie/~gerryq/Joust/Joust.htm</url>
+      <description>Gerry Quinn's Mathematical Games Website, Joust Specific Page</description>
+    </link>
+  </links>
+    <gamescrafters>
+        <gamescrafter>Isaac Greenbride (Backend)</gamescrafter>
+        <gamescrafter>Mike Jurka (Backend)</gamescrafter>
+        <gamescrafter>Dave Le (Backend)</gamescrafter>
+        <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

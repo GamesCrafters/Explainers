@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Jenga</name>
+    <code>jenga</code>
+    <history>This is an adaptation of the real game of Jenga which assumes that players are able perfectly pull out and place blocks to keep the tower standing.</history>
+    <board/>
+    <pieces/>
+    <tomove/>
+    <towin/>
+    <rules>The Jenga tower is built out of wooden blocks that are three times as long as they are wide.[br]At the beginning of the game, the tower is constructed by stacking the blocks such that there are three parallel blocks in each layer and the blocks in a layer are perpendicular to the blocks in the layer below.[br]On your turn, pull a block out of the tower and place it on top, in order to construct a new full layer of the tower. If the current top layer of the tower is complete (i.e., has three blocks), you may pull a block out of the tower from any layer besides the top layer. If the current top layer is not complete (i.e., has one or two blocks), then you may pull a block out from any layer besides the top two layers.[br]A center block and a side block of a layer may not be both pulled out. For a given layer, it is legal for both side blocks to be pulled out or for the center block of the layer to be pulled out, but not both.[br]If you have no blocks to pull out from bottom layers on your turn, then you lose.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Nakul Srikanth (Backend, Solving, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

@@ -4,21 +4,30 @@ require "common.inc";
 
 // Read all games
 
-require_once '../games/game.class.php';
+require_once '../instructions/game.class.php';
 
-$rootDir = "..";
-$xmlDir = "$rootDir/games";
+$rootDir = "../instructions";
+$xmlGameDir = "$rootDir/eng/games";
 $gameCodeAndNames = [];
-
-foreach (GetFiles($xmlDir) as $xml) {
-    $xml = "$xmlDir/$xml";
+foreach (GetFiles($xmlGameDir) as $xml) {
+    $xml = "$xmlGameDir/$xml";
     if (!strpos($xml, ".xml")) continue;
     $game = new Game($xml, "$rootDir/");
     $gameCodeAndNames[] = [$game->code, $game->name];
 }
 unset($game);
-
 $numGames = count($gameCodeAndNames);
+
+$xmlPuzzleDir = "$rootDir/eng/puzzles";
+$puzzleCodeAndNames = [];
+foreach (GetFiles($xmlPuzzleDir) as $xml) {
+    $xml = "$xmlPuzzleDir/$xml";
+    if (!strpos($xml, ".xml")) continue;
+    $game = new Game($xml, "$rootDir/");
+    $puzzleCodeAndNames[] = [$game->code, $game->name];
+}
+unset($game);
+$numPuzzles = count($puzzleCodeAndNames);
 
 $sectionHeadings = [];
 
@@ -41,7 +50,7 @@ function renderString($str, $allowBlockElements = false) {
         // Images
         $replaced = preg_replace(
             "/\[img\s+src\s*=\s*\"([^\"]*)\"([^\]]+)\]/",
-            "</p><figure class='size-original'><a href=\"/games/i/$code/$1\"><img src=\"/games/i/$code/$1\" $2></a></figure><p>",
+            "</p><figure class='size-original'><a href=\"/instructions/i/$code/$1\"><img src=\"/instructions/i/$code/$1\" $2></a></figure><p>",
             $str);
     }
 
@@ -114,13 +123,50 @@ function renderListDictionaryWithHeading($heading, $array) {
 
 $gameRequested = false;
 $game = NULL;
-
+$lang = "eng";
+$type = "games";
 if (!empty($_GET["game"])) {
     $gameRequested = true;
     $code = $_GET["game"];
-    $xml = "$xmlDir/$code.xml";
+    if (!empty($_GET["lang"])) { // If language requested
+        $lang = $_GET["lang"];
+        $xml = "$rootDir/$lang/games/$code.xml";
+        if (file_exists($xml)) { // See if file exists in requested language
+            $game = new Game($xml, "");
+        } else { // See if file exists in English
+            $lang = "eng";
+            $xml = "$xmlGameDir/$code.xml";
+            if (file_exists($xml)) {
+                $game = new Game($xml, "");
+            }
+        }
+    } else { // Language not requested, default to English
+        $xml = "$xmlGameDir/$code.xml";
+    }
     if (file_exists($xml)) {
-        $game = new Game($xml, "$rootDir/");
+        $game = new Game($xml, "");
+    }
+} else if (!empty($_GET["puzzle"])) {
+    $gameRequested = true;
+    $type = "puzzles";
+    $code = $_GET["puzzle"];
+    if (!empty($_GET["lang"])) { // If language requested
+        $lang = $_GET["lang"];
+        $xml = "$rootDir/$lang/puzzles/$code.xml";
+        if (file_exists($xml)) { // See if file exists in requested language
+            $game = new Game($xml, "");
+        } else { // See if file exists in English
+            $lang = "eng";
+            $xml = "$xmlPuzzleDir/$code.xml";
+            if (file_exists($xml)) {
+                $game = new Game($xml, "");
+            }
+        }
+    } else { // Language not requested, default to English
+        $xml = "$xmlPuzzleDir/$code.xml";
+    }
+    if (file_exists($xml)) {
+        $game = new Game($xml, "");
     }
 }
 
@@ -151,7 +197,7 @@ $sidebarReprise = !empty($game);
                             else if (file_exists("$rootDir/games/i/$code/$code.gif")) $extension = "gif";
                             if (!empty($extension)) { ?><img class="game-icon" src="/games/i/<?= $code ?>/<?= $code ?>.<?= $extension ?>" alt="<?= $game->name ?>"><?php } ?>
                             <h2><?= $game->name ?></h2>
-                            <p><a href="/games/<?= $code ?>.xml">Download XML</a></p>
+                            <p><a href="/instructions/<?= $lang ?>/<?= $type ?>/<?= $code ?>.xml">Download XML</a></p>
                         </div>
                     </div>
                     <?php renderParagraphsWithHeading("History", $game->history) ?>
@@ -179,7 +225,7 @@ $sidebarReprise = !empty($game);
                     <li>No chance, which implies no dice, shuffling, or spinning</li>
                 </ul>
                 <p>Together, these properties allow for strong, non-probabilistic solutions which can be used to simulate a perfect computer player.</p>
-                <p>There <?= $numGames == 1 ? 'is' : 'are' ?> currently <strong><?= $numGames ?> game<?= $numGames != 1 ? 's' : '' ?></strong> in our system.</p>
+                <p>There are currently <strong><?= $numGames ?> game<?= $numGames != 1 ? 's' : '' ?></strong> and <strong><?= $numPuzzles ?> puzzle<?= $numPuzzles != 1 ? 's' : '' ?></strong> in our system.</p>
                 <blockquote>
                     <p>Every game ever invented by mankind, is a way of making things hard for the fun of it!</p>
                     <p>&mdash; <cite>John Ciardi</cite></p>
@@ -210,7 +256,11 @@ $sidebarReprise = !empty($game);
             </ul>
             <h3>All Puzzles</h3>
             <ul>
-                <!-- TODO: List puzzles -->
+                <?php foreach ($puzzleCodeAndNames as $codeAndName) {
+                    $code = $codeAndName[0];
+                    $name = $codeAndName[1];
+                    ?><li><a href="?puzzle=<?= $code ?>"><?= $name ?></a></li><?php
+                } ?>
             </ul>
         </div>
     </div>

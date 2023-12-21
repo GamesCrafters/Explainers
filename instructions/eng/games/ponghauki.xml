@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+  <name>Pong Hau K'i</name>
+  <code>ponghauki</code>
+  <history/>
+  <board>The board consists of five nodes. Four of them are arranged as the corners of the square and one node is in the middle. The middle node is connected diagonally to each corner. Each corner is connected to the two adjacent corners and also to the center node. The only exception is that the top left and top right corner nodes are not connected to each other.</board>
+  <pieces>The first player plays with two blue pieces and the second player plays with two red pieces. The pieces are arranged on the board at the start of the game as shown in the following image:[img src="ponghauki.svg" alt="a" width="300" height="300"]</pieces>
+  <tomove>Move either of your pieces to an adjacent unoccupied node.</tomove>
+  <towin>You win if your opponent cannot move either of their pieces on their turn.</towin>
+  <rules/>
+  <strategies/>
+  <variants>
+    <variant>
+      <name>Misere</name>
+      <description>You win if you cannot make any moves.</description>
+    </variant>
+    <variant>
+      <name>Board Size / Node Connections</name>
+      <description>The game can be played with different board sizes and/or different connections between the nodes in the board.</description>
+    </variant>
+  </variants>
+  <alternates/>
+  <pictures/>
+  <references/>
+  <links/>
+  <gamescrafters>
+    <gamescrafter>Greg Bonin (Backend)</gamescrafter>
+    <gamescrafter>Tanya Gordeeva (Backend)</gamescrafter>
+    <gamescrafter>Dave Wong (Backend)</gamescrafter>
+    <gamescrafter>Venu Kolavennu (Backend)</gamescrafter>
+    <gamescrafter>Arihant Choudhary (GamesmanUni GUI)</gamescrafter>
+    <gamescrafter>Cameron Cheung (GamesmanUni GUI)</gamescrafter>
+  </gamescrafters>
+</game>

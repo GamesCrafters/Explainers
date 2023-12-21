@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Hop-N-Drop</name>
+    <code>hopndrop</code>
+    <history/>
+    <board>Stacks containing a positive number of panels are arranged in a 2D array such that there is a path from one stack to another other that (1) consists only of orthogonal connections and (2) travels along other stacks of panels. There is a one-panel stack designated as the start panel, where the character starts.</board>
+    <pieces/>
+    <tomove>The character hops to an orthogonally adjacent stack of panels. Subtract one panel from the stack that the character hopped from, unless the character hopped from the start panel.</tomove>
+    <towin/>
+    <rules>The puzzle is incomplete if the character hops into a space containing no panels. The puzzle is solved if the character returns to the start panel and all other panels have been cleared.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Mark Presten</gamescrafter>
+    </gamescrafters>
+</game>

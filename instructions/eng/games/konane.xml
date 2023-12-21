@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Kōnane</name>
+    <code>konane</code>
+    <history/>
+    <board>Kōnane is played on an M-row, N-column rectangular grid, where M and N are each at least 3.</board>
+    <pieces>The first player controls ⌈MN/2⌉ black pieces and the second player controls ⌊MN/2⌋ white pieces. At the start of the game, the pieces are arranged on the board in a checkerboard pattern (white pieces are orthogonally adjacent only to black pieces and black pieces are orthogonally adjacent only to white pieces).</pieces>
+    <tomove/>
+    <towin/>
+    <rules>Black starts the game by removing one black piece that is either at a corner or at the center of the board. If M and N are both odd, then there are four black corner pieces and one black center piece to choose from (one cell defines the center of the board). If M and N are both even, then there are two black corner pieces and two black center pieces to choose from (four cells define the center of the board). If one of M and N is odd, but not both, then there are two black corner pieces and one black center piece to choose from (two cells define the center of the board).[br]White then removes a white piece orthogonally adjacent to the hole just created by black.[br]For the rest of the game, every move made by both players must be a capture. A player can capture an enemy piece by using one of their pieces to jump over an orthogonally adjacent enemy piece to the empty cell immediately beyond the enemy piece. If possible, a player can choose to continue jumping over enemy pieces in the same direction, which will remove more enemy pieces from the board. A piece may not jump in one direction then continue jumping in a perpendicular direction — it must continue along the same direction for the current turn.[br]A player loses if they cannot capture at least one enemy piece on their turn.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Haonan Huang (Solving, Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

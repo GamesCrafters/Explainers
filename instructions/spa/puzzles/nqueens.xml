@@ -7,7 +7,7 @@
     <pieces/>
     <tomove/>
     <towin/>
-    <rules>Coloque N reinas en un tablero de ajedrez de N filas y N columnas en una configuración sin ataque. No deben haber dos reinas diferentes en la misma fila, columna o diagonal.</rules>
+    <rules>Coloque N reinas en un tablero de ajedrez de N filas y N columnas en una configuración sin ataque. No deben haber dos reinas diferentes en la misma fila, columna o diagonal.[img src="nqueens.svg" alt="a" width="300" height="300"]</rules>
     <strategies/>
     <variants/>
     <alternates/>

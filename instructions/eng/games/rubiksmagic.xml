@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Rubik's Magic</name>
+    <code>rubiksmagic</code>
+    <history/>
+    <board>Rubik's Magic is played on a four-row, four-column board.</board>
+    <pieces>The first player (CIRCLE) has eight tiles with a circle printed on each of them (circle-tiles) to place. The second player (DIAMOND) has eight tiles with a diamond printed on each of them (diamond-tiles) to place. All tiles are double-sided — each of them has a dark side and a light side.</pieces>
+    <tomove/>
+    <towin/>
+    <rules>The board is empty at the beginning of the game. CIRCLE starts the game by placing one of their circle-tiles on one of the sixteen spaces in the grid, either side facing up.[img src="b.svg" alt="b" width="300" height="300"]Then, DIAMOND first flips the tile CIRCLE placed into an adjacent but not diagonal space, then DIAMOND places one of their diamond-tiles, either side facing up, on an empty space.[img src="c.svg" alt="c" width="300" height="300"]Then, CIRCLE first flips the tile DIAMOND placed into an adjacent but not diagonal space, then places one of their circle-tiles, either side facing up, on an empty space.[img src="d.svg" alt="d" width="300" height="300"]Each move from this point forward involves (1) first flipping one of the opponent's pieces on the board into an adjacent but not diagonal space, then (2) placing a tile, either side facing up, on an empty space. A player can flip any tile on the board belonging to the opponent, not just the one that the opponent placed on their previous turn.[img src="e.svg" alt="e" width="300" height="300"]If a player cannot flip any of their opponent's tiles on the board, then the player skips this step and only places one of their own tiles.[br]The original Rubik's Magic instruction manual states, "A player wins when a row of three [tiles belonging to the same player all facing the same way up] is created which cannot be broken on the opponent's next move or when a player is forced to create a row of three of the opposing player's panels." We will present more rigorously defined conditions for determining who wins, but before doing so, we introduce the concept of a "locked" three-in-a-row.[br]A "locked" three-in-a-row is a horizontal, vertical, or diagonal line of three tiles both belonging to the same player and facing the same way up (i.e., all dark-side-up or all light-side-up), such that all spaces orthogonally adjacent to each tile in the line is occupied by a tile (and thus the line cannot be destroyed by the opponent on their next turn). The following image shows an example of a "locked" three-in-a-row of dark-side-up diamond-tiles.[img src="f.svg" alt="f" width="300" height="300"]Now, we present the rigorously defined conditions for determining who wins. Let us refer to the player-to-move as "A" and their opponent as "B".[br]- If, on "A"'s turn, before making their move, there is already a (not necessarily "locked") three-in-a-row of tiles belonging to "A", then "A" wins. This can occur if, for example, "A" on their previous turn created a three-in-a-row but "B" neglected to break it; or if "B" created a three-in-a-row for "A". It does not matter if "B" has a three-in-a-row, or even a "locked" three-in-a-row, at this point; "A" still wins.[br]- Otherwise, if it is "A"'s turn and before making their move there are no three-in-a-rows of pieces belonging to "A" but there is already a "locked" three-in-a-row of tiles belonging to "B", then "A" loses.[br]- Suppose all tiles have been placed and the board is full. If there is a three-in-a-row, then it is necessarily locked, so the game is a win for the player the three-in-a-row belongs to; otherwise if there are no three-in-a-rows, then the game is a tie.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+      <gamescrafter>Jeffrey Chiang (Backend)</gamescrafter>
+      <gamescrafter>Bryon Ross (Backend)</gamescrafter>
+      <gamescrafter>Cameron Cheung (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

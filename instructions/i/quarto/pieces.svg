@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 170">
+    <defs>
+        <path id="rA"
+            d="M-5.5 0 a 5.5,5.5 0 1,0 11,0 a 5.5,5.5 0 1,0 -11,0 M-2.5 0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0"
+            stroke="black" stroke-width="0.5" fill="black" fill-rule="evenodd" />
+        <path id="rB" d="M-11 0 a 11,11 0 1,0 22,0 a 11,11 0 1,0 -22,0 M-5 0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+            stroke="black" stroke-width="0.5" fill="black" fill-rule="evenodd" />
+        <circle id="rC" r="5.5" stroke="black" stroke-width="0.5" fill="black" />
+        <circle id="rD" r="11" stroke="black" stroke-width="0.5" fill="black" />
+        <path id="rE" d="M-5.5 -5.5 h11 v11 h-11 z M-2.5 -2.5 h5 v5 h-5 z" stroke="black" stroke-width="0.5"
+            fill="black" fill-rule="evenodd" />
+        <path id="rF" d="M-11 -11 h22 v22 h-22 z M-5 -5 h10 v10 h-10 z" stroke="black" stroke-width="0.5" fill="black"
+            fill-rule="evenodd" />
+        <rect id="rG" x="-5.5" y="-5.5" width="11" height="11" stroke="black" stroke-width="0.5" fill="black" />
+        <rect id="rH" x="-11" y="-11" width="22" height="22" stroke="black" stroke-width="0.5" fill="black" />
+        <path id="rI"
+            d="M-5.5 0 a 5.5,5.5 0 1,0 11,0 a 5.5,5.5 0 1,0 -11,0 M-2.5 0 a 2.5,2.5 0 1,0 5,0 a 2.5,2.5 0 1,0 -5,0"
+            stroke="black" stroke-width="0.5" fill="white" fill-rule="evenodd" />
+        <path id="rJ" d="M-11 0 a 11,11 0 1,0 22,0 a 11,11 0 1,0 -22,0 M-5 0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+            stroke="black" stroke-width="0.5" fill="white" fill-rule="evenodd" />
+        <circle id="rK" r="5.5" stroke="black" stroke-width="0.5" fill="white" />
+        <circle id="rL" r="11" stroke="black" stroke-width="0.5" fill="white" />
+        <path id="rM" d="M-5.5 -5.5 h11 v11 h-11 z M-2.5 -2.5 h5 v5 h-5 z" stroke="black" stroke-width="0.5"
+            fill="white" fill-rule="evenodd" />
+        <path id="rN" d="M-11 -11 h22 v22 h-22 z M-5 -5 h10 v10 h-10 z" stroke="black" stroke-width="0.5" fill="white"
+            fill-rule="evenodd" />
+        <rect id="rO" x="-5.5" y="-5.5" width="11" height="11" stroke="black" stroke-width="0.5" fill="white" />
+        <rect id="rP" x="-11" y="-11" width="22" height="22" stroke="black" stroke-width="0.5" fill="white" />
+    </defs>
+    <style>
+        .t {
+            alignment-baseline: middle;
+            text-anchor: middle;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 3.5px;
+        }
+    </style>
+    <path d="M0,0h200v170h-200" fill="#dddddd" />
+    <use href="#rA" x="25" y="15" />
+    <use href="#rB" x="75" y="15" />
+    <use href="#rC" x="125" y="15" />
+    <use href="#rD" x="175" y="15" /><text class="t" x="25" y="30">Dark, Round, Hollow, Short</text><text class="t"
+        x="75" y="30">Dark, Round, Hollow, Tall</text><text class="t" x="125" y="30">Dark, Round, Filled,
+        Short</text><text class="t" x="175" y="30">Dark, Round, Filled, Tall</text>
+    <use href="#rE" x="25" y="60" />
+    <use href="#rF" x="75" y="60" />
+    <use href="#rG" x="125" y="60" />
+    <use href="#rH" x="175" y="60" /><text class="t" x="25" y="75">Dark, Square, Hollow, Short</text><text class="t"
+        x="75" y="75">Dark, Square, Hollow, Tall</text><text class="t" x="125" y="75">Dark, Square, Filled,
+        Short</text><text class="t" x="175" y="75">Dark, Square, Filled, Tall</text>
+    <use href="#rI" x="25" y="105" />
+    <use href="#rJ" x="75" y="105" />
+    <use href="#rK" x="125" y="105" />
+    <use href="#rL" x="175" y="105" /><text class="t" x="25" y="120">Light, Round, Hollow, Short</text><text class="t"
+        x="75" y="120">Light, Round, Hollow, Tall</text><text class="t" x="125" y="120">Light, Round, Filled,
+        Short</text><text class="t" x="175" y="120">Light, Round, Filled, Tall</text>
+    <use href="#rM" x="25" y="150" />
+    <use href="#rN" x="75" y="150" />
+    <use href="#rO" x="125" y="150" />
+    <use href="#rP" x="175" y="150" /><text class="t" x="25" y="165">Light, Square, Hollow, Short</text><text class="t"
+        x="75" y="165">Light, Square, Hollow, Tall</text><text class="t" x="125" y="165">Light, Square, Filled,
+        Short</text><text class="t" x="175" y="165">Light, Square, Filled, Tall</text>
+</svg>
