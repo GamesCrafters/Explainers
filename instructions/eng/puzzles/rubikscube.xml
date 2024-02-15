@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
     <name>Rubik's Cube</name>
-    <code>rubiks</code>
+    <code>rubikscube</code>
     <history/>
     <board/>
     <pieces/>

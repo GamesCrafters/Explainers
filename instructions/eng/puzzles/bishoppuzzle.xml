@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
     <name>Bishop Puzzle</name>
-    <code>bishop</code>
+    <code>bishoppuzzle</code>
     <history>The Bishop Puzzle appears in the video game, "The 7th Guest", in which the puzzle is played on a four-row, five-column board with four bishops of each color.</history>
     <board>The bishop puzzle is played on a chessboard with M ranks and N files, where M is less than N.</board>
     <pieces>There are at most M white bishops, and an equal number of black bishops. At the beginning of the puzzle, the white bishops are arranged on the leftmost file (if there are fewer white bishops than rows, then they can be placed on any rank), and the black bishops mirror the white bishops on the rightmost file.</pieces>
