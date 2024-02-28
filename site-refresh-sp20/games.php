@@ -123,7 +123,7 @@ function renderListDictionaryWithHeading($heading, $array) {
 
 $gameRequested = false;
 $game = NULL;
-$lang = "eng";
+$lang = "en";
 $type = "games";
 if (!empty($_GET["game"])) {
     $gameRequested = true;
@@ -134,7 +134,7 @@ if (!empty($_GET["game"])) {
         if (file_exists($xml)) { // See if file exists in requested language
             $game = new Game($xml, "");
         } else { // See if file exists in English
-            $lang = "eng";
+            $lang = "en";
             $xml = "$xmlGameDir/$code.xml";
             if (file_exists($xml)) {
                 $game = new Game($xml, "");
@@ -156,7 +156,7 @@ if (!empty($_GET["game"])) {
         if (file_exists($xml)) { // See if file exists in requested language
             $game = new Game($xml, "");
         } else { // See if file exists in English
-            $lang = "eng";
+            $lang = "en";
             $xml = "$xmlPuzzleDir/$code.xml";
             if (file_exists($xml)) {
                 $game = new Game($xml, "");
