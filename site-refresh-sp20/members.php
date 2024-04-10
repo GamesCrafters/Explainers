@@ -11,7 +11,7 @@
         <div class="page-content-wrapper">
             <p>Since 2001, over 500 students have been involved with GamesCrafters, making it one of the largest and long-lasting undergraduate research groups on the Berkeley&nbsp;campus.</p>
             <figure>
-                <img src="/members/group/GamesCrafters2023Sp.jpg" alt="The Spring 2023 GamesCrafters">
+                <img src="/members/group/main/GamesCrafters2023Sp.jpg" alt="The Spring 2023 GamesCrafters">
                 <figcaption>The Spring 2023 GamesCrafters</figcaption>
             </figure>
             <blockquote style="text-align: center;">

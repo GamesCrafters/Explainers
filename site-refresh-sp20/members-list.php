@@ -78,7 +78,7 @@ usort($members, 'reverseCompareMembers');
                     if ($semesterPrinting != NULL) {
                         ?></ol><?php
                     }
-                    ?><h3>Class of <?= $semesterPrinting ?></h3><ol class="members-list"><?php
+                    ?><h3>Joined <?= $semesterPrinting ?></h3><ol class="members-list"><?php
                 }
 
                 ?><li class="member">
@@ -90,12 +90,12 @@ usort($members, 'reverseCompareMembers');
                         <ul>
                             <?php renderString("Year", $member->year) ?>
                             <?php renderString("Major", $member->major) ?>
-                            <?php renderString("Semesters in <abbr>GC</abbr>", $member->gcSemesters) ?>
+                            <?php renderString("Semesters in GamesCrafters", $member->gcSemesters) ?>
                             <?php renderArray("Projects", $member->projects) ?>
                             <?php renderString("Biography", $member->biography) ?>
                             <?php renderMemberQuote("Quote", $member) ?>
-                            <?php renderString("Favorite GamesCraftersy game", $member->favoriteGame) ?>
-                            <?php renderString("Favorite ice-cream", $member->favoriteIceCream) ?>
+                            <?php renderString("Favorite GamesCrafters-type game", $member->favoriteGame) ?>
+                            <?php renderString("Favorite Ice Cream", $member->favoriteIceCream) ?>
                             <?php renderString("After GamesCrafters", $member->after) ?>
                         </ul>
                     </div>

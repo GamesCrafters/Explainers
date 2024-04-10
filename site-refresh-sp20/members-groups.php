@@ -13,8 +13,8 @@
 
             function renderFigure($caption, $src, $srcOnHover = NULL) {
                 ?><figure class="size-mid">
-                    <img src="<?= $src ?>"
-                         <?= !empty($srcOnHover) ? "data-src-on-hover=\"$srcOnHover\"" : ""  ?>
+                    <img src="<?= "/members/group/main/" . $src ?>"
+                         <?= !empty($srcOnHover) ? "data-src-on-hover=\"/members/group/main/$srcOnHover\"" : ""  ?>
                          alt="<?= $caption ?>">
                     <figcaption hidden><?= $caption ?></figcaption>
                 </figure><?php
@@ -38,18 +38,34 @@
             }
 
             ?>
+            <h3>The Fall 2023 GamesCrafters</h3>
+            <?php renderFigure("The Fall 2023 GamesCrafters", "GamesCrafters2023Fa.jpg") ?>
+            <p>
+                <?php renderNames("Back Row", "Steve Chen, Siddharth Shashi, Mehul Gandhi, Amy Chakladar, Jatearoon 'Keene' Boondicharern, Shangdian 'King' Han, Eric Garcia") ?><br>
+                <?php renderNames("Third Row", "Chenyang 'Mia' Mao, Zhiyao 'Jessica' Jiang") ?><br>
+                <?php renderNames("Second Row", "Diyun Lu, Bruce Kim, Abraham Hsu, Alvaro Estrella, Pranay Rajpaul, Xinyu Tang") ?><br>
+                <?php renderNames("Front Row", "Robert Shi, Nakul Srikanth, Ethan Tam, Dan Garcia, Ricky Liu, Arihant Choudhary") ?><br>
+            </p>
+            <hr>
+            <h3>The Spring 2023 GamesCrafters</h3>
+            <?php renderFigure("The Spring 2023 GamesCrafters", "GamesCrafters2023Sp.jpg") ?>
+            <p>
+                <?php renderNames("Back Row (Standing)", "Nakul Srikanth, Christopher Nammour, Hoanan Huang, Andrew Lee, Zachary Leete, Dan Garcia, Ethan Chang, Harnoor Dhillon, Andrew Esteban, Sameer Nayyar, Eric Garcia, Shangdian 'King' Han, Rachel Hu, Jennifer Buja") ?><br>
+                <?php renderNames("Front Row (Kneeling)", "Yifan Zhou, Jiachun Li, Robert Shi, Cameron Cheung, Jatearoon 'Keene' Boondicharern, Victoria Phelps, Arihant Choudhary, Max Fierro") ?><br>
+                <?php renderNames("Not Pictured", "Amy Chakladar, Kayla Kranen, Lucas Gagne, Maansi Singh, Nayna Siddharth, Pranav Sukumar, Samhith Kakarla, SeongHyun Park, Siddharth Ganapathy, Srinija Cherivirala, Stefanie Gschwind") ?><br>
+            </p>
+            <hr>
             <h3>The Fall 2022 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2022 GamesCrafters", "/members/group/GamesCrafters2022Fa.jpg", "/members/group/GamesCrafters2022FaCrazy.jpg") ?>
+            <?php renderFigure("The Fall 2022 GamesCrafters", "GamesCrafters2022Fa.jpg", "GamesCrafters2022FaCrazy.png") ?>
             <p>
                 <?php renderNames("Back Row", "Pranav Sukumar, Jingfan 'Harry' Xia , Siddharth Ganapathy, Xiongsong Zhang, Kehan Chen") ?><br>
                 <?php renderNames("Middle Row", "Jatearoon 'Keene' Boondicharern, Arihant Choudhary, Cameron Cheung, Nathaniel Haynam, Robert Shi") ?><br>
                 <?php renderNames("First Row", "Victoria Phelps, Mia Campdera-Pulido, Dan Garcia, Linh Tran") ?><br>
-                <?php renderNames("Not Pictured", "Kaelyn Huang, Harnoor Dhillon
-") ?>
+                <?php renderNames("Not Pictured", "Kaelyn Huang, Harnoor Dhillon") ?>
             </p>
             <hr>
             <h3>The Fall 2019 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2019 GamesCrafters", "/members/group/GamesCrafters2019Fa.jpg") ?>
+            <?php renderFigure("The Fall 2019 GamesCrafters", "GamesCrafters2019Fa.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Michael Chou, Tommy Joseph, Qiuran Yin, Andy Sheu, Jordan Knox, Spencer McCall, Jordan Bell, Austin Chang, Seth Lu, Kunal Kak") ?><br>
                 <?php renderNames("Third Row", "Karan Shah, Danyal Shahroz, Shein Lin Phyo, Jose Alfaro, Lawrence Zhao, Anthony Ling") ?><br>
@@ -59,7 +75,7 @@
             </p>
             <hr>
             <h3>The Spring 2019 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2019 GamesCrafters", "/members/group/GamesCrafters2019Sp.jpg", "/members/group/GamesCrafters2019SpCrazy.jpg") ?>
+            <?php renderFigure("The Spring 2019 GamesCrafters", "GamesCrafters2019Sp.jpg", "GamesCrafters2019SpCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Noah Kingdon, Matthew Pearson, Taejong Kim, Seth Lu, Danny Geitheim") ?><br>
                 <?php renderNames("Second Row", "Zoe Plaxco, Gloria Zhao, Elaine Jiyoun Kim, Flora Dong, Tram Tran") ?><br>
@@ -69,7 +85,7 @@
             </p>
             <hr>
             <h3>The Fall 2018 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2018 GamesCrafters", "/members/group/GamesCrafters2018Fa.jpg") ?>
+            <?php renderFigure("The Fall 2018 GamesCrafters", "GamesCrafters2018Fa.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Junce Wang, Isaac Merritt, Bryant Bettencourt, Seth Lu, Brian Fu") ?><br>
                 <?php renderNames("Second Row", "Alex Ho, Sibo Chen, Abhijay Bhatnagar, Kendall Choy, Xizi Ni") ?><br>
@@ -77,17 +93,17 @@
             </p>
             <hr>
             <h3>The Spring 2018 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2018 GamesCrafters", "/members/group/GamesCrafters2018SpAlt.jpg", "/members/group/GamesCrafters2018SpAlt.jpg") ?>
-            <?php renderFigure("The Spring 2018 GamesCrafters", "/members/group/GamesCrafters2018Sp.JPG") ?>
+            <?php renderFigure("The Spring 2018 GamesCrafters", "GamesCrafters2018Sp.jpg", "GamesCrafters2018SpCrazy.jpg") ?>
             <p>
-                <?php renderNames("Back Row", "Seth Lu, Matthew Pearson, Bryant Bettencourt, Kevin Colkitt") ?><br>
-                <?php renderNames("Second Row", "Brian Fu, Sofie Herbeck, Kaela Seiersen, Isaac Merritt") ?><br>
-                <?php renderNames("Front Row", "Niki Zarkub, Alyssa Sugarman, Kellyann Ye, Alex Ho") ?><br>
+                <?php renderNames("Back Row", "Bryant Bettencourt, Isaac Merritt, Kevin Colkitt, Seth Lu") ?><br>
+                <?php renderNames("Third Row", "Alex Ho, Kellyann Ye, Alyssa Sugarman, Niki Zarkub, Kaela Seiersen") ?><br>
+                <?php renderNames("Second Row", "Dan Garcia") ?><br>
+                <?php renderNames("Front Row", "Brian Fu, Sofie Herbeck, Matthew Pearson") ?><br>
                 <?php renderNames("Not Pictured", "Flora Dong") ?>
             </p>
             <hr>
             <h3>The Fall 2014 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2014 GamesCrafters", "/members/group/GamesCrafters2014Fa.jpg", "/members/group/GamesCrafters2014FaCrazy.jpg") ?>
+            <?php renderFigure("The Fall 2014 GamesCrafters", "GamesCrafters2014Fa.jpg", "GamesCrafters2014FaCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Shuai Shao, Mincheol Sung, Byung Choi, Ryan Li, Dhruv Relwani") ?><br>
                 <?php renderNames("Front Row", "Kyle Zentner") ?><br>
@@ -95,10 +111,10 @@
             </p>
             <hr>
             <h3>The Fall 2013 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2013 GamesCrafters", "/members/group/GamesCraftersCrazy2013Fa.jpg") ?>
+            <?php renderFigure("The Fall 2013 GamesCrafters", "GamesCrafters2013Fa.jpg", "GamesCrafters2013FaCrazy.jpg") ?>
             <hr>
             <h3>The Fall 2012 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2012 GamesCrafters", "/members/group/GamesCrafters2012Fa.jpg", "/members/group/GamesCrafters2012FaCrazy.jpg") ?>
+            <?php renderFigure("The Fall 2012 GamesCrafters", "GamesCrafters2012Fa.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Paul Yeem, Andrew Chen, Zachary Bush, Kyle Zentner, Benjamin Liu") ?><br>
                 <?php renderNames("Third Row", "Gabby Ho, Ali Kayes, Ben Izatt, Kyle Lian") ?><br>
@@ -108,7 +124,7 @@
             </p>
             <hr>
             <h3>The Spring 2012 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2012 GamesCrafters", "/members/group/GamesCrafters2012Sp.jpg", "/members/group/GamesCrafters2012SpCrazy.jpg") ?>
+            <?php renderFigure("The Spring 2012 GamesCrafters", "GamesCrafters2012Sp.jpg", "GamesCrafters2012SpCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Kevin Jorgensen, David Huang, Kyle Lian, Lewin Gan, Bryan Chu, William Shen, Robert Marks, Zachary Bush") ?><br>
                 <?php renderNames("Third Row", "Avi Press, Christopher Jernigan, Jack Long, Bing Chong Lim, Sung Roa Yoon, Ali Kayes, Brandon Luong") ?><br>
@@ -118,7 +134,7 @@
             </p>
             <hr>
             <h3>The Fall 2010 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2010 GamesCrafters", "/members/group/GamesCrafters2010Fa.jpg", "/members/group/GamesCrafters2010FaCrazy.jpg") ?>
+            <?php renderFigure("The Fall 2010 GamesCrafters", "GamesCrafters2010Fa.jpg", "GamesCrafters2010FaCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Kevin Jorgensen, Pin (Dan) Xu, Glenn Sugden, Kyle Lian, Albert Wang, Ian Vonseggern") ?><br>
                 <?php renderNames("Fourth Row", "Ihor Proskurin, Patrick Horn, Kevin Shih, Eric Liang, Peter Cheng, Jimmy Wu, James Ide") ?><br>
@@ -130,7 +146,7 @@
             </p>
             <hr>
             <h3>The Spring 2009 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2019 GamesCrafters", "/members/group/GamesCrafters2009Sp.jpg", "/members/group/GamesCrafters2009SpCrazy.jpg") ?>
+            <?php renderFigure("The Spring 2019 GamesCrafters", "GamesCrafters2009Sp.jpg", "GamesCrafters2009SpCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Kevin Jorgensen, Jeremy Fleischman, James Ide, Scotty Hoag, David Jiang, Camilo King, Raymond von Mizener") ?><br>
                 <?php renderNames("Third Row", "Edward Lin, Richard Shin, Patrick Horn, Ofer Sadgat, David Spies, Wesley Hart") ?><br>
@@ -140,8 +156,7 @@
             </p>
             <hr>
             <h3>The Fall 2008 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2008 GamesCrafters", "/members/group/GamesCrafters2008Fa.jpg", "/members/group/GamesCrafters2008FaCrazy.jpg") ?>
-            <!-- Another crazy photo: GamesCrafters2008FaCrazyAlt.jpg -->
+            <?php renderFigure("The Fall 2008 GamesCrafters", "GamesCrafters2008Fa.jpg", "GamesCrafters2008FaCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Patrick Horn, Wesley Hart, James Ide, Steven Liu, Christian Pedersen, Ray Peterson") ?><br>
                 <?php renderNames("Middle Row", "Ashish Chaudhari, Daniel Wei, Kevin Liu, Karthik Jagadeesh, Terrence Zhao") ?><br>
@@ -149,7 +164,7 @@
             </p>
             <hr>
             <h3>The Spring 2008 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2008 GamesCrafters", "/members/group/GamesCrafters2008Sp.jpg", "/members/group/GamesCrafters2008SpCrazy.jpg") ?>
+            <?php renderFigure("The Spring 2008 GamesCrafters", "GamesCrafters2008Sp.jpg", "GamesCrafters2008SpCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Niels Joubert, James Liao, Dounan Shi, Alan Wong, Austin McGee, Yiding Jia") ?><br>
                 <?php renderNames("Fourth Row", "Steven Liu, Willie Wong, Ethan Rahn, Roger Tu, William Li") ?><br>
@@ -159,7 +174,7 @@
             </p>
             <hr>
             <h3>The Fall 2007 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2007 GamesCrafters", "/members/group/GamesCrafters2007Fa.jpg", "/members/group/GamesCrafters2007FaCrazy.jpg") ?>
+            <?php renderFigure("The Fall 2007 GamesCrafters", "GamesCrafters2007Fa.jpg", "GamesCrafters2007FaCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Albert Shau, William Li, James Ide, Keaton Mowery, David Poll") ?><br>
                 <?php renderNames("Fourth Row", "Daniel Wei, Yiding Jia, Michael So, Ofer Sadgat, Filip Furmanek") ?><br>
@@ -170,7 +185,7 @@
             </p>
             <hr>
             <h3>The Spring 2007 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2007 GamesCrafters", "/members/group/GamesCrafters2007Sp.jpg", "/members/group/GamesCrafters2007SpCrazy.jpg") ?>
+            <?php renderFigure("The Spring 2007 GamesCrafters", "GamesCrafters2007Sp.jpg", "GamesCrafters2007SpCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Casey Rodarmor, Ben Sussman, Michael Greenbaum, Alex Choy, Hsiu-fan Wang, David Poll") ?><br>
                 <?php renderNames("Fourth Row", "Jon Whiteaker, Brian Nguyen, David Cerri, Michael Udaltsov, Sean Carr, Filip Furmanek, Ramesh Sridharan") ?><br>
@@ -182,7 +197,7 @@
             </p>
             <hr>
             <h3>The Fall 2006 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2006 GamesCrafters", "/members/group/GamesCrafters2006Fa.jpg", "/members/group/GamesCrafters2006FaCrazy1.jpg") ?>
+            <?php renderFigure("The Fall 2006 GamesCrafters", "GamesCrafters2006Fa.jpg", "GamesCrafters2006FaCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Eudean Sun, Sean Carr, Joseph Firmansyah") ?><br>
                 <?php renderNames("Fourth Row, (Standing)", "Max Delgadillo, Matt Johnson, Alan Wu, Ofer Sadgat, Jacob Andreas, Keaten Mowery ") ?><br>
@@ -192,7 +207,7 @@
             </p>
             <hr>
             <h3>The Spring 2006 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2006 GamesCrafters", "/members/group/GamesCrafters2006SpNames.jpg", "/members/group/GamesCrafters2006SpNamesCrazy2.jpg") ?>
+            <?php renderFigure("The Spring 2006 GamesCrafters", "GamesCrafters2006Sp.jpg", "GamesCrafters2006SpCrazy.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Michael Hamada, Filip Furmanek, Matt Jacobsen") ?><br/>
                 <?php renderNames("Fourth Row, (Standing)", "Victor Perez, Max Delgadillo, Eric Siroker, David Eitan Poll, Keaton Mowery") ?><br>
@@ -203,7 +218,7 @@
             </p>
             <hr>
             <h3>The Fall 2005 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2005 GamesCrafters", "/members/group/GamesCrafters2005FaNames.jpg", "/members/group/GamesCrafters2005FaNamesCrazy.jpg") ?>
+            <?php renderFigure("The Fall 2005 GamesCrafters", "GamesCrafters2005Fa.jpg", "GamesCrafters2005FaCrazy.jpg") ?>
             <p>
                 <?php renderNames("Fourth Row", "Joey Corless, Victor Perez, Jason Wu, Robert Liao, Alan Roytman, Mario Tanev, Brian Zimmer, Keaton Mowery, Elmer Lee") ?><br>
                 <?php renderNames("Third Row", "Matt Mieckowski, Christian Alarcon, Sylvain La, Jack Hsu, Sean Carr, David Chen, Diana Fang, Evan Huang, John Lo") ?><br>
@@ -213,7 +228,7 @@
             </p>
             <hr>
             <h3>The Spring 2005 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2005 GamesCrafters", "/members/group/GamesCrafters2005Sp.jpg", "/members/group/GamesCrafters2005SpCrazy.jpg") ?>
+            <?php renderFigure("The Spring 2005 GamesCrafters", "GamesCrafters2005Sp.jpg", "GamesCrafters2005SpCrazy.jpg") ?>
             <p>
                 <?php renderNames("Fourth Row", "Robert Liao, Guy Boo, Dan Yan, Sean Carr, Yanpei Chen, Ming (Evan) Huang") ?><br>
                 <?php renderNames("Third Row", "Jeff Chiang, Jeff Chou, Chris Willmore, Laurin Beckhusen, Joshua Kocher, Damian Hites") ?><br>
@@ -223,7 +238,7 @@
             </p>
             <hr>
             <h3>The Fall 2004 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2004 GamesCrafters", "/members/group/GamesCrafters2004Fa.jpg", "/members/group/GamesCrafters2004FaCrazy.jpg") ?>
+            <?php renderFigure("The Fall 2004 GamesCrafters", "GamesCrafters2004Fa.jpg", "GamesCrafters2004FaCrazy.jpg") ?>
             <p>
                 <?php renderNames("Fourth Row", "Peter Wu, Yonathan Randolph, Michel D’Sa, Sean Carr, Steven Kusalo, Greg Bonin, Jeff Chou, Edward Li, Nathan Spindel") ?><br>
                 <?php renderNames("Third Row", "Robert Liao, Scott Lindeneau, John Jordan, Damian Hites, Alex Wallisch, Michael Mottman, Erik Siroker, Joe Jing ") ?><br>
@@ -232,7 +247,7 @@
             </p>
             <hr>
             <h3>The Spring 2004 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2004 GamesCrafters", "/members/group/GamesCrafters2004Sp.jpg", "/members/group/GamesCrafters2004SpCrazy.jpg") ?>
+            <?php renderFigure("The Spring 2004 GamesCrafters", "GamesCrafters2004Sp.jpg", "GamesCrafters2004SpCrazy.jpg") ?>
             <p>
                 <?php renderNames("Sixth Row", "Jeffrey Chiang, Newton Le, Damian Hites, John (JJ) Jordan") ?><br>
                 <?php renderNames("Fifth Row", "Elmer Lee, Reman Child, Michel D'Sa, Hobart Sze, Greg Bonin") ?><br>
@@ -244,7 +259,7 @@
             </p>
             <hr>
             <h3>The Fall 2003 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2003 GamesCrafters", "/members/group/GamesCrafters2003Fa.jpg", "/members/group/GamesCrafters2003FaWild.jpg") ?>
+            <?php renderFigure("The Fall 2003 GamesCrafters", "GamesCrafters2003Fa.jpg", "GamesCrafters2003FaCrazy.jpg") ?>
             <p>
                 <?php renderNames("Third Row", "Jesse Phillips, Keith Ho, Rach Liu, Bryon Ross, Tse-Wen Wang, Nicholas Hwang, Elmer Lee") ?><br>
                 <?php renderNames("Second Row", "Jeffrey Chiang, Scott Lindeneau, Dan Garcia, John Jordan, Damian Hites, Michel D’Sa, Jonothan Tsai") ?><br>
@@ -252,7 +267,7 @@
             </p>
             <hr>
             <h3>The Spring 2003 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2003 GamesCrafters", "/members/group/GamesCrafters2003Sp.jpg") ?>
+            <?php renderFigure("The Spring 2003 GamesCrafters", "GamesCrafters2003Sp.jpg") ?>
             <p>
                 <?php renderNames("Fourth Row", "Peter Foo, Albert Cheng, Jeffrey Chiang, Dan Garcia, Brian Foo, Attila Gyulassy, Tse-Wen Wang, Bryon Ross, Spencer Ray") ?><br>
                 <?php renderNames("Third Row", "Anh Thai, Eleen Chiang, Alice Chang, Judy Tuan, Jennifer Lee, Judy Chen, Cassie Guy") ?><br>
@@ -262,7 +277,7 @@
             </p>
             <hr>
             <h3>The Fall 2002 GamesCrafters</h3>
-            <?php renderFigure("The Fall 2002 GamesCrafters", "/members/group/GamesCrafters2002Fa.jpg") ?>
+            <?php renderFigure("The Fall 2002 GamesCrafters", "GamesCrafters2002Fa.jpg") ?>
             <p>
                 <?php renderNames("Third Row", "Chris Hsu, Ming Can Chang, Alice Chiang, Sandra Tang, Anh Thai, Erwin Vedar, Daniel Horn") ?><br>
                 <?php renderNames("Second Row", "Brian Foo, Desmond Cheung, Albert Cheng, Vadim Gorin, Eric Miles, Shiva Bhattacharjee, Venu Kolavennu, Jeffrey Chiang, Dave Wong, Bryon Ross") ?><br>
@@ -270,15 +285,15 @@
             </p>
             <hr>
             <h3>The Spring 2002 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2002 GamesCrafters", "/members/group/GamesmenSpring2002.jpg") ?>
+            <?php renderFigure("The Spring 2002 GamesCrafters", "GamesCrafters2002Sp.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Peter Tretheway, Erwin Vedar, Farzad Eskafi, Dave Le, Isaac Greenbride, Dan Garcia, James Chung, Alex Perelman, Atilla Gyulassy, Sunil Ramesh") ?><br>
                 <?php renderNames("Front Row", "Thomas Yiu, Edwin Mach, Alex Kozlowski, Mike Savitsky, Kevin Ha, Babak Hamadini") ?><br>
                 <?php renderNames("Missing", "Todd Segal, David Shultz, Greg Krimer, Chi Huynh, David Chen, Ling Xiao") ?>
             </p>
             <hr>
-            <h3>The Spring 2001 GamesCrafters</h3>
-            <?php renderFigure("The Spring 2001 GamesCrafters", "/members/group/GamesmenFall2001.jpg") ?>
+            <h3>The Fall 2001 GamesCrafters</h3>
+            <?php renderFigure("The Fall 2001 GamesCrafters", "GamesCrafters2001Fa.jpg") ?>
             <p>
                 <?php renderNames("Back Row", "Thomas Yiu, Isaac Greenbride, Dan Garcia, Farzad Eskafi, Chi Huynh, Erwin Vedar, Edwin Mach, Mike Savitsky, James Chung, Alex Kozlowski") ?><br>
                 <?php renderNames("Carried", "Dave Le") ?><br>

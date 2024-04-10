@@ -7,7 +7,7 @@ require "common.inc";
 require_once '../instructions/game.class.php';
 
 $rootDir = "../instructions";
-$xmlGameDir = "$rootDir/eng/games";
+$xmlGameDir = "$rootDir/en/games";
 $gameCodeAndNames = [];
 foreach (GetFiles($xmlGameDir) as $xml) {
     $xml = "$xmlGameDir/$xml";
@@ -18,7 +18,7 @@ foreach (GetFiles($xmlGameDir) as $xml) {
 unset($game);
 $numGames = count($gameCodeAndNames);
 
-$xmlPuzzleDir = "$rootDir/eng/puzzles";
+$xmlPuzzleDir = "$rootDir/en/puzzles";
 $puzzleCodeAndNames = [];
 foreach (GetFiles($xmlPuzzleDir) as $xml) {
     $xml = "$xmlPuzzleDir/$xml";

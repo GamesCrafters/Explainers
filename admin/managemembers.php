@@ -15,9 +15,6 @@ define("ERROR_FILE_SIZE", 3);
     <title>GamesCrafters :: Admin :: Manage Members</title>
     <link rel="shortcut icon" href="/site-legacy-archive-sp20/resources/gc.png" type="image/png">
     <link rel="stylesheet" href="/site-legacy-archive-sp20/resources/stylesheet.css" type="text/css">
-    <!--[if lt IE 7]>
-    <link rel="stylesheet" href="/site-legacy-archive-sp20/resources/iefixes.css" type="text/css">
-    <![endif]-->
     <script type="text/javascript" src="/site-legacy-archive-sp20/resources/layout.js"></script>
 </head>
 <body>
@@ -25,7 +22,7 @@ define("ERROR_FILE_SIZE", 3);
 <?php PrintHeader("../"); ?>
 <!-- main page content -->
 <div id="main">
-    <h2 style="margin-bottom:10px">manage members</h2>
+    <h2 style="margin-bottom:10px">Manage Members</h2>
     <div>
         <?php
         if (isset($_REQUEST['success'])) {
@@ -33,7 +30,7 @@ define("ERROR_FILE_SIZE", 3);
         }
         ?>
     </div>
-    <h3>Create New User (#<?= memberCount() + 1 ?>)</h3>
+    <h3>Add New Member to List (#<?= memberCount() + 1 ?>)</h3>
     <form method="post" action="process.php" name="createnewuser">
         <table class="form">
             <tr>
