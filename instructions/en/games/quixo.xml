@@ -22,11 +22,16 @@
         </towin>
     </rules>
     <strategies />
-    <variants> Variants include a 3X3 and a 4X4 board.
+    <variants>
+        <variant>
+            <name>Board Dimension</name>
+            <description>Variants include 5x5 (original), 4x4, and 3x3 boards.</description>
+        </variant>
     </variants>
     <alternates />
     <pictures />
-    <references>BoardGameGeek. Quixo (1995). https://boardgamegeek.com/boardgame/3190/quixo
+    <references>
+        <reference>BoardGameGeek. Quixo (1995). https://boardgamegeek.com/boardgame/3190/quixo</reference>
     </references>
     <links />
     <gamescrafters>
