@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Quixo</name>
+    <code>quixo</code>
+    <history>Quixo is a board game designed by Thierry Chapeau and published by Gigamic. The game shares some similar rules with tic-tac-toe but is played on a 5x5 board and is loopy.</history>
+    <board>The standard version of Quixo is played on a 5X5 board with the blank side of all pieces initially facing up.</board>
+    <pieces>The pieces are 25 wooden blocks, where each block has 1 side with an X and 1 side with an O. A blank piece can be flipped by either player, but once it has been flipped to an X or an O, only that respective player can move that block on the board.</pieces>
+    <rules>
+    <tomove>In turn, each player chooses a block along the edge of the board that is either blank or has their symbol on it. The player chooses to pick up, insert, and slide the block into the very end of either the block’s row or the block’s column.<tomove/>
+    <towin>Be the first to create a horizontal, vertical, or diagonal continuous line of 5 of your pieces. (If a move results in a 5 for both your opponent and you at the same time, your opponent wins). 
+<towin/>
+    </rules>
+    <strategies/>
+    <variants> Variants include a 3X3 and a 4X4 board.<variants/>
+    <alternates/>
+    <pictures/>
+    <references>BoardGameGeek. Quixo (1995). https://boardgamegeek.com/boardgame/3190/quixo <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Angela He (Backend, Solving)</gamescrafter>
+        <gamescrafter>Benji Xu (Backend, Solving)</gamescrafter>
+        <gamescrafter>Maria Rufova (Backend, Solving)</gamescrafter>
+        <gamescrafter>Rovert Shi (Backend, Solving, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
