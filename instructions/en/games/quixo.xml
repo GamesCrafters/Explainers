@@ -33,9 +33,9 @@
     </references>
     <links />
     <gamescrafters>
-        <gamescrafter>Angela He (Backend, Solving)</gamescrafter>
-        <gamescrafter>Benji Xu (Backend, Solving)</gamescrafter>
-        <gamescrafter>Maria Rufova (Backend, Solving)</gamescrafter>
-        <gamescrafter>Robert Shi (Backend, Solving, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Angela He (Backend, Solving, GamesmanUni GUI v3 + SVGs)</gamescrafter>
+        <gamescrafter>Benji Xu (Backend, Solving, GamesmanUni GUI v3)</gamescrafter>
+        <gamescrafter>Maria Rufova (Backend, Solving, GamesmanUni GUI v3)</gamescrafter>
+        <gamescrafter>Robert Shi (Backend, Solving, UWAPI Integration)</gamescrafter>
     </gamescrafters>
 </game>
