@@ -23,11 +23,7 @@
                 </div>
                 <div class="highlight-box-wrapper">
                     <h2>Interested in joining GamesCrafters?</h2>
-                    <p>We are meeting MWF 11am-noon this Spring 2023 semester in 606 Soda... Join us!</p>
-                </div>
-                <div class="highlight-box-wrapper">
-                    <h2>CalWeek 2022</h2>
-                    <p><a href="/calday2022">We put together a special page full of goodies for CalDay! Check them out here.</a></p>
+                    <p>We are meeting MWF 11am-noon this Fall 2024 semester in 606 Soda. Join us!</p>
                 </div>
             </div>
             <p>The UC Berkeley GamesCrafters research and development group was formed by Teaching Prof. Dan Garcia in 2001 to explore the fertile area of combinatorial and computational game theory. At the core of the project is GAMESMAN, a system developed for solving, playing and analyzing two-person, abstract strategy games (e.g., Tic-Tac-Toe, or Chess). Given the description of a game as input, our system generates a text-based and Tcl/Tk graphical application that will solve it (in the strong sense), and then play it perfectly. Programmers can easily prototype a new game with multiple rule variants, learn the strategy via color-coded moves, and perform extended analysis. Since its inception, more than sixty-eight games have been integrated into the system by over five hundred undergraduates, with still more in development. While most students implemented new games, others modified the core architecture, wrote game-specific optimal hash functions, and added databases to increase the program's speed and efficiency. Designing intuitive and aesthetic graphical user interfaces has also been popular project. Our future research direction is principally "hunting big game" &mdash; implementing, solving and analyzing large games whose perfect strategy is yet unknown.</p>

@@ -2,13 +2,9 @@
 
 require "common.inc";
 
-if (empty($_GET['mid'])) {
-    $_GET['mid'] = 'all';
-}
-
 // Read all members
 
-require_once '../members/member.class.php';
+require_once '../members/individual/member.class.php';
 
 $xmlDir = '../members/xml';
 $members = [];
@@ -17,27 +13,25 @@ foreach (GetFiles($xmlDir) as $subdir) {
     $subdir = $xmlDir . '/' . $subdir;
     foreach (GetFiles($subdir) as $xml) {
         $xml = $subdir . '/' . $xml;
-        $member = new Member($xml, '/members/');
-		if ($_GET['mid'] == 'all' ||
-		        $member->number == $_GET['mid'] ||
-			    $_GET['mid'] == strtolower(preg_replace('/\s+/', '', $member->semesterJoined))) {
-
-		    $members[] = $member;
-			// Finish if getting only a single member
-			if ($member->number == $_GET['mid']) {
-			    break;
-			}
-		}
+        $member = new Member($xml, '');
+		$members[] = $member;
     }
 }
 
-// Reverse sort the members
-
-function reverseCompareMembers(Member $a, Member $b) {
-    return Member::compare($b, $a);
+$members = [];
+if (($csvFile = fopen('../members/individual/members.csv', 'r')) !== FALSE) {
+    // Read the header row
+    $header = fgetcsv($csvFile);
+    // Read each row of data
+    while (($row = fgetcsv($csvFile)) !== FALSE) {
+        // Output HTML for each person
+        if (!empty($row)) {
+            $member = new Member($row);
+            $members[] = $member;
+        }
+    }
+    fclose($csvFile);
 }
-
-usort($members, 'reverseCompareMembers');
 
 ?>
 <!doctype html>
@@ -54,54 +48,40 @@ usort($members, 'reverseCompareMembers');
             $semesterPrinting = NULL;
 
             function renderString($label, $value) {
-                if ($value != 'N/A') {
+                if ($value) {
                     ?><li><strong><?= $label ?>:</strong> <?= $value ?></li><?php
                 }
             }
 
-            function renderArray($label, $array, $empty='N/A') {
-                $value = implode(', ', $array);
-                if (empty($value)) $value = $empty;
-                renderString($label, $value);
-            }
-
             function renderMemberQuote($label, $member) {
-                if ($member->quote != 'N/A') {
-                    ?><li><strong>Personal quote:</strong> <?= $member->quote != 'N/A' ? "<q>$member->quote</q>" : $member->quote ?><?= $member->cited != 'N/A' ? " ~ <cite>$member->cited</cite>" : "" ?></li><?php
+                if ($member->quote) {
+                    ?><li><strong>Personal quote:</strong> <?= $member->quote ? "<q>$member->quote</q>" : $member->quote ?><?= $member->cited ? " ~ <cite>$member->cited</cite>" : "" ?></li><?php
                 }
             }
 
             foreach ($members as $member) {
 
-                if ($member->semesterJoined != 'N/A' && $member->semesterJoined != $semesterPrinting) {
+                if ($member->semesterJoined != $semesterPrinting) {
                     $semesterPrinting = $member->semesterJoined;
-                    if ($semesterPrinting != NULL) {
-                        ?></ol><?php
-                    }
-                    ?><h3>Joined <?= $semesterPrinting ?></h3><ol class="members-list"><?php
+                    ?></ol><?php?><h3>Joined <?= $semesterPrinting ?></h3><ol class="members-list"><?php
                 }
 
                 ?><li class="member">
-                    <a class="member-photo" href="<?= $member->normalPhotoFullSize ?>">
-                        <img src="<?= $member->normalPhoto ?>" alt="<?= $member->name ?>">
-                    </a>
+                    <img class="member-photo" src="/members/individual/<?= $member->normalPhoto ?>" alt="<?= $member->name ?>">
                     <div class="member-info">
                         <div class="member-name"><strong><?= $member->name ?></strong><span class="member-number">#<?= $member->number ?></span></div>
                         <ul>
                             <?php renderString("Year", $member->year) ?>
                             <?php renderString("Major", $member->major) ?>
                             <?php renderString("Semesters in GamesCrafters", $member->gcSemesters) ?>
-                            <?php renderArray("Projects", $member->projects) ?>
+                            <?php renderString("Projects", $member->projects) ?>
                             <?php renderString("Biography", $member->biography) ?>
                             <?php renderMemberQuote("Quote", $member) ?>
                             <?php renderString("Favorite GamesCrafters-type game", $member->favoriteGame) ?>
                             <?php renderString("Favorite Ice Cream", $member->favoriteIceCream) ?>
-                            <?php renderString("After GamesCrafters", $member->after) ?>
                         </ul>
                     </div>
-                    <a class="member-photo" href="<?= $member->crazyPhotoFullSize ?>">
-                        <img src="<?= $member->crazyPhoto ?>" alt="<?= $member->name ?>">
-                    </a>
+                    <img class="member-photo" src="/members/individual/<?= $member->crazyPhoto ?>" alt="<?= $member->name ?>">
                 </li><?php
             } ?>
             </ol>
