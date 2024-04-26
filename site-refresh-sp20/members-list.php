@@ -6,18 +6,6 @@ require "common.inc";
 
 require_once '../members/individual/member.class.php';
 
-$xmlDir = '../members/xml';
-$members = [];
-
-foreach (GetFiles($xmlDir) as $subdir) {
-    $subdir = $xmlDir . '/' . $subdir;
-    foreach (GetFiles($subdir) as $xml) {
-        $xml = $subdir . '/' . $xml;
-        $member = new Member($xml, '');
-		$members[] = $member;
-    }
-}
-
 $members = [];
 if (($csvFile = fopen('../members/individual/members.csv', 'r')) !== FALSE) {
     // Read the header row
@@ -63,11 +51,11 @@ if (($csvFile = fopen('../members/individual/members.csv', 'r')) !== FALSE) {
 
                 if ($member->semesterJoined != $semesterPrinting) {
                     $semesterPrinting = $member->semesterJoined;
-                    ?></ol><?php?><h3>Joined <?= $semesterPrinting ?></h3><ol class="members-list"><?php
+                    ?></ol><?php?><h3>Joined in <?= $semesterPrinting ?></h3><ol class="members-list"><?php
                 }
 
                 ?><li class="member">
-                    <img class="member-photo" src="/members/individual/<?= $member->normalPhoto ?>" alt="<?= $member->name ?>">
+                    <div class="member-photo"><img src="/members/individual/photos-resized/<?= $member->normalPhoto ?>" alt="<?= $member->name ?>"></div>
                     <div class="member-info">
                         <div class="member-name"><strong><?= $member->name ?></strong><span class="member-number">#<?= $member->number ?></span></div>
                         <ul>
@@ -81,7 +69,7 @@ if (($csvFile = fopen('../members/individual/members.csv', 'r')) !== FALSE) {
                             <?php renderString("Favorite Ice Cream", $member->favoriteIceCream) ?>
                         </ul>
                     </div>
-                    <img class="member-photo" src="/members/individual/<?= $member->crazyPhoto ?>" alt="<?= $member->name ?>">
+                    <div class="member-photo"><img src="/members/individual/photos-resized/<?= $member->crazyPhoto ?>" alt="<?= $member->name ?>"></div>
                 </li><?php
             } ?>
             </ol>

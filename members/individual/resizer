@@ -1,0 +1,13 @@
+#!/bin/bash
+# For all jpgs in the current directory, resize them.
+
+for file in *.jpg; do
+  if [[ ! $file =~ resized-.*.jpg ]]; then
+    if [ ! -f "resized-$file" ]; then
+      echo "$file => resized-$file"
+      convert $file -resize 100x150 "resized-$file"
+    else
+      echo "resized-$file already exists"
+    fi
+  fi
+done
