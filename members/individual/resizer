@@ -1,13 +1,35 @@
 #!/bin/bash
 # For all jpgs in the current directory, resize them.
 
-for file in *.jpg; do
-  if [[ ! $file =~ resized-.*.jpg ]]; then
-    if [ ! -f "resized-$file" ]; then
-      echo "$file => resized-$file"
-      convert $file -resize 100x150 "resized-$file"
-    else
-      echo "resized-$file already exists"
+if [ $# == 0 ]
+then
+  echo Creating resized images from the current directory and placing them in the current directory...
+  for file in *.jpg; do
+    if [[ ! $file =~ resized-.*.jpg ]]; then
+      if [ ! -f "resized-$file" ]; then
+        echo "$file => resized-$file"
+        convert $file -resize 100x150 "resized-$file"
+      else
+        echo "resized-$file already exists"
+      fi
     fi
-  fi
-done
+  done
+elif [ $# == 2 ]
+then
+  mkdir $2
+  chmod 755 $2
+  echo Creating resized images from $1 and putting them in $2...
+  for file in $1/*.jpg; do
+    if [ ! -f "$2/$(basename $file)" ]; then
+      echo "$file => $2/$(basename $file)"
+      convert $file -resize 100x150 "$2/$(basename $file)"
+      chmod 644 "$2/$(basename $file)"
+    else
+      echo "$2/$(basename $file) already exists"
+    fi
+  done
+else
+  echo "USAGE:"
+  echo "    Run \"./resizer\" to resize all JPGs in the current directory and put them in the current directory."
+  echo "    Run \"./resizer dir1 dir2\" to resize all JPGs in dir1 and put the resized images in dir2."
+fi
