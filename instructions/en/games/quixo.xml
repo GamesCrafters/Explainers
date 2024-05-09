@@ -2,24 +2,13 @@
 <game>
     <name>Quixo</name>
     <code>quixo</code>
-    <history>Quixo is a board game designed by Thierry Chapeau and published by Gigamic. The game
-        shares some similar rules with tic-tac-toe but is played on a 5x5 board and is loopy.</history>
-    <board>The standard version of Quixo is played on a 5X5 board with the blank side of all pieces
-        initially facing up.</board>
-    <pieces>The pieces are 25 wooden blocks, where each block has 1 side with an X and 1 side with
-        an O. A blank piece can be flipped by either player, but once it has been flipped to an X or
-        an O, only that respective player can move that block on the board.</pieces>
-    <tomove>In turn, each player chooses a block along the edge of the board that is either
-        blank or has their symbol on it. The player chooses to pick up, insert, and slide the
-        block
-        into the very end of either the block's row or the block's column.
-    </tomove>
-    <towin>Be the first to create a horizontal, vertical, or diagonal continuous line of 5 of
-        your pieces. If a move results in a 5 for both your opponent and you at the same time,
-        your opponent wins.
-    </towin>
-    <rules />
-    <strategies />
+    <history>Quixo is a board game designed by Thierry Chapeau and published by Gigamic. The game shares some similar rules with tic-tac-toe but is played on a 5x5 board and is loopy.</history>
+    <board>The standard version of Quixo is played on a 5x5 board with the blank side of all pieces initially facing up.</board>
+    <pieces>The pieces are 25 wooden blocks. Each block has 1 side with an X and 1 side with an O. A blank piece can be flipped by either player, but once it has been flipped to an X or an O, only that respective player can move that block on the board.</pieces>
+    <tomove>A player, on their turn, chooses a block along the edge of the board that is either blank or has their symbol on it. The player chooses to pick up, insert, and slide the block into either end of either the block's row or the block's column.</tomove>
+    <towin>Be the first to create a horizontal, vertical, or diagonal contiguous line of five blocks of your symbol. If a move results in a 5-in-a-row for both your opponent and you at the same time, your opponent wins.</towin>
+    <rules/>
+    <strategies/>
     <variants>
         <variant>
             <name>Board Dimension</name>
