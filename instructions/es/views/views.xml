@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <name>Vistas</name>
+    <leyend>Ganando, Perdiendo, Empate Forzado, Empatando</leyend>
+    <remoteness>La Vista de 'Lejanía' registra el cambio del valor de 'lejanía' después de cada turno. La 'lejanía' es la distancia desde una posición hasta una posición primitiva forzada (Hasta el fin del juego).</remoteness>
+    <winby>La Vista de 'Ganado Neto' registra el cambio del valor del 'ganado neto' después de cada turno. El 'ganado neto' es la cantidad de puntos que un jugador va a conseguir al final del juego asumiendo que ambos jugadores hagan un juego perfecto.</winby>
+    <draws>La Vista del 'Nivel de Empate' registra si una posición es una 'posición pura', 'posición no-pura', ó si no es una posición de empate. Si la posición es una 'posición pura', la vista muestra su 'lejanía de empate,' y su franja de empate. La 'lejanía de empate' es la distancia desde una posición hasta la siguiente franja de empate.</draws>
+    <column> La Vista de la 'Columna' muestra las jugadas disponibles en la posición actual en conjunto con su valor de posición (ganando, perdiendo, empate forzado, empatando), 'nivel de empate', valor de 'lejanía', y sus valores de 'ganado neto'.
+    <mex>La Vista del 'Mex' muestra el cambio en el valor mex (valor minimo excluido, 'minimum excluded value' en inglés) después de cada turno.</mex>
+    <tree>La Vista del 'Árbol' muestra el 'árbol de juego' mientras las posiciones del juego son exploradas.</tree>
+</view>

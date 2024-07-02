@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+    <name>Views</name>
+    <leyend>Win, Lose, Tie, Draw</leyend>
+    <remoteness>The Remoteness View tracks the change in the remoteness value after every turn. Remoteness is the distance from a position to a forced primitive position (to the end of the game). </remoteness>
+    <winby>The Win By View tracks the change in the win by value after every turn. Win By is the net amount of points a player will achieve at the end of the game assuming both players follow perfect play.</winby>
+    <draws>The Draw Level View tracks whether a position is a pure draw, non-draw, or a non-pure draw. If the position is a pure draw, the view displays its draw-level remoteness, and draw fringe. Draw-level remoteness is the distance from a position to the next draw fringe.</draws>
+    <column>The Colum View lists the available moves at the current position along with their position value (win, lose, tie, draw), draw level, remoteness value, and their win by value.</column>
+    <mex>The Mex View tracks the change in the mex (minimum excluded value) value after every turn.</mex>
+    <tree>The Tree View shows the game tree as the positions are being explored.</tree>
+</view>
