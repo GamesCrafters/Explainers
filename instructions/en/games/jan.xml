@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Jan 4x4</name>
+    <code>jan</code>
+    <history/>
+    <board>Played on a 4x4 square board.</board>
+    <pieces>White and black circles.</pieces>
+    <tomove>Move any piece of your color to a horizontally or vertically adjacent grid intersection.</tomove>
+    <towin>Align three of your pieces in a row.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Perfect Play </name>
+            <description>Move one of your most outside pieces to the middle rows, then mirror the same move with your opposite inside piece (you now have two in a row). Move alternate outside piece up and down (stalemate).</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links>
+        <link>
+            <url>https://ludii.games/details.php?keyword=A%20Simple%20Game</url>
+            <description>Ludii Portal</description>
+        </link>
+  </links>
+    <gamescrafters>
+        <gamescrafter>Benjamin Riley Zimmerman (Mentor)</gamescrafter>
+        <gamescrafter>Andy Tae Kyu Kim (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Andrew Jacob DeMarinis (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

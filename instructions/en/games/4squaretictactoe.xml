@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>4-Square-Tic-Tac-Toe</name>
+    <code>4squaretictactoe</code>
+    <history/>
+    <board>Played on a 4x4 square board.</board>
+    <pieces>X’s and O’s.</pieces>
+    <tomove>One player puts their piece down in an empty tile, then the next player puts their piece down. This continues until the win condition is triggered, or the game ends in a tie.</tomove>
+    <towin>A player gets 4 in a row, either horizontally, vertically, or diagonally. A player gets 4 pieces in a square shape. A player gets one piece in each corner.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Defend The Peak</name>
+            <description>Ensure that your piece occupies the peak and, subsequently, positions in the second row to maximize your chances of winning!</description>
+        </strategy>
+    </strategies>
+    <variants>
+        <variant>
+            <name>Diamond</name>
+            <description>Additional win condition is added where a diamond shape you make of any size is also a win condition (In a 0 indexed board that could be (1, 6, 4, 9) or (1, 11, 4, 14)).</description>
+        </variant>
+        <variant>
+            <name>Misère</name>
+            <description>Rules are reversed, so the previous win conditions are now losing conditions.</description>
+        </variant>
+        <variant>
+            <name>Diamond Misère</name>
+            <description>Same as diamond but win conditions are reversed.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference> bee, Beth- the mama. “4 Square Tic Tac Toe.” From The Hive, mamabeefromthehive.blogspot.com/2012/01/4-square-tic-tac-toe.html. Accessed 7 Dec. 2024. &lt;https://mamabeefromthehive.blogspot.com/2012/01/4-square-tic-tac-toe.html&gt;.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://mamabeefromthehive.blogspot.com/2012/01/4-square-tic-tac-toe.html </url>
+            <description>4 Square Tic Tac Toe</description>
+        </link>
+  </links>
+    <gamescrafters>
+        <gamescrafter>Rodrigo Ortiz (Mentor)</gamescrafter>
+        <gamescrafter>Ijin Yu (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Edward Cheng (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
