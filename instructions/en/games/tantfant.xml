@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Tant Fant</name>
+    <code>tantfant</code>
+    <history>Tant Fant a 2-player abstract strategy game from India, documented in Bengal between the late 18th and early 20th century. It is similar to Achi or Three Men’s Morris. </history>
+    <board>Tant Fant is a movement-only game played on a 3x3 board, with an additional X-shape in the center that allows pieces in the corner to move to the center position.</board>
+    <pieces>(X and O) || (Black and White) || (etc. of 2 types).</pieces>
+    <tomove>Move one of your pieces to an empty adjacent square, denoted by the lines on the board. There will always be a move available if the game has not ended yet.</tomove>
+    <towin>A player wins if they get 3 pieces in a row horizontally, vertically, or diagonally, with the condition that the 3-in-a-row is not the original starting position of their pieces.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Delayed Middle Capture</name>
+            <description>Since any piece can reach the middle position from any other point on the board, it is useful to develop all three pieces adjacent to the middle / on diagonals, and move into the middle as your winning move.</description>
+        </strategy>
+    </strategies>
+    <variants>
+        <variant>
+            <name>Diagonal Win Condition</name>
+            <description>Only diagonal 3-in-a-row’s are able to win the game, instead of any 3-in-a-row != start position.</description>
+        </variant>
+        <variant>
+            <name>Diamond Movement Path</name>
+            <description>A diamond-shaped move pattern along the board instead of an X-shaped one in the center.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links>
+        <link>
+            <url>https://en.wikipedia.org/wiki/Tant_fant</url>
+            <description>Wikipedia</description>
+        </link>
+        <link>
+            <url>https://ludii.games/details.php?keyword=Tant%20Fant</url>
+            <description>Ludii Portal</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Josh Zhang (Mentor)</gamescrafter>
+        <gamescrafter>Daniel Liu (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Johan Youngchan Ko (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>

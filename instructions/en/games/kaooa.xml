@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Kaooa</name>
+    <code>kaooa</code>
+    <history> "Kaooa is a hunt game documented in the early twentieth century in India, but it is probably much older, as graffiti with the pattern of the board have been found at sites such as medieval Vijayanagara" (Ludii Games). </history>
+    <board>5-edge hand-drawn pentagram.</board>
+    <pieces>6 crows, 1 vulture.</pieces>
+    <tomove>If you control the mighty vulture, you can move to adjacent empty spots, or jump over a cunning crow to an empty space to capture It. If you are the crow, you can move to empty adjacent spaces, or drop a crow at an empty space if you haven’t dropped 6 crows yet (in total).</tomove>
+    <towin>For the crows to win, they have to surround the vulture in such a way that he can no longer move to any adjacent spots. For the vulture to win, he has to capture crows until only 3 of them remain on the board, meaning they can no longer surround and trap the vulture.</towin>
+    <rules>The crow player begins by dropping a crow to one of the empty spots on the board. The vulture player then drops the vulture in another empty spot. The crow player must continue dropping pieces on the board during their turn until all 6 crows are on the pentagram. During the vulture’s turn, the vulture can move to any adjacent open spot or capture a crow by jumping to an open spot behind them. The players continue alternating in such a manner until either 3 crows are captured or the vulture is trapped.</rules>
+    <strategies>
+        <strategy>
+            <name>The Stealth Vulture</name>
+            <description>If you are the vulture, try to dodge being trapped as much as possible.</description>
+        </strategy>
+        <strategy>
+            <name>Smartie Crow</name>
+            <description>If you are the crow, avoid being captured as much as possible. One way to do this is by placing crows at the outer circle of the pentagram.</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links>
+        <link>
+            <url>https://ludii.games/details.php?keyword=Kaooa</url>
+            <description>Ludii Portal</description>
+        </link>
+  </links>
+    <gamescrafters>
+        <gamescrafter>Maria Rufova (Mentor, Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Benji Xu (Mentor, Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Xiang Zheng (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Sriya Kantipudi (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Robert Shi (GamesmanOne Consulting)</gamescrafter>
+    </gamescrafters>
+</game>

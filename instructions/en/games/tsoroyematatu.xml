@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Tsoro Yematatu</name>
+    <code>tsoroyematatu</code>
+    <history>Tsoro Yematatu is a two-player abstract strategy game originating from Zimbabwe. It shares similarities with games like Tapatan, Achi, Nine Holes, Shisima, and Tant Fant. What sets Tsoro Yematatu apart is the ability for pieces to jump over one another (without capturing), introducing an added layer of strategic movement!</history>
+    <board>Tsoro Yematatu is played on a “3 by 3” triangular board, resembling a Tic-Tac-Toe board with the top row’s three positions all merged into one position.</board>
+    <pieces>White and black pieces; X’s and O’s; 1’s and 0’s; any two different pieces work!</pieces>
+    <tomove>The game begins with an empty board. Players choose their piece colors and decide who will go first.
+    Each player takes turns placing one piece at a time on any unoccupied point on the board. Pieces cannot be moved until all six pieces are placed, and once all pieces are on the board, there will be only one empty point remaining.
+    A piece can move in one of two ways:
+    Slide: It can move one space per turn to an adjacent vacant point, following the board's pattern
+    Jump: If no slides are possible, it can jump over an adjacent (opponent) piece, landing on an empty point directly on the other side. The jump must be in a straight line and follow the board’s pattern. No captures occur in this game.
+    </tomove>
+    <towin>First to form 3-in-a-row wins. The game may go on for a long time, and if neither player is able to form a 3-in-a-row, the players may agree to declare a draw.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Defend The Peak</name>
+            <description>Ensure that your piece occupies the peak and, subsequently, positions in the second row to maximize your chances of winning!</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>Erica. “Tsoro Yematatu: 3-in-a-Row Game From Zimbabwe.” What Do We Do All Day, 27 July 2020, &lt; www.whatdowedoallday.com/tsoro-yematatu&gt;.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://en.wikipedia.org/wiki/Tsoro_yematatu</url>
+            <description>Wikipedia</description>
+        </link>
+        <link>
+            <url>https://www.whatdowedoallday.com/tsoro-yematatu/</url>
+            <description>Tsoro Yematatu: 3-in-a-Row Game From Zimbabwe</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Michael Setchko Palmerlee (Mentor, Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Ken Zheng (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Justin Park (Backend)</gamescrafter>
+    </gamescrafters>
+</game>
