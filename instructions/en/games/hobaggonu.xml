@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Ho-Bag Gonu</name>
+    <code>hobaggonu</code>
+    <history>Ho-Bag Gonu is a Korean game with an uncertain history. It is a blockade game, similar to others found throughout Asia.</history>
+    <board>Unique board with 3 “home” spots in the top and bottom and a circle with diamond with 4 spots in the middle and a center spot all connected with one-another.</board>
+    <pieces>3-black, 3-white</pieces>
+    <tomove>Move a piece to an adjacent empty space on a connected route.</tomove>
+    <towin>A player wins by blocking the other player from being able to move.</towin>
+    <rules>Each player has three pieces. Players take turns moving a piece to an empty dot. Players cannot return to their starting three dots. Pieces that move into the opponent’s starting three dots cannot exit them.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links>
+        <link>
+            <url>https://ludii.games/details.php?keyword=Ho-Bag%20Gonu</url>
+            <description>Ludii Portal</description>
+        </link>
+  </links>
+    <gamescrafters>
+        <gamescrafter>Nakul Srikanth (Mentor)</gamescrafter>
+        <gamescrafter>Ryan Hpay Lee (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Alec Jeffrey Romain Van Kerckhove (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
