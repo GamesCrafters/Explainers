@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Tantrix</name>
+    <code>tantrix</code>
+    <history>Tantrix was created in New Zealand by Mike McManaway in 1988, with the initial name being Mind Game. He created 56 cardboard pieces, and the goal was to create the longest line or loop. Later on, Mike changed the pieces from cardboard to plastic following the feedback of one of his game shop customers. In 1991, he decided to add two more colors, which allows for more players. Our game is a single player variation of the game.</history>
+    <board>There is no board for tantrix. You can play anywhere you’d like, whether it be on a table, on the floor, or anywhere else. (Puzzle pieces create the board).</board>
+    <pieces>The pieces are hexagons with lines running from one side to the other. There can be different colored lines overlapping each other.</pieces>
+    <tomove>First, choose a color (or we choose it for you). Then, place a piece down, connecting the lines of that color by the edges.</tomove>
+    <towin>Make a closed loop by using up all the pieces.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Degree analysis</name>
+            <description>Notice that the pieces can be organized into three categories, sharp turn, soft turn, and straight. Now, if you label them by degrees, you can figure out which pieces cancel out the others. In this way, you can guess which pieces you have to place and how those pieces will affect the pieces in the future.</description>
+        </strategy>
+    </strategies>
+    <variants>
+        <variant>
+            <name>3 (3_0_0)</name>
+            <description>3 sharp turn pieces, 0 soft turn pieces, 0 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>4 (2_2_0)</name>
+            <description>2 sharp turn pieces, 2 soft turn pieces, 0 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>5 (2_2_1)</name>
+            <description>2 sharp turn pieces, 2 soft turn pieces, 1 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>6 (2_2_2)</name>
+            <description>2 sharp turn pieces, 2 soft turn pieces, 2 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>7 (2_4_1)</name>
+            <description>2 sharp turn pieces, 4 soft turn pieces, 1 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>8 (4_2_2)</name>
+            <description>4 sharp turn pieces, 2 soft turn pieces, 2 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>9 (4_4_1)</name>
+            <description>4 sharp turn pieces, 4 soft turn pieces, 1 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>10 Easy (2_6_2)</name>
+            <description>2 sharp turn pieces, 6 soft turn pieces, 2 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>10 Medium (4_4_2)</name>
+            <description>4 sharp turn pieces, 4 soft turn pieces, 2 straight pieces.</description>
+        </variant>
+        <variant>
+            <name>10 Hard (5_4_1)</name>
+            <description>5 sharp turn pieces, 4 soft turn pieces, 1 straight pieces.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>Wikipedia Contributors. “Tantrix.” Wikipedia, Wikimedia Foundation, 4 June 2024.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://en.wikipedia.org/wiki/Tantrix</url>
+            <description>Tantrix Wikipedia Page</description>
+        </link>
+        <link>
+            <url>https://www.tantrix.com/index.html</url>
+            <description>Tantrix Rules and Design</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Abraham Hsu (Backend, GamesmanUni GUI Design  &amp; Implementation)</gamescrafter>
+        <gamescrafter>Grant Zhao (Backend, GamesmanUni Design)</gamescrafter>
+        <gamescrafter>Adi Tummala (Backend)</gamescrafter>
+        <gamescrafter>Alvaro Estrella (LX AutoGUI Move Subtypes)</gamescrafter>
+    </gamescrafters>
+</game>
