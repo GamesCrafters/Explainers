@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Solitaire Chess</name>
+    <code>solitairechess</code>
+    <history>The concept and name of Solitaire Chess originated in I.A. Horowitz's book of the same name, which gave chess board states that encouraged players to think analytically in the original two-player version of chess. Solitaire Chess, the one-player puzzle, is a different concept than traditional chess but embodies the same spirit of analytical thinking and houses the same pieces and move possibilities as chess. It was created by a Finnish software engineer by the name of Vesa Timonen and originated from the ThinkFun group, the creators of the Rush Hour puzzle.</history>
+    <board>4x4 Chess Board</board>
+    <pieces>The six chess pieces in arbitrary combinations (all one color), with repeat pieces allowed, including Pawns, Knights, Bishops, Rooks, Queens, and Kings. Traditional numbers and special-case rules (such as not being able to capture the king/checkmate) do not exist in the Solitaire Chess puzzle.</pieces>
+    <tomove>All pieces move like traditional chess pieces, except that the only valid moves are moves in which one chess piece captures another chess piece. Kings are allowed to be captured as well.</tomove>
+    <towin>Capture pieces in such a way that there only remains one chess piece left on the game board.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Forward Mapping</name>
+            <description>In order to ensure that one is able to capture all pieces until there is only one left, the best method is to strategically capture pieces in your head and see which iterations result in one piece left. Then play the game with the piece capturing that works.</description>
+        </strategy>
+    </strategies>
+    <variants>
+        <variant>
+            <name>1</name>
+            <description>A four-piece solitaire chess puzzle variation with two knights, one king, and pawn.</description>
+        </variant>
+        <variant>
+            <name>2</name>
+            <description>A five-piece solitaire chess puzzle variation with two queens, one night, one king, and one pawn.</description>
+        </variant>
+        <variant>
+            <name>3</name>
+            <description>A seven-piece solitaire chess puzzle variation with seven pawns.</description>
+        </variant>
+        <variant>
+            <name>4</name>
+            <description>A six-piece solitaire chess puzzle variation with one queen, two rooks, two pawns, and one knight.</description>
+        </variant>
+        <variant>
+            <name>5</name>
+            <description>A five-piece solitaire chess puzzle variation with one queen, one king, and two pawns.</description>
+        </variant>
+        <variant>
+            <name>6</name>
+            <description>A four-piece solitaire chess puzzle variation with one 	queen, one rook, one knight, and one pawn.</description>
+        </variant>
+        <variant>
+            <name>7</name>
+            <description>A seven-piece solitaire chess puzzle variation with one queen, one rook, one knight, and two pawns.</description>
+        </variant>
+        <variant>
+            <name>8</name>
+            <description>A five-piece solitaire chess puzzle variation with one queen, one rook, one bishop, and two pawns.</description>
+        </variant>
+        <variant>
+            <name>9</name>
+            <description>A four-piece solitaire chess puzzle variation with two queens, one king, and one rook.</description>
+        </variant>
+        <variant>
+            <name>10</name>
+            <description> A four-piece solitaire chess puzzle variation with one queen, one rook, one knight, and one pawn.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>“Solitaire Chess: Strategic Skill Building Game.” ThinkFun, legacy.thinkfun.com/wp-content/uploads/2019/03/BFRefresh-SolChess-83402-Instructions.pdf. Accessed 27 Apr. 2025.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://legacy.thinkfun.com/wp-content/uploads/2019/03/BFRefresh-SolChess-83402-Instructions.pdf</url>
+            <description>Solitaire Chess Rules and History by ThinkFun</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Carolyn Wang (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Tzu Ping 'Joanna Chen' (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Ryan Hpay Lee (Mentor)</gamescrafter>
+        <gamescrafter>Alvaro Estrella (Mentor)</gamescrafter>
+        <gamescrafter>Chang 'Jason' Ding (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
