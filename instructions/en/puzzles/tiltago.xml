@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Tiltago</name>
+    <code>tiltago</code>
+    <history>Tiltago is a logic-based puzzle designed by ThinkFun and has since gained traction as a testbed for search algorithms and puzzle solvers. In computer science communities like GamesCrafters, the game is modeled and explored through state manipulation, solvability detection, and pathfinding algorithms.</history>
+    <board>The Tiltago board consists of 13 interconnected positions arranged in a semi-symmetrical vertical layout: three positions in the top row (0-2), seven in the middle row (3-9), and three in the bottom row (10-12). This unique structure forms a triangular path where each position may contain a colored ball or remain empty (represented by a dash "-"). Movement between positions is only allowed if they are adjacent according to a predefined adjacency graph, creating a constrained but strategic space for solving the puzzle.</board>
+    <pieces>Each position may contain a colored ball (represented by a digit or letter), or be empty (represented by "-").</pieces>
+    <tomove>A move is defined as a tuple (i, j) where a piece at position i is moved to the adjacent and empty position j. A piece can only move if: j is directly connected to i (as defined in the adjacency lookup table), and position j is empty ('-'). Only one piece can be moved at a time.</tomove>
+    <towin>The puzzle is considered solved if the board configuration equals 'B--1234567--B'</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Work Backwards</name>
+            <description>Since the goal configuration is known, it's often helpful to reason in reverse from the solved state.</description>
+        </strategy>
+        <strategy>
+            <name>Use Lookup Table Efficiently</name>
+            <description>The adjacency list allows only specific legal moves. Understanding and caching this can reduce state space traversal.</description>
+        </strategy>
+        <strategy>
+            <name>Prioritize Empty Slots</name>
+            <description>Movement is only possible into empty slots. Planning how to create and preserve these can aid maneuvering.</description>
+        </strategy>
+        <strategy>
+            <name>Breadth-First Search</name>
+            <description> Ideal for finding the shortest path to the goal. Avoids getting stuck in unsolvable subtrees.</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>“Tiltago.” ThinkFun, www.thinkfun.com/products/tiltago/. Accessed 27 Apr. 2025. </reference>
+    </references>
+    <links>
+        <link>
+            <url>https://www.thinkfun.com/products/tiltago/</url>
+            <description>Official Tiltago Page</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter> Nakul Srikanth (Mentor, Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Bella Longhi (Backend, GamesmanUni GUI Implementation)</gamescrafter>
+        <gamescrafter>Talha Ijaz (Backend, GamesmanUni GUI Implementation)</gamescrafter>
+    </gamescrafters>
+</game>
