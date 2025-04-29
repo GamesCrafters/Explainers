@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Diamond 8-Ball</name>
+    <code>eightball</code>
+    <history>This puzzle is a more constrained variant of the simple 3x3 version of the fifteen-puzzle sliding number puzzle, which was invented in 1874 by Noyes Palmer Chapman, a postmaster in Canastota, New York. The puzzle went to Hartford, Connecticut, where students in the American School for the Deaf started manufacturing it. The puzzle became a craze in the U.S. in February 1880.</history>
+    <board>This board consists of a 3x3 square with walls on the left and right sides of the center position. A ball can enter or leave the center only vertically.</board>
+    <pieces>The pieces consist of 8 numbered balls of different colors which can “roll” around the 3x3 square, except for the given restriction.</pieces>
+    <tomove>The player can perform two different types of slide moves. They can either slide one ball to its desired spot, leaving a new slot blank, or they can slide two balls at the same time, adding a new layer of strategy to solving the puzzle.</tomove>
+    <towin>Surround the center with the balls ordered from 1 to 8 starting at the upper-left corner and continuing clockwise.</towin>
+    <rules>The player can slide the balls anywhere on the board, except for the left and right sides of the center position, where the barriers are located. They must keep sliding the balls until they have achieved the solved state of the puzzle.</rules>
+    <strategies>
+        <strategy>
+            <name>Center Gate Method (top row → right column → bottom row → left column)</name>
+            <description>Phase 1, Top Row (1, 2, 3): Rotate the outer edge to bring each ball (1 → 2 → 3) near the center. Use the center space to insert each into its correct top position. Phase 2, Right Column (4, 5): Bring ball 4 to the center, then move it right into the middle-right slot. Do the same with ball 5 into the bottom-right corner. Phase 3, Bottom Row (6, 7): Move 6 into the bottom-middle spot. Then 7 into the bottom-left. Phase 4, Left Column (8): Move 8 through the center and place it in the middle-left. Tips: Moves can consist of single or double when necessary. Use the outer loop like a conveyor belt to move balls into place. Always bring the ball near the top or bottom before using the center. Try to keep the placed balls untouched as you go.</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>“Diamond 8-Ball Puzzle.” Https://Www.Jaapsch.Net/Puzzles/Eightbll.Htm, Jaap's Puzzle Page, www.jaapsch.net/puzzles/eightbll.htm. Accessed 28 Apr. 2025.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://www.jaapsch.net/puzzles/eightbll.htm</url>
+            <description>Jaap's Puzzle Page</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Ethan Gale (Backend, GamesmanUni GUI Implementation)</gamescrafter>
+        <gamescrafter>Nahee Jeong (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Alvaro Estrella (Mentor, Server Debugging)</gamescrafter>
+        <gamescrafter>Josh Zhang (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
