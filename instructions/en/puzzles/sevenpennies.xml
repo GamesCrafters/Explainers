@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Seven Pennies</name>
+    <code>sevenpennies</code>
+    <history/>
+    <board>A board with 8 slots. A slot is filled if a penny sits in the place. A slot is interconnected with two slots that have index increase by 3 and mod 8 and index increase by 5 and mod 8 (For example, slot 1 is connected with slot 4 ((1+3)%8) and slot 6 ((1+5)%8)).</board>
+    <pieces>Played with 7 pennies.</pieces>
+    <tomove>On each turn, the player must add one penny to any empty slot, and then slide it to another empty slot.</tomove>
+    <towin>Fit a total of 7 pennies on the board.</towin>
+    <rules>The player should begin the game with an add move, and continue the add -&gt; slide circle repeatedly until the game ends. If the player adds a penny to the board and there is no adjacent empty slot to slide the penny to, the player loses the game (No matter how many pennies on the board).</rules>
+    <strategies>
+        <strategy>
+            <name>Continuous Slide</name>
+            <description>The player can always win the game by adding a new penny on an empty slot that is interconnected with the slot which the last penny slides from, and slide the penny into that slot.</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>“7 Pennies Puzzle - Can You Place 7 Pennies?” creativecrafthouse.com Web. 18 Apr. 2025.</reference>
+    </references>
+    <links>
+        <link>
+        <url>https://www.creativecrafthouse.com/7-pennies-puzzle-can-you-place-7-pennies.html</url>
+        <description>“7 Pennies Puzzle - Can You Place 7 Pennies?” creativecrafthouse.com Web. 18 Apr. 2025.</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Zihao 'Zacky' Huang (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Jerry Fang (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Alvaro Estrella (Mentor)</gamescrafter>
+        <gamescrafter>Abraham Hsu (GamesmanPuzzles Debugging)</gamescrafter>
+    </gamescrafters>
+</game>
