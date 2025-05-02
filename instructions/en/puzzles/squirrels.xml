@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Squirrels Go Nuts!</name>
+    <code>squirrels</code>
+    <history>Squirrels Go Nuts is a sliding puzzle game created by SmartGames with the idea of helping squirrels to hide their acorns into different holes for the winter. The goal of the puzzle is to successfully match each squirrel's acorns into their respective holes.</history>
+    <board>The board is a 4x4 grid in which there are four different holes on the board, up to four different squirrels, and an optional block on the board that can serve as an obstacle and/or block a specific hole. The puzzle's constraints are up to the player's discretion with the number of holes, squirrels, and blocks having the potential to be changed in order to adjust the puzzle's difficulty.</board>
+    <pieces>The pieces that you can move are the squirrels on the board. There can be up to four movable squirrels in the puzzle. Each squirrel piece has two different L-shaped and rectangular puzzle pieces.</pieces>
+    <tomove>Move any squirrel piece vertically or horizontally as long as there are no pieces blocking their path. Any obstacle could include a separate squirrel piece, a block piece, or the edges of the board. Once an acorn is dropped in a hole during a move, the hole can not be used again to drop another acorn.</tomove>
+    <towin>The player must drop each acorn into one of the holes on the board. The puzzle can be unsolvable if a squirrel's acorn is dropped onto the wrong hole.</towin>
+    <rules>The player should begin the game with an add move, and continue the add -&gt; slide circle repeatedly until the game ends. If the player adds a penny to the board and there is no adjacent empty slot to slide the penny to, the player loses the game (No matter how many pennies on the board).</rules>
+    <strategies/>
+    <variants>
+        <variant>
+            <name>Starter</name>
+            <description>Most simple variant with just 2 squirrel pieces.</description>
+        </variant>
+        <variant>
+            <name>Junior</name>
+            <description>Slightly more difficult variant with 3 squirrel pieces.</description>
+        </variant>
+        <variant>
+            <name>Expert</name>
+            <description>Variant with 3 squirrel pieces, one of them being an L-shaped piece.</description>
+        </variant>
+        <variant>
+            <name>Master</name>
+            <description>Variant with 4 squirrel pieces, 2 of which are L-shaped.</description>
+        </variant>
+        <variant>
+            <name>Wizard</name>
+            <description>Most difficult variant with 4 squirrel pieces.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>Squirrels Go Nuts!, www.smartgamesandpuzzles.com/squirrels-go-nuts.html. Accessed 1 May 2025.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://www.smartgamesusa.com/sites/default/files/SmartGames_SG-425_Squirrels-Go-Nuts_challenge-booklet_bd9d52%20%281%29.pdf</url>
+            <description>Squirrels Go Nuts!' Other Variants</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Angela Rodriguez (Backend)</gamescrafter>
+        <gamescrafter>Chrystopher Thomas (GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Michael Setchko Palmerlee (Mentor, Backend)</gamescrafter>
+    </gamescrafters>
+</game>
