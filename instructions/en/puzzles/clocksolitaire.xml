@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Clock Solitaire</name>
+    <code>clocksolitaire</code>
+    <history>The original clock solitaire board was made roughly 100 years ago. Three boards and no rule documents have survived. It is unsure whether or not the board was even intended to be a puzzle. John Beasley devised rules in 2014.</history>
+    <board>The circular board consists of 25 identical hemispherical indentations organized in 3 concentric circles. The outermost circle consists of 12 indentations organized in a clock face. The middle circle consists of 6 indentations corresponding to 1, 3, 5, 7, 9, and 11 o’clock. The innermost circle consists of one indentation in the center.</board>
+    <pieces>The pieces are 25 identical spheres that go in the board's 25 indentations.</pieces>
+    <tomove>Jump a peg along a straight or curved line over a second peg and into an empty hole. The jumped peg is removed.</tomove>
+    <towin>Play to finish at a given variation’s configuration.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Time Reversal Trick</name>
+            <description>The reverse problem begins from the complement of the final pattern, and the goal is to finish with one peg in the centre. If you reverse the sequence of jumps which solve the reverse problem, this solves the original puzzle.</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>Beasley, John, and Sue Beasley. “Clock Solitaire.” The John and Sue Beasley Website, www.jsbeasley.co.uk/puzzles/clocksolitaire.pdf. Accessed 2 May 2025.</reference>
+    </references>
+    <links>
+        <link>
+            <url>www.jsbeasley.co.uk/puzzles/clocksolitaire.pdf</url>
+            <description>The John and Sue Beasley Website Clock Solitaire</description>
+        </link>
+        <link>
+            <url>http://gibell.net/puzzles/CFF/ClockSolitaireBookletOnePage.pdf</url>
+            <description>Gibell.net Clock Solitaire Booklet</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Jennifer Cheng (Backend, Variants, GamesmanUni GUI Design)</gamescrafter>
+        <gamescrafter>Divya Sundar (Backend, GamesmanUni GUI Implementation)</gamescrafter>
+        <gamescrafter>Alvaro Estrella (Mentor)</gamescrafter>
+        <gamescrafter>Justin Park (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
