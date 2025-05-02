@@ -2,19 +2,43 @@
 <game>
     <name>Top Spin</name>
     <code>topspin</code>
-    <history/>
-    <board/>
-    <pieces/>
-    <tomove/>
-    <towin/>
-    <rules>Twenty disks numbered 1-20 are arranged in a cycle in no particular order. To move, reverse the order of any four consecutive disks in the cycle. The puzzle is solved when the disks are in numerical order.</rules>
-    <strategies/>
-    <variants/>
+    <history>TopSpin is a puzzle created in 1989 by Binary Arts Corporation, now known as ThinkFun. The original version consists of a plastic board with 20 numbered pieces you can move both clockwise or counterclockwise. There is a flipper component that can rotate 4 pieces at a time.</history>
+    <board>The board is a rounded plastic oval with a central tunnel for the numbered pieces to move in a loop. At the top there is a flip turner, which takes in 2 pieces at a time and switches their positions. The first spot in the flipper (pointed out by black arrow) is the reference point. If you click on a numbered piece, you indicate that you want to move that piece into that reference position. All moves are done clockwise.</board>
+    <pieces>10 numbered pieces numbered 1-10.</pieces>
+    <tomove>Clockwise: Click on a numbered piece you want to be moved into reference position. Flip Turner: If there are two pieces next to each other you want to switch spots, move them into the turner, then click the arrow button on top of the turner.</tomove>
+    <towin>The puzzle is solved when the disks are in numerical order.</towin>
+    <rules>Twenty disks numbered 1-20 are arranged in a cycle in no particular order. To move, reverse the order of any four consecutive disks in the cycle.</rules>
+    <strategies>
+        <strategy>
+            <name>Bubble Sort</name>
+            <description>Similar to how in traditional Bubble Sort algorithm you “bubble up” the largest element to its correct position in an ordered list, here we need to move the largest unsorted tile to its correct position. 1) Find the largest unsorted value in the track. 2) Rotate the track to end up with this value and its right neighbor in the turner. Flip the pair to “bubble up” the larger value. 3) Repeat Step 1 and 2 until the value reaches its correct final position in the sorted part of the track. 4) Repeat steps 1 though 3 until the entire track is sorted.</description>
+        </strategy>
+    </strategies>
+    <variants>
+        <variant>
+            <name>10 disks, size-2 knob</name>
+            <description>10 game pieces with 2 pieces in the flip turner at a time.</description>
+        </variant>
+        <variant>
+            <name>12 disks, size-3 knob</name>
+            <description>12 game pieces with 3 pieces in the flip turner at a time.</description>
+        </variant>
+    </variants>
     <alternates/>
     <pictures/>
-    <references/>
-    <links/>
+    <references>
+        <reference>Jaap Scherphuis. Jaap's Puzzle Page “Topspin / No. Crunch”. 1999-2015.</reference>  
+    </references>
+    <links>
+        <link>
+            <url>https://www.jaapsch.net/puzzles/topspin.htm</url>
+            <description>Jaap's Puzzle Page, Top Spin</description>
+        </link>
+    </links>
     <gamescrafters>
-        <gamescrafter>Yishu Chao</gamescrafter>
+        <gamescrafter>Yishu Chao (Backend)</gamescrafter>
+        <gamescrafter>Esther Zeng (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Maria Rufova (Mentor, Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Benji Xu (Mentor, Backend, GamesmanUni GUI Implementation)</gamescrafter>
     </gamescrafters>
 </game>
