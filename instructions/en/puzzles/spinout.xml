@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Spinout</name>
+    <code>spinout</code>
+    <history>Spinout has three variations, with the version represented by the GUI created by Binary Arts. Other versions include The Brain, by Mag-Nif, and the traditional Baguenaudier, also known as Chinese Rings or Devil’s needle.</history>
+    <board>Spinout is played on a plastic sliding track, with divots on either side of the track.</board>
+    <pieces>Spinout contains 5 interlocking pieces that can spin in place. The starting position has every piece oriented to the left, with the exception of the left-most piece that is oriented upwards.</pieces>
+    <tomove>Either rotate the piece in the circular area or slide the entire board left or right.</tomove>
+    <towin>Get all the pieces facing horizontal so that the pieces can be slid out of the frame.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Spinning Out</name>
+            <description>Make your way left by effectively counting in binary.</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>“Jaap's Puzzle Page.” Spinout / The Brain / Chinese Rings Puzzle, www.jaapsch.net/puzzles/spinout.htm. Accessed 1 May 2025.</reference>
+    </references>
+    <links>
+        <link>
+        <url>https://www.jaapsch.net/puzzles/spinout.htm</url>
+        <description>Jaap's Puzzle Page, Contains Spinout's Solution, Different Variants, and a JavaScript Version.</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Joshua Almario (Backend, GamesmanUni GUI Implementation)</gamescrafter>
+        <gamescrafter>Darren Ting (Backend, GamesmanUni GUI Design)</gamescrafter>
+        <gamescrafter>Miller Hollinger (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
