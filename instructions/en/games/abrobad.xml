@@ -7,7 +7,7 @@
     <pieces>Typically a coin or any uniform object with two different sides.</pieces>
     <tomove/>
     <towin>To determine the winner, count the number of strongly connected components (SCCs) for each player's pieces. If it is the case that your count of SCCs is less than or equal to the number of your opponent's SCCs, you win. Otherwise, you lose. By construction of the game, it is impossible to tie the game.</towin>
-    <rules>1) Pieces can be placed in any open slot on the board where none of the adjacent slots contain a piece of your color. 2) If placement moves are unavailable, you may move a stone in any of the 6 main directions to the nearest open space in that direction (by jumping if necessary). 3) If placement moves are unavailable, you may opt to END GAME. Doing so fills all remaining open positions with the opponent's pieces. Additionally, if you place a piece in the last available open position, the game ends.</rules>
+    <rules>1) Pieces can be placed in any open slot on the board where none of the adjacent slots contain a piece of your color. [br] 2) If placement moves are unavailable, you may move a stone in any of the 6 main directions to the nearest open space in that direction (by jumping if necessary).[br] 3) If placement moves are unavailable, you may opt to END GAME. Doing so fills all remaining open positions with the opponent's pieces. Additionally, if you place a piece in the last available open position, the game ends.</rules>
     <strategies/>
     <variants/>
     <alternates/>
