@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Orbito</name>
+    <code>orbito</code>
+    <history/>
+    <board></board>
+    <pieces></pieces>
+    <tomove></tomove>
+    <towin></towin>
+    <rules></rules>
+    <strategies/>
+    <variants>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>Orbito Board Game created by FlexiQ Games.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://flexiqgames.com/wp-content/uploads/2023/04/230308-FlexiQ-FXG-502-Orbito-Game-Rules-A4-UK-HR-v1.pdf</url>
+            <description>PDF of original Orbito board game rules.</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Ariana Abel</gamescrafter>
+        <gamescrafter>Allena Oglivie</gamescrafter>
+        <gamescrafter>Angela Rodriguez (Mentor)</gamescrafter>
+        <gamescrafter>Johan Ko (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
