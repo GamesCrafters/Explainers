@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Connect 4 Twist &amp; Turn</name>
+    <code>connect4twist</code>
+    <history>Connect Four Twist and Turn is a modern variant of the classic Connect Four, released by Hasbro. Its key innovation is the introduction of rotating columns, which dramatically changes positional tactics and increases game-tree complexity compared to the standard version.</history>
+    <board>A standard Connect Four grid (vertical, 4x4 or 4x5), but each entire column can be rotated 90° when the player chooses the “twist” action. Rotation shifts the alignment of pieces but does not cause pieces to fall, creating dynamic board states.</board>
+    <pieces>Both sides have the same number of pieces as the grid. Pieces are placed into the top of any column (classic gravity mechanic).</pieces>
+    <tomove>On your turn, you drop a piece and, optionally, rotate any one row.</tomove>
+    <towin>First player to create a vertical, horizontal, or diagonal line of 4 pieces of their color wins.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Momentum Control Through Rotation</name>
+            <description>By rotating, you can disrupt your opponent's three-in-a-row chances or create your own potential four-in-a-row. A single rotation can often create a sudden opportunity, and even directly lead to a winning situation.</description>
+        </strategy>
+        <strategy>
+            <name>Column Commitment Punish</name>
+            <description>If your opponent stacks multiple pieces in a certain column, by rotating that column at the right moment, you can disperse their arrangement, rendering their previous efforts in vain.</description>
+        </strategy>
+    </strategies>
+     <variants>
+        <variant>
+            <name>4x4</name>
+            <description>A board with 4 rows and 4 columns.</description>
+        </variant>
+        <variant>
+            <name>4x5</name>
+            <description>A board with 4 rows and 5 columns.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>“Connect 4 Twist &amp; Turn Official Rules.” Hasbro, Inc., 2014.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://winning-moves.com/images/connect4twist&amp;turn%20rules.pdf</url>
+            <description>Connect 4 Twist &amp; Turn -- Official Rules</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Enzo Ribeiro (Backend, GamesmanUni GUI Design &amp; Implementation</gamescrafter>
+        <gamescrafter>Weiyi 'Evie' Zhang (Backend, GamesmanUni GUI Design &amp; Implementation</gamescrafter>
+        <gamescrafter>Michael Setchko Palmerlee (Mentor)</gamescrafter>
+        <gamescrafter>Aryaman Asthana (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
