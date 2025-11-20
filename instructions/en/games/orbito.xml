@@ -3,18 +3,51 @@
     <name>Orbito</name>
     <code>orbito</code>
     <history/>
-    <board></board>
-    <pieces></pieces>
-    <tomove></tomove>
-    <towin></towin>
+    <board>Orbito is played on a 4x4 board, with the outer spaces rotating counterclockwise and the inner spaces rotating depending on the variant. There is also a button in the center that rotates the board after each turn.</board>
+    <pieces>Player 1 plays with black marbles and Player 2 plays with white marbles.</pieces>
+    <tomove>On each turn a player can optionally move their opponent's piece with an empty adjacent square (or a diagonal square using that variant). Next, choose an empty space to place their own piece. Then, rotate the board one place by pushing the button.</tomove>
+    <towin>The first player to achieve 4 in a row with their pieces either horizontally, vertically, or diagonally. If both players achieve 4 in a row on the same turn. Tiebreaker: If the board fills up and no player has achieved 4 in a row the board will rotate at most 5 times, the first player to get 4 in a row within those 5 rotations will win. If no 4 in a row occurs then the game will be tied.</towin>
     <rules></rules>
-    <strategies/>
+    <strategies>
+        <strategy>
+            <name>Center Grid Control</name>
+            <description>Secure the inner 2x2 grid early to create a stable foundation to ensure the most chances for a 4-in-a-row. The pieces rotate within themselves and are harder for opponents to displace.</description>
+        </strategy>
+        <strategy>
+            <name>Outer Orbit Dominance</name>
+            <description>Focus on controlling the 12 outer edge positions, the rotating perimeter, to maximize positional advantage and flexibility. Outer pieces cycle through more of the board after each rotation, creating many 4-in-a-row alignment opportunities. Avoid placing pieces in the inner 2x2 grid unless necessary to block critical moves.</description>
+        </strategy>
+        <strategy>
+            <name>Rotation Baiting / Chess-Orbito</name>
+            <description>Intentionally create near-winning positions, post-spin 3-in-a-row, that will complete after 1-2 rotations. This will force your opponent to either block preemptively or move your piece to safe positions to avoid losing. Creating “fake out” 3-in-a-row pieces that occupy your opponent's focus while you build a secondary win they can't address in time.</description>
+        </strategy>
+    </strategies>
     <variants>
+        <variant>
+            <name>Regular</name>
+            <description>Players can only move their opponents pieces to orthogonal adjacent empty squares. Both outer and inner spaces rotate counter-clockwise.</description>
+        </variant>
+        <variant>
+            <name>Inner Clockwise</name>
+            <description>Players can only move their opponents pieces to orthogonal adjacent empty squares. Outer spaces rotate counter-clockwise, as normal, while the inner spaces rotate clockwise.</description>
+        </variant>
+        <variant>
+            <name>Diagonal Moves</name>
+            <description>Players can move their opponents' pieces to any adjacent empty square (including diagonals). Both outer and inner spaces rotate counterclockwise.</description>
+        </variant>
+        <variant>
+            <name>Diagonal Moves and Inner Clockwise</name>
+            <description>Players can move their opponents' pieces to any adjacent empty square (including diagonals). Outer spaces rotate counterclockwise while the inner spaces rotate clockwise.</description>
+        </variant>
+        <variant>
+            <name>Misere</name>
+            <description>The winning condition is flipped: you lose if you get 4 in a row.</description>
+        </variant>
     </variants>
     <alternates/>
     <pictures/>
     <references>
-        <reference>Orbito Board Game created by FlexiQ Games.</reference>
+        <reference>“Orbito Strategy Game.” FlexiQ Games, 24 Oct. 2024, flexiqgames.com/en/product/orbito/.</reference>
     </references>
     <links>
         <link>
@@ -23,8 +56,8 @@
         </link>
     </links>
     <gamescrafters>
-        <gamescrafter>Ariana Abel</gamescrafter>
-        <gamescrafter>Allena Oglivie</gamescrafter>
+        <gamescrafter>Ariana Abel (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Allena Oglivie (Backend, GamesmanUni GUI Design)</gamescrafter>
         <gamescrafter>Angela Rodriguez (Mentor)</gamescrafter>
         <gamescrafter>Johan Ko (Mentor)</gamescrafter>
     </gamescrafters>
