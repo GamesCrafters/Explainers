@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Hexapawn</name>
+    <code>hexapawn</code>
+    <history>Hexapawn was invented by the mathematician Martin Gardner. He first published the game in March of 1962 in an issue of Scientific American in the “Mathematical Games” column. Gardner designed hexapawn as a simplified chess-like game (only pawns on a 3x3 board in its most common form).</history>
+    <board>The board consists of a chess board that is always 3 squares in height and can have a varying width W ≥ 3.</board>
+    <pieces>The width of the board, W, is equivalent to the number of white and black pawns each.</pieces>
+    <tomove>Pawns may only move forward on their move. They may move diagonally if a pawn of the opposite color is one diagonal away.</tomove>
+    <towin>A pawn of your color must reach the opposing end of the board first or your opponent does not have any moves left (because they are trapped or don't have any pieces left).</towin>
+    <rules/>
+    <strategies/>
+     <variants>
+        <variant>
+            <name>Length 3</name>
+            <description>3x3 board.</description>
+        </variant>
+        <variant>
+            <name>Length 4</name>
+            <description>4x3 board.</description>
+        </variant>
+        <variant>
+            <name>Length 5</name>
+            <description>5x3 board.</description>
+        </variant>
+        <variant>
+            <name>Length 6</name>
+            <description>6x3 board.</description>
+        </variant>
+        <variant>
+            <name>Misere</name>
+            <description>Win conditions are flipped: win when your opponent reaches your rank or when you have no moves left.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>Gardner, Martin. Hexapawn. PDF file, people.csail.mit.edu/brooks/idocs/GardnerHexapawn.pdf. Accessed 14 Nov. 2025.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://people.csail.mit.edu/brooks/idocs/GardnerHexapawn.pdf</url>
+            <description>The original publication of Hexapawn by Martin Gardner</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Sareena Mann (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Madeline Agusalim (Backend)</gamescrafter>
+        <gamescrafter>Divya Sundar (Mentor)</gamescrafter>
+        <gamescrafter>Ethan Gale (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
