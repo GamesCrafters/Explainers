@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Le Grec</name>
+    <code>legrec</code>
+    <history>Invented by Dominique Huguenin and Yves Chédel. Belongs to the Halma family of games.</history>
+    <board>3x3 grid of intersections (4x4 nodes including edges); players start on two opposite ranks (7 pieces each).</board>
+    <pieces>Seven white counters vs seven black counters; place at nodes, no captures.</pieces>
+    <tomove>Move one of your pieces per turn. Moves may go orthogonally or diagonally into an empty adjacent node. Jumps over a single opposing piece are allowed if the landing spot is empty. There are no captures. Movement must be forward, relative to the player's start side and never backwards, or sideways.</tomove>
+    <towin>be first to occupy the two rows opposite your start side with all seven pieces. Variant-specific win conditions apply when no moves remain.</towin>
+    <rules></rules>
+    <strategies>
+        <strategy>
+            <name>Force a Stuck Position</name>
+            <description>Force your opponent to a stuck position or yourself depending on the win condition of the variant chosen.</description>
+        </strategy>
+        <strategy>
+            <name>Avoid Draws</name>
+            <description>This game is quite draw heavy. Most of the time the graph will show a draw situation. Try to play forward with as many pieces as possible to increase your chances of not getting stuck and put pressure on the opponent.</description>
+        </strategy>
+    </strategies>
+    <variants>
+        <variant>
+            <name>Advancement Comparison/Regular</name>
+            <description>If a player has no moves, the player with more pieces in the opponent's goal rows wins; ties count as losses for the stuck player.</description>
+        </variant>
+        <variant>
+            <name>Stuck Player Wins</name>
+            <description>When a player to move has no legal moves, that player wins (the opponent caused the stuck state).</description>
+        </variant>
+        <variant>
+            <name>Stuck Player Loses</name>
+            <description>When a player to move has no legal moves, that player loses (they caused the stuck state).</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>“Le Grec,” Board and Pieces, Google Sites. Available at https://sites.google.com/site/boardandpieces/list-of-games/le-grec.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://sites.google.com/site/boardandpieces/list-of-games/le-grec</url>
+            <description>Board and Pieces' Le Grec Game Description</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Ihsan Kisi (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Shaheer Babar (Backend)</gamescrafter>
+        <gamescrafter>Josh Zhang (Mentor)</gamescrafter>
+        <gamescrafter>Nahee Jeong (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
