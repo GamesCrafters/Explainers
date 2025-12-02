@@ -14,7 +14,7 @@
     </tomove>
     <towin>
         The goal of the puzzle is to arrange the stack of pancakes in descending
-        order of width, with all of the burnt sides facing down.
+        order of width (from bottom to top), with all of the burnt sides facing down.
     </towin>
     <rules/>
     <strategies/>
