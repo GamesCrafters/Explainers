@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Horses</name>
+    <code>horses</code>
+    <history/>
+    <board>Horses is played on a circular board with eight spaces on the perimeter and one in the center</board>
+    <pieces>Three pieces per player. Player 1 has blue pieces, player 2 has red.</pieces>
+    <tomove>
+        The board starts out empty. Players take turns placing pieces until they have each placed 3.
+        After this, players take turns moving a piece to an adjacent space
+    </tomove>
+    <towin>The first player to get 3-in-a-Row wins the game.</towin>
+    <rules/>
+    <strategies/>
+    <variants>
+        In the regular variant, the first player to get 3-in-a-Row wins. In the
+        misere variant, the first player to get 3-in-a-Row loses.
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Michael Setchko Palmerlee</gamescrafter>
+    </gamescrafters>
+</game>

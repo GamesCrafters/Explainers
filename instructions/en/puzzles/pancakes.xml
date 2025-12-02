@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Pancakes</name>
+    <code>pancakes</code>
+    <history/>
+    <board/>
+    <pieces>
+        The pieces in this puzzle are pancakes of varying width. One side of the
+        pancake is cooked nicely, while the other side is burnt.
+    </pieces>
+    <tomove>
+        Each turn, the player can choose to flip the top n pancakes. When selecting
+        a move, the selected pancake and all pancakes above it will be flipped over.
+    </tomove>
+    <towin>
+        The goal of the puzzle is to arrange the stack of pancakes in descending
+        order of width, with all of the burnt sides facing down.
+    </towin>
+    <rules/>
+    <strategies/>
+    <variants>
+        The variants of this puzzle are defined by the number of pancakes in the
+        stack.
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Michael Setchko Palmerlee</gamescrafter>
+    </gamescrafters>
+</game>
