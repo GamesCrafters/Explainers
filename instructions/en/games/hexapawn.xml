@@ -30,6 +30,10 @@
             <name>Misere</name>
             <description>Win conditions are flipped: win when your opponent reaches your rank or when you have no moves left.</description>
         </variant>
+        <variant>
+            <name>Compulsory Captures</name>
+            <description>On a player's turn if a capture exists for their move, they must make a capture; otherwise, the player may move their pawn of choice forward one space; a player loses when they don't have any moves left on their turn.</description>
+        </variant>
     </variants>
     <alternates/>
     <pictures/>
