@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>ExpanTix</name>
+    <code>expantix</code>
+    <history>Created by Samuel Hwang.</history>
+    <board>A moving board that can be up to 3, 4, or 5 pieces in any direction.</board>
+    <pieces>Both players place the same black pieces.</pieces>
+    <tomove>You place one, two, or three pieces in a row on the board. Your move must touch the existing pieces on the board (connected by at least one edge). If you expand below or to the left of the board, the board will shift up or right provided there's enough space.</tomove>
+    <towin>Place the last piece to complete the square.</towin>
+    <rules/>
+    <strategies/>
+     <variants>
+        <variant>
+            <name>3x3</name>
+            <description>A 3x3 square.</description>
+        </variant>
+        <variant>
+            <name>4x4</name>
+            <description>A 4x4 square.</description>
+        </variant>
+        <variant>
+            <name>5x5</name>
+            <description>A 5x5 square.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Johan Ko (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+    </gamescrafters>
+</game>
