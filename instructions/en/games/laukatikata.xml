@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Lau Kati Kata</name>
+    <code>laukatikata</code>
+    <history>Lau Kati Kata is a traditional abstract strategy game originating from India and Bangladesh. It is a classic “three-in-a-row-capture” style game played on a distinctive 19-node geometric board. The game has been historically played with stones or seeds on drawn lines, similar to many traditional South Asian board games involving capturing and blocking mechanics.</history>
+    <board>The board is composed of 13 connected points (nodes) arranged in a diamond-like graph structure. Edges connect adjacent nodes, determining all legal step directions. Players move on these fixed graph connections rather than on a grid.</board>
+    <pieces>Player 1 controls 6 Black pieces (B). Player 2 controls 6 White pieces (W). One central node starts empty. All pieces are identical except for color.</pieces>
+    <tomove>Players alternate turns. A piece may move to any adjacent connected node (following board edges) if it is empty. Captures are performed by jumping over an adjacent opponent piece onto the next empty point on the same straight line. If any capture is available for the current player, captures are mandatory. If a piece performs a capture, it may continue capturing only if further single-step captures are available from its new location (multi-captures).</tomove>
+    <towin>You capture all of your opponent's pieces. Your opponent has no legal move remaining (blocked position). In mutual immobility, the side with more pieces remaining wins.</towin>
+    <rules/>
+    <strategies>
+        <strategy>
+            <name>Control the Center</name>
+            <description>Holding central node 7 provides access to the largest number of edges and jump lines, enabling stronger mobility and multiple capture threats.</description>
+        </strategy>
+    </strategies>
+     <variants>
+        <variant>
+            <name>9X9</name>
+            <description>The larger board contains 9 white pieces and 9 black pieces, the whole piece space is 19.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>“Lau Kati Kata”, Board and Pieces, Google Sites. Available at Board and Pieces - Lau Kati Kata.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://sites.google.com/site/boardandpieces/list-of-games/lau-kati-kata</url>
+            <description>Board and Pieces 'Lau Kati Kata' Game Description</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Xuerong 'Zoe' Zhang (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Reed Yalouh (Backend)</gamescrafter>
+        <gamescrafter>Ryan Lee (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
