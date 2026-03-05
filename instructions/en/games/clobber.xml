@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Clobber</name>
+    <code>clobber</code>
+    <history/>
+    <board>
+        Clobber is played on a rectangular board with a grid of spaces.
+    </board>
+    <pieces>
+        The board starts out filled with alternating white and black pieces. Players
+        can decide which color they want to play as.
+    </pieces>
+    <tomove>
+        On their turn, a player can move one of their pieces to an orthogonally
+        adjacent space, only if that space is occupied by the opponent's piece. By
+        doing this, they remove the opponent's piece from the board.
+    </tomove>
+    <towin>The last player that is able to move wins the game.</towin>
+    <rules/>
+    <strategies/>
+    <variants>
+        There are many variants of this game, specified by the dimensions of the
+        board.
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Michael Setchko Palmerlee</gamescrafter>
+    </gamescrafters>
+</game>
