@@ -14,13 +14,25 @@
         Once a piece enters the destination triangle, it cannot leave. If opponent's piece(s) block spots in your destination triangle, you win when you fill all remaining available spots.
     </rules>
     <strategies>
-  Players often plan sequences of jumps to create "ladders" for fast movement across the board. Chaining jumps effectively, blocking opponent's jumps, and avoiding traffic jams are typical strategic focuses.
-  </strategies>
+        <strategy>
+            <name>Ladders and Chain Jumps</name>
+            <description>Plan sequences of jumps to create "ladders" for fast movement across the board. It's often better to move your pieces together and not leave any stranded.</description>
+        </strategy>
+        <strategy>
+            <name>Block Opponents</name>
+            <description>Position your pieces to block opponent's jump opportunities and slow their progress.</description>
+        </strategy>
+    </strategies>
     <variants/>
     <alternates/>
     <pictures/>
     <references/>
-    <links>https://en.wikipedia.org/wiki/Chinese_checkers</links>
+    <links>
+        <link>
+            <url>https://en.wikipedia.org/wiki/Chinese_checkers</url>
+            <description>Chinese Checkers Wikipedia</description>
+        </link>
+    </links>
     <gamescrafters>
         <gamescrafter>Seungyou 'Bruce' Kim (Backend, GamesmanUni GUI)</gamescrafter>
     </gamescrafters>
