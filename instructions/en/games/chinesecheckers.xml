@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Chinese Checkers</name>
+    <code>chinesecheckers</code>
+    <history>Chinese Checkers was invented in Germany in 1892 under the name "Stern-Halma" as a variant of the American game Halma, and later marketed as "Chinese Checkers" in the United States in the 1920s. Despite the name, it has no historical connection to China. In South Korea and Japan, the game is known by the name "Diamond Game."</history>
+    <board>The game is played on a board with holes forming a hexagonal pattern. The opposing triangles are colored to mark the starting and ending area. [img src="board.svg" alt="Chinese Checkers board" width="300" height="300"]</board>
+    <pieces>Each player has 3 colored marbles or pegs. At the start of the game, the pieces are placed in their home triangle.[br][img src="start.svg" alt="Chinese Checkers start" width="300" height="300"] </pieces>
+    <tomove>On their turn, a player moves one of their pieces in one of two ways:
+  1. Simple step: Move to any adjacent empty cell in one of the six hexagonal directions.
+  2. Jump: Leap over any adjacent piece (friendly or enemy) to the empty cell directly beyond it. Jumps may be chained — after landing, the same piece may immediately jump again in any direction. A player may chain as many jumps as possible in a single turn and may stop at any point during a chain.
+  [img src="jump.svg" alt="Chinese Checkers jump" width="300" height="300"]</tomove>
+    <towin>The first player to move all of their marbles from their starting triangle into the directly opposite triangle wins the game.</towin>
+    <rules>Once a piece enters the destination triangle, it cannot leave. If opponent's piece(s) block spots in your destination triangle, you win when you fill all remaining available spots.</rules>
+    <strategies>
+        <strategy>
+            <name>Ladders</name>
+            <description>Plan sequences of jumps to create "ladders" for fast movement across the board. For this reason, it's often better to move your pieces together and not leave any stranded.</description>
+        </strategy>
+        <strategy>
+            <name>Block</name>
+            <description>Position your pieces to block opponent's jump opportunities and slow their progress.</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links>
+        <link>
+            <url>https://en.wikipedia.org/wiki/Chinese_checkers</url>
+            <description>Chinese Checkers Wikipedia</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Seungyou 'Bruce' Kim (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
