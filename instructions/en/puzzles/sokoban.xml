@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Sokoban</name>
+    <code>sokoban</code>
+    <history>The Sokoban puzzle was originally conceived by Hiroyuki Imabayashi, founder of Thinking Rabbit, a video game developer. It was released commercially in 1982.</history>
+    <board>
+    <pieces>There are an equal number of crates and targets, which can be moved by the worker.</pieces>
+    <tomove>Click an arrow to move the crate to one of its empty, adjacent tiles.</tomove>
+    <towin/>
+    <rules>The puzzle is solved when each crate is located on a target.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Doris Chiang (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Kshitij Tomar (Backend, GamesmanUni GUI Implementation, Variants)</gamescrafter>
+        <gamescrafter>Abraham Hsu (Mentor, Server Debugging) </gamescrafter>
+        <gamescrafter>Allena Oglivie (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
