@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Hashiwokakero</name>
+    <code>hashi</code>
+    <history/>
+    <board>Hashiwokakero is played on a rectangular grid. The grid contains islands labeled 1 to 8.</board>
+    <pieces>The game relies on bridges that are drawn between the islands. Bridges are straight horizontal or vertical lines, and can be placed as either single or double connections.</pieces>
+    <tomove>A player makes a move by adding or removing a single or double bridge between two horizontally or vertically aligned islands.</tomove>
+    <towin>The puzzle is solved when every island has the exact number of outgoing bridges as labeled, and all islands are interconnected into a single, continuous network.</towin>
+    <rules>Bridges cannot cross any other bridges or islands.</rules>
+    <strategies/>
+    <variants/>
+    <alternates>Hashi</alternates>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter> Vishwas Charan (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter> Anaisha Das (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
