@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Flow Free</name>
+    <code>flowfree</code>
+    <history/>
+    <board>Flow Free is played on a five-row, five-column grid. Several colored dots appear on fixed cells of the grid as the starting endpoints of the puzzle.</board>
+    <pieces>Each colored dot is an endpoint. There are up to five colors: Red, Green, Blue, Yellow, and Maroon. Every color appears exactly twice on the board as a pair of endpoints to be connected.</pieces>
+    <tomove/>
+    <towin/>
+    <rules>The puzzle begins with colored dot pairs placed on a five-by-five grid, with the remaining cells empty. The goal is to connect every pair of same-colored dots with a continuous path such that every cell on the board is covered.[br]To move, select a colored dot to begin drawing a path from that endpoint. Then extend the path one cell at a time to any orthogonally adjacent empty cell. Complete a path by extending it to the partner dot of the same color.[br]Paths may not cross or share cells. A path may be started over by selecting its starting dot again. The puzzle is solved when all pairs are connected and no empty cells remain.</rules>
+    <strategies/>
+    <variants>Variants a through f are six distinct five-by-five puzzle layouts, each with a unique arrangement of color endpoints and a unique solution.</variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Alex Wang (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
