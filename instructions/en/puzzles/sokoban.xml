@@ -4,20 +4,29 @@
     <code>sokoban</code>
     <history>The Sokoban puzzle was originally conceived by Hiroyuki Imabayashi, founder of Thinking Rabbit, a video game developer. It was released commercially in 1982.</history>
     <board>
-    <pieces>There are an equal number of crates and targets, which can be moved by the worker.</pieces>
-    <tomove>Click an arrow to move the crate to one of its empty, adjacent tiles.</tomove>
-    <towin/>
-    <rules>The puzzle is solved when each crate is located on a target.</rules>
-    <strategies/>
-    <variants/>
-    <alternates/>
-    <pictures/>
-    <references/>
-    <links/>
+        <pieces>There are an equal number of crates and targets, which can be moved by the worker.</pieces>
+        <tomove>Click an arrow to move the crate to one of its empty, adjacent tiles.</tomove>
+        <towin>Move every crate to a designated storage location (target) on the board.</towin>
+    </board>
+    <rules>
+        <rule>The worker (or player) can only move up, down, left, or right into an empty space.</rule>
+        <rule>The worker can push a single crate, but cannot pull crates.</rule>
+        <rule>Crates cannot be pushed into walls or other crates (no passing or stacking allowed).</rule>
+        <rule>The puzzle is solved when each crate is located on a target.</rule>
+    </rules>
+    <strategies>
+        <strategy>Plan your moves carefully in advance to avoid getting crates stuck in corners or narrow corridors.</strategy>
+        <strategy>Keep the worker behind the crates and push them toward the goals rather than moving them side-to-side unnecessarily.</strategy>
+        <strategy>Identify "deadlock" spaces—squares where a crate can never be pushed out—and avoid placing crates there.</strategy>
+    </strategies>
+    <alternates>
+    <pictures>
+    <references>
+    <links>
     <gamescrafters>
         <gamescrafter>Doris Chiang (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
         <gamescrafter>Kshitij Tomar (Backend, GamesmanUni GUI Implementation, Variants)</gamescrafter>
-        <gamescrafter>Abraham Hsu (Mentor, Server Debugging) </gamescrafter>
+        <gamescrafter>Abraham Hsu (Mentor, Server Debugging)</gamescrafter>
         <gamescrafter>Allena Oglivie (Mentor)</gamescrafter>
     </gamescrafters>
 </game>
