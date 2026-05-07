@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
-    <name>Sokoban</name>
-    <code>sokoban</code>
+    <name>Sokoban IQ</name>
+    <code>sokobaniq</code>
     <history>The Sokoban puzzle was originally conceived by Hiroyuki Imabayashi, founder of Thinking Rabbit, a video game developer. It was released commercially in 1982.</history>
     <board>
         <pieces>There are an equal number of crates and targets, which can be moved by the worker.</pieces>
