@@ -9,7 +9,7 @@
     <towin/>
     <rules>The puzzle begins with colored dot pairs placed on a five-by-five grid, with the remaining cells empty. The goal is to connect every pair of same-colored dots with a continuous path such that every cell on the board is covered.[br]To move, select a colored dot to begin drawing a path from that endpoint. Then extend the path one cell at a time to any orthogonally adjacent empty cell. Complete a path by extending it to the partner dot of the same color.[br]Paths may not cross or share cells. A path may be started over by selecting its starting dot again. The puzzle is solved when all pairs are connected and no empty cells remain.</rules>
     <strategies/>
-    <variants>Variants a through f are six distinct five-by-five puzzle layouts, each with a unique arrangement of color endpoints and a unique solution.</variants>
+    <variants/>
     <alternates/>
     <pictures/>
     <references/>
