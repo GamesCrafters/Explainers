@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Lunar Lockout</name>
+    <code>lunarlockout</code>
+    <history>Lunar Lockout was originally called UFO. The name was changed by Binary Arts for the commercial version to be released in the spring of 2000. UFO was created by Hiroshi Yamamoto and presented by Nob Yoshigahara in February 1998 at the Third Gathering for Gardner in Atlanta, Georgia. The handout had sample problems using a 9x9 board that turned out to be much larger than necessary for reasonably difficult problems. The board was subsequently reduced to 5x5. Papers with forty or more sample problems for the 5x5 board have been circulating in the puzzle collecting community since the presentation.</history>
+    <board>The game has a 7x7 game board, where only 5x5 include legal moves. The boarder edge cells of the 5x5 is considered the space. Robots that slide through space are no longer able to get back to the board.</board>
+    <pieces>One red robot and up to 5 helper robots of different colors.</pieces>
+    <tomove>Slide robots to different directions in the board. They move up to a blocker robot.</tomove>
+    <towin>To win, have the red robot reach the center cell.</towin>
+    <rules>All robots, regardless of type, are able to slide throughout the entire 5x5 board. For a robot to slide and not fall off space, they need to have another robot in front of them as a blocker. Thus, for the red robot to reach the base, it needs to have a helper robot as a blocker one cell next to the center. If a robot falls of space, outside of the 5x5 board, then they are in space and are no longer able to get back to the board. The game can still be winnable if a helper robot is thrown out of space. However, if the red robot leaves the board, the game is now over.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>"Puzzle World - Lunar Lockout" https://puzzleworld.org/PuzzleWorld/puz/lunar_lockout.htm</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://puzzleworld.org/PuzzleWorld/puz/lunar_lockout.htm</url>
+            <description>Puzzle World - Lunar Lockout info</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Kelvin Ortiz (Backend)</gamescrafter>
+        <gamescrafter>Emily Chen (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
