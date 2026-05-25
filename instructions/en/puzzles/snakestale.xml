@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>A Snake's Tale</name>
+    <code>snakestale</code>
+    <history> A Snake's Tale was originally released July 6, 2017 by Michael Farley. </history>
+    <board> A Snake's Tale is a puzzle game about snakes in cramped places. Boards vary in size and contain different obstacles for your snake to pass over. </board>
+    <pieces> The current version includes 3 kinds of Snakes: your Snake, a Land Snake (White) and a Water Snake (Red); as well as obstacles. </pieces>
+    <tomove> Click the arrows to drag the snakes a tile at a time to clear the path or get to the hole. </tomove>
+    <towin> Get your Snake to the hole successfully and WIN! </towin>
+    <rules>[img src="a.svg" alt="a" width="304" height="95"]There is an arbitrary number of rods and an arbitrary number of disks of different radii that can slide onto the rods.[br]The puzzle starts with the disks stacked in ascending order of size on the leftmost rod, with the largest disk at the bottom and the smallest at the top.[br]The challenge is to move the entire stack to the rightmost rod, maintaining the same order of disks.[br]One disk may be moved from one rod to another at a time. A disk can only be moved if it is at the top of a stack, and it cannot be placed on top of a smaller disk.</rules>
+    <strategies/>
+    <variants>
+        <variant>
+                <name>Level 1</name>
+                <description>Get the snake to the hole.</description>
+            </variant>
+            <variant>
+                <name>Level 2</name>
+                <description>Move around he obstacle to get to the hole.</description>
+            </variant>
+            <variant>
+                <name>Level 3</name>
+                <description>Move the snakes around to get to the hole. (Careful, not all snakes move the same)</description>
+            </variant>
+            <variant>
+                <name>Level 4</name>
+                <description>Move the snakes around and through the water to get to the hole.</description>
+            </variant>
+            <variant>
+                <name>Level 5</name>
+                <description>Move the snakes around, go through obstacle and water to get to the hole. (Careful, there is dead ends)</description>
+            </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references/>
+    <links>
+        <link>
+                <url>https://m12y.com/a-snakes-tale/</url>
+                <description>A Snake's Tale developer (m12y) Site</description>
+        </link>
+        <link>
+            <url>https://store.steampowered.com/app/654810/A_Snakes_Tale/</url>
+            <description>A Snake's Tale Purchase Link</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Valentina Pineda (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Maria Fe Gonzalez del Riego (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
