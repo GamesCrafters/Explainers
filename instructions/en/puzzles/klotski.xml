@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Klotski</name>
+    <code>klotskie</code>
+    <history>Klotski is a puzzle originating in the early 20th century. Its exact origin is not fully known, possibly emerging from the United States' 15-puzzle or the Chinese Huarong Dao.</history>
+    <board>
+        <pieces>There are pieces of various sizes that can be moved around the board.</pieces>
+        <tomove>Click an arrow to slide a piece to an adjacent, empty space.</tomove>
+        <towin>Move the large 2x2 piece to the target area.</towin>
+    </board>
+    <rules>
+        <rule>Pieces cannot overlap or leave the boundaries of the board.</rule>
+        <rule>Pieces cannot be removed from the board or moved through other pieces.</rule>
+        <rule>The puzzle is solved when the large 2x2 piece reaches the target area, regardless of the locations of other pieces.</rule>
+    </rules>
+    <strategies>
+        <strategy>Plan how to efficiently move disruptive pieces away from the path to the target area.</strategy>
+        <strategy>Ensure empty board spaces remain in useful locations, as pieces cannot move unless there is space to move into.</strategy>
+        <strategy>Consider alternate paths to the target area, rather than immediately traveling in a straight line.</strategy>
+    </strategies>
+    <alternates>
+    <pictures>
+    <references>
+    <links>
+    <gamescrafters>
+        <gamescrafter>Tony Dokanchi (Design, Backend, GamesmanUni GUI Implementation, Themes, &amp; Variants)</gamescrafter>
+        <gamescrafter>Boyi Pan (Design, Backend, QA, &amp; Debugging)</gamescrafter>
+        <gamescrafter>Allena Oglivie (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
