@@ -12,8 +12,19 @@
     <variants/>
     <alternates/>
     <pictures/>
-    <references/>
-    <links/>
+    <references>
+        <reference>Flow Free, Big Duck Games LLC, www.bigduckgames.com/flowfree. Accessed 9 May 2026.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://en.wikipedia.org/wiki/Flow_Free</url>
+            <description>Flow Free on Wikipedia</description>
+        </link>
+        <link>
+            <url>https://www.bigduckgames.com/flowfree</url>
+            <description>Official Flow Free website by Big Duck Games</description>
+        </link>
+    </links>
     <gamescrafters>
         <gamescrafter>Alex Wang (Backend, GamesmanUni GUI)</gamescrafter>
     </gamescrafters>
