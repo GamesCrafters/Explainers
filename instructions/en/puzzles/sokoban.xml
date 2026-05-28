@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Sokoban</name>
+    <code>sokoban</code>
+    <history>The Sokoban puzzle was originally conceived by Hiroyuki Imabayashi, founder of Thinking Rabbit, a video game developer. It was released commercially in 1982.</history>
+    <board>This board consists of a grid-based warehouse layout containing a worker, crates, walls, and designated target locations.</board>
+    <pieces>There are an equal number of crates and targets, which can be moved by the worker.</pieces>
+    <tomove>Click an arrow to move the worker into an adjacent empty tile, or into a crate to push it one step in the same direction.</tomove>
+    <towin>Move every crate to a designated storage location (target) on the board.</towin>
+    <rules>The worker can only move up, down, left, or right into an empty space. The worker can push a single crate, but cannot pull crates. Crates cannot be pushed into walls or other crates. The puzzle is solved when each crate is located on a target.</rules>
+    <strategies>
+        <strategy>
+            <name>Deadlock Avoidance</name>
+            <description>Identify deadlock spaces — squares where a crate can never be pushed out, such as corners or narrow corridors — and avoid pushing crates into those positions. Plan moves in advance rather than reacting one step at a time.</description>
+        </strategy>
+        <strategy>
+            <name>Goal-Oriented Pushing</name>
+            <description>Keep the worker behind the crates and push them toward the goals rather than moving them sideways unnecessarily. Work one crate at a time where possible, and avoid blocking the paths needed for remaining crates.</description>
+        </strategy>
+    </strategies>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>"Sokoban." Wikipedia, Wikimedia Foundation, en.wikipedia.org/wiki/Sokoban. Accessed 27 May 2026.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://en.wikipedia.org/wiki/Sokoban</url>
+            <description>Wikipedia</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Doris Chiang (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Kshitij Tomar (Backend, GamesmanUni GUI Implementation, Variants)</gamescrafter>
+        <gamescrafter>Abraham Hsu (Mentor, Server Debugging)</gamescrafter>
+        <gamescrafter>Allena Oglivie (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
