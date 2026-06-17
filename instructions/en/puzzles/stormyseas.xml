@@ -3,12 +3,12 @@
     <name>Stormy Seas</name>
     <code>stormyseas</code>
     <history>Stormy Seas, designed by Binary Arts and released in 1997, originally features an 8x9 board with beginner, intermediate and advanced board set-ups. The game is now available under the new title Wave Breaker in ThinkFun’s All Star Logic Games collection. Our version of Stormy Seas- a smaller, 5x7 board- is inspired by that original board game.</history>
-    <board>Stormy Seas's board features free-moving rows, each of which can be shifted left and right.</board>
-    <pieces>In addition to the free-moving rows, Stormy Seas contains a number of two-row-tall boats that can be moved freely. One of these boats, the red boat, is our primary gamepiece, which we aim to get to the port. Pushed horizontally, each boat will shift two or more rows. Pushed vertically, the boat can advance closer to the port.</pieces>
-    <tomove>Either move a row horizontally one space, push a boat horizontally to simultaneously slide two or more rows horizontally one space, or push a boat vertically one space.</tomove>
+    <board>Stormy Seas has five free-moving horizontal rows, each of which can be shifted left and right.</board>
+    <pieces> In addition to the free-moving rows, Stormy Seas contains one red boat and one purple boat. The red boat is the primary gamepiece, as the aim of the game is to dock it at the port alcove. The purple boat usually blocks the way of the red boat.</pieces>
+    <tomove>1. Move a horizontal row left or right, if there is space available. 2. Slide any boat up or down. 3. Slide a boat left or right, which will potentially move several rows.</tomove>
     <towin>Get the red boat to the port alcove.</towin>
-    <rules>The goal is to get the red boat out of the port, and only the red boat may be "removed" from the board via the port. Each row may be moved independently, and each square contains either empty water or a wave symbol; any square with a wave symbol cannot be traversed by a boat. Shift a row or boat left or right so your boat's stern can access a wave-free square to advance into. Note that non-red boats may need to be manipulated to clear the way for our red boat. Any boat or row may be touched and moved, but only certain rows being moved will advance the position of the red boat (e.g., moving the row below the stern of your boat in order to shift the wave blocking it). For that reason, only certain arrows to shift rows are represented on the board.</rules>
-    <strategies/>
+    <rules>The aim of the game is to get the primary red boat to the port located at the bottom of the board. Any space containing a wave symbol acts as a raised "block" preventing a row from shifting too far left or too far right. Additionally, boats cannot traverse any space containing a wave symbol. You will need to strategically move the rows or boats to get the purple boat out of the way. </rules>
+    <strategies> You will usually need to get the purple boat out of the way to the sides of the board first. For the intermediate puzzles, you may need to alternate between moving the purple and red boats several times, as the purple boat will continuously block the red boat.</strategies>
     <variants/>
     <alternates/>
     <pictures/>
