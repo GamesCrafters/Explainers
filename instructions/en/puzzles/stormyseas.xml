@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Stormy Seas</name>
+    <code>stormyseas</code>
+    <history>Stormy Seas, designed by Binary Arts and released in 1997, originally features an 8x9 board with beginner, intermediate and advanced board set-ups. The game is now available under the new title Wave Breaker in ThinkFun’s All Star Logic Games collection. Our version of Stormy Seas- a smaller, 5x7 board- is inspired by that original board game.</history>
+    <board>Stormy Seas's board features free-moving rows, each of which can be shifted left and right.</board>
+    <pieces>In addition to the free-moving rows, Stormy Seas contains a number of two-row-tall boats that can be moved freely. One of these boats, the red boat, is our primary gamepiece, which we aim to get to the port. Pushed horizontally, each boat will shift two or more rows. Pushed vertically, the boat can advance closer to the port.</pieces>
+    <tomove>Either move a row horizontally one space, push a boat horizontally to simultaneously slide two or more rows horizontally one space, or push a boat vertically one space.</tomove>
+    <towin>Get the red boat to the port alcove.</towin>
+    <rules>The goal is to get the red boat out of the port, and only the red boat may be "removed" from the board via the port. Each row may be moved independently, and each square contains either empty water or a wave symbol; any square with a wave symbol cannot be traversed by a boat. Shift a row or boat left or right so your boat's stern can access a wave-free square to advance into. Note that non-red boats may need to be manipulated to clear the way for our red boat. Any boat or row may be touched and moved, but only certain rows being moved will advance the position of the red boat (e.g., moving the row below the stern of your boat in order to shift the wave blocking it). For that reason, only certain arrows to shift rows are represented on the board.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>Mortensen, Eric. “Stormy Seas Seafaring Puzzle Game Review - Puzzled.” Geeky Hobbies, 30 June 2015, www.geekyhobbies.com/stormy-seas-seafaring-puzzle-game-review-puzzled. Accessed 16 May 2026.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://www.geekyhobbies.com/stormy-seas-seafaring-puzzle-game-review-puzzled/</url>
+            <description>A review of the original 1997 Stormy Seas puzzle, containing playing instructions and strategies.</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Sora Wongsonegoro (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Manlin Zhang (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Maria Rufova (Mentor)</gamescrafter>
+        <gamescrafter>Benji Xu (Mentor)</gamescrafter>
+    </gamescrafters>
+</game>
