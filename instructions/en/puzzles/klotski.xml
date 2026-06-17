@@ -1,30 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <game>
     <name>Klotski</name>
-    <code>klotskie</code>
+    <code>klotski</code>
     <history>Klotski is a puzzle originating in the early 20th century. Its exact origin is not fully known, possibly emerging from the United States' 15-puzzle or the Chinese Huarong Dao.</history>
-    <board>
-        <pieces>There are pieces of various sizes that can be moved around the board.</pieces>
-        <tomove>Click an arrow to slide a piece to an adjacent, empty space.</tomove>
-        <towin>Move the large 2x2 piece to the target area.</towin>
-    </board>
-    <rules>
-        <rule>Pieces cannot overlap or leave the boundaries of the board.</rule>
-        <rule>Pieces cannot be removed from the board or moved through other pieces.</rule>
-        <rule>The puzzle is solved when the large 2x2 piece reaches the target area, regardless of the locations of other pieces.</rule>
-    </rules>
+    <board>The board is a 4x5 grid containing pieces of various sizes that can be slid horizontally or vertically into adjacent empty spaces.</board>
+    <pieces>There are pieces of various sizes that can be moved around the board.</pieces>
+    <tomove>Click an arrow to slide a piece to an adjacent, empty space.</tomove>
+    <towin>Move the large 2x2 piece to the target area.</towin>
+    <rules>Pieces cannot overlap or leave the boundaries of the board. Pieces cannot be removed from the board or moved through other pieces. The puzzle is solved when the large 2x2 piece reaches the target area, regardless of the locations of other pieces.</rules>
     <strategies>
-        <strategy>Plan how to efficiently move disruptive pieces away from the path to the target area.</strategy>
-        <strategy>Ensure empty board spaces remain in useful locations, as pieces cannot move unless there is space to move into.</strategy>
-        <strategy>Consider alternate paths to the target area, rather than immediately traveling in a straight line.</strategy>
+        <strategy>
+            <name>Clear the Path</name>
+            <description>Plan how to efficiently move disruptive pieces away from the path to the target area.</description>
+        </strategy>
+        <strategy>
+            <name>Manage Empty Space</name>
+            <description>Ensure empty board spaces remain in useful locations, as pieces cannot move unless there is space to move into.</description>
+        </strategy>
+        <strategy>
+            <name>Explore Alternate Routes</name>
+            <description>Consider alternate paths to the target area, rather than immediately traveling in a straight line.</description>
+        </strategy>
     </strategies>
-    <alternates>
-    <pictures>
+    <variants/>
+    <alternates/>
+    <pictures/>
     <references>
+        <reference>Wikipedia contributors. "Klotski." Wikipedia, The Free Encyclopedia, en.wikipedia.org/wiki/Klotski. Accessed 16 June 2026.</reference>
+        <reference>Palomino, Joshua, and Roanne Crisologo. "Determining the Minimum Number of Moves in a Klotski Puzzle." International Journal of Academic Multidisciplinary Research (IJAMR), 2025, ijeais.org/wp-content/uploads/2025/2/IJAMR250225.pdf.</reference>
+    </references>
     <links>
+        <link>
+            <url>https://en.wikipedia.org/wiki/Klotski</url>
+            <description>Wikipedia — Klotski</description>
+        </link>
+        <link>
+            <url>http://ijeais.org/wp-content/uploads/2025/2/IJAMR250225.pdf</url>
+            <description>IJAMR — Determining the Minimum Number of Moves in a Klotski Puzzle</description>
+        </link>
+    </links>
     <gamescrafters>
-        <gamescrafter>Tony Dokanchi (Design, Backend, GamesmanUni GUI Implementation, Themes, &amp; Variants)</gamescrafter>
-        <gamescrafter>Boyi Pan (Design, Backend, QA, &amp; Debugging)</gamescrafter>
+        <gamescrafter>Tony Dokanchi (Backend, GamesmanUni GUI Design &amp; Implementation)</gamescrafter>
+        <gamescrafter>Boyi Pan (Backend, GamesmanUni Design)</gamescrafter>
         <gamescrafter>Allena Oglivie (Mentor)</gamescrafter>
     </gamescrafters>
 </game>
