@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Marble Circuit</name>
+    <code>marblecircuit</code>
+    <history/>
+    <board>Marble Circuit is played on a triangular board with 10 slots arranged in rows of 1, 2, 3, and 4. Eight marbles enter the circuit from the top and travel through the placed tiles to one of five exits at the bottom.</board>
+    <pieces>There are four types of tiles: a teal straight-through tile, an orange turning tile, a yellow turning tile, and a magenta crossing tile. Each challenge starts with some tiles fixed on the board and some remaining tiles available to place.</pieces>
+    <tomove>On each move, place one remaining tile into an empty slot. In slots that are not fixed, a previously placed tile may be removed and returned to the remaining supply. When all tiles have been placed, confirm the board to test the marble paths.</tomove>
+    <towin>The puzzle is solved when the number of marbles exiting from each of the five exits matches the target counts for the challenge.</towin>
+    <rules>Each challenge gives an initial arrangement of fixed and movable tiles, together with a target number of marbles for each exit. After the board is completed, eight marbles are sent through the circuit from the entry points at the top. Each tile redirects a marble according to the tile's internal paths, and every marble either leaves through an exit or fails to reach one. The objective is to place the movable tiles so that the exit counts exactly match the challenge goal.</rules>
+    <strategies/>
+    <variants/>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>MindWare. "Marble Circuit." MindWare, www.mindware.orientaltrading.com/marble-circuit-a2-13821884.fltr. Accessed 16 June 2026.</reference>
+        <reference>IELLO. "Marble Circuit." Philibert, www.philibertnet.com/en/iello/94027-marble-circuit-3760175517259.html. Accessed 16 June 2026.</reference>
+    </references>
+    <links>
+        <link>
+            <url>https://www.mindware.orientaltrading.com/marble-circuit-a2-13821884.fltr</url>
+            <description>MindWare Marble Circuit Official Product Page</description>
+        </link>
+        <link>
+            <url>https://www.mindware.orientaltrading.com/marble-circuit-deluxe-a2-14150937.fltr</url>
+            <description>MindWare Marble Circuit Deluxe Official Product Page</description>
+        </link>
+        <link>
+            <url>https://www.philibertnet.com/en/iello/94027-marble-circuit-3760175517259.html</url>
+            <description>IELLO Edition — Philibert (French Publisher)</description>
+        </link>
+    </links>
+    <gamescrafters>
+        <gamescrafter>Siyu Shen (Backend, GamesmanUni GUI)</gamescrafter>
+        <gamescrafter>Ziyue Zhu (Backend, GamesmanUni GUI)</gamescrafter>
+    </gamescrafters>
+</game>
