@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+    <name>Clusterfuss</name>
+    <code>clusterfuss</code>
+    <history>Invented by Mark Steere in July 2023.</history>
+    <board>A rectangular grid, initially filled with checkers in a checkerboard pattern. On a board with an odd number of squares, the center square is left empty so both players start with the same number of checkers.</board>
+    <pieces>Each player has checkers of their own color, Blue or Red. Blue moves first.</pieces>
+    <tomove>On your turn, move one of your checkers one square up, down, left, or right onto a square occupied by any checker (yours or your opponent's), capturing it. After your move, all of your checkers must be in a single group, where a group is a set of checkers of either color connected horizontally or vertically. Any group detached by your move that contains only your opponent's checkers is removed from the board. If you have no legal move, your turn is skipped.</tomove>
+    <towin>Remove all of your opponent's checkers from the board.</towin>
+    <rules/>
+    <strategies/>
+    <variants>
+        <variant>
+            <name>2x2</name>
+            <description>A 2x2 board.</description>
+        </variant>
+        <variant>
+            <name>2x3</name>
+            <description>A 2x3 board.</description>
+        </variant>
+        <variant>
+            <name>3x3</name>
+            <description>A 3x3 board with the center square left empty.</description>
+        </variant>
+        <variant>
+            <name>4x4</name>
+            <description>A 4x4 board.</description>
+        </variant>
+        <variant>
+            <name>4x5</name>
+            <description>A 4x5 board.</description>
+        </variant>
+    </variants>
+    <alternates/>
+    <pictures/>
+    <references>
+        <reference>Clusterfuss rules by Mark Steere: https://www.marksteeregames.com/Clusterfuss_rules.pdf</reference>
+    </references>
+    <links/>
+    <gamescrafters>
+        <gamescrafter>Kai Chen</gamescrafter>
+        <gamescrafter>Matthew Lee</gamescrafter>
+    </gamescrafters>
+</game>
